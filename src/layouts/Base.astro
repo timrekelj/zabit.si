@@ -1,77 +1,19 @@
 ---
 import '../styles/global.css';
-import { site, nav, fmtDate } from '../data/site';
 
 interface Props { title?: string; description?: string; }
-const { title, description = site.tagline } = Astro.props;
-const path = Astro.url.pathname;
+const { title = 'zabit.si', description = 'zabit.si' } = Astro.props;
 ---
 <!doctype html>
 <html lang="sl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{title ? `${title} · ${site.name}` : `${site.name} · ${site.tagline}`}</title>
+  <title>{title}</title>
   <meta name="description" content={description} />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 </head>
 <body>
-  <header class="masthead">
-    <div class="wrap top">
-      <span class="label">Posodobljeno {fmtDate(site.updated)}</span>
-      <a class="label" href="/o-nas/">Kako delamo</a>
-    </div>
-    <div class="wrap brand">
-      <a href="/" class="wordmark">zabit<span>.si</span></a>
-      <p class="tag">{site.tagline}</p>
-    </div>
-    <nav class="wrap">
-      <ul>
-        {nav.map((n) => (
-          <li><a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a></li>
-        ))}
-      </ul>
-    </nav>
-  </header>
-
   <main><slot /></main>
-
-  <footer class="foot">
-    <div class="wrap grid">
-      <div>
-        <a href="/" class="wordmark small">zabit<span>.si</span></a>
-        <p class="small">Neodvisen projekt. Ne pripadamo nobeni stranki in nas nobena ne financira.</p>
-      </div>
-      <div class="small">
-        <p><strong>Viri:</strong> Ustava RS, Državni zbor, Državna volilna komisija, Uradni list, programi strank. Vsako dejstvo na strani ima povezavo do vira.</p>
-        <p>Napaka? Piši na <a href="mailto:popravki@zabit.si">popravki@zabit.si</a></p>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>
-
-<style>
-  .masthead { border-bottom: 1px solid var(--ink); }
-  .top { display: flex; justify-content: space-between; padding-top: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--rule); }
-  .top a { text-decoration: none; }
-  .brand { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; padding-top: 22px; padding-bottom: 14px; flex-wrap: wrap; }
-  .wordmark {
-    font-family: var(--serif); font-size: 46px; font-weight: 600; letter-spacing: -0.03em;
-    font-variation-settings: 'opsz' 72; text-decoration: none; line-height: 1;
-  }
-  .wordmark span { font-style: italic; font-weight: 400; color: var(--ink-3); }
-  .wordmark.small { font-size: 26px; }
-  .tag { margin: 0; font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--ink-2); }
-  nav ul { display: flex; flex-wrap: wrap; gap: 4px 26px; list-style: none; margin: 0; padding: 10px 0 12px; border-top: 1px solid var(--rule); }
-  nav a { font-size: 15px; font-weight: 500; text-decoration: none; padding: 2px 0; border-bottom: 2px solid transparent; }
-  nav a:hover { border-color: var(--rule); }
-  nav a[aria-current='page'] { border-color: var(--ink); }
-  .foot { border-top: 1px solid var(--ink); margin-top: 40px; padding: 32px 0 48px; }
-  .foot .grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 32px; }
-  @media (max-width: 720px) {
-    .wordmark { font-size: 38px; }
-    nav ul { overflow-x: auto; flex-wrap: nowrap; white-space: nowrap; }
-    .foot .grid { grid-template-columns: 1fr; }
-  }
-</style>

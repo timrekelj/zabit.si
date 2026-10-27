@@ -2,6 +2,10 @@
 
 Guidance for coding agents working on zabit.si.
 
+> This is the `onepager` branch: a single page with the Claude logo. The politics site
+> (referendums, kompas, explainers) lives on `master`; most of the content rules below
+> apply there.
+
 ## What this is
 
 zabit.si explains Slovenian politics to everyone, without taking sides: referendums,
@@ -26,18 +30,10 @@ There are no tests. A clean `npm run build` is the minimum check.
 ## Layout
 
 ```
-src/layouts/Base.astro        masthead, nav, footer
-src/styles/global.css         design tokens and shared classes
-src/components/RefCard.astro  referendum teaser card
-src/pages/                    one file per page; referendumi/[slug].astro per referendum
-src/data/site.ts              site name, tagline, nav, `updated` date
-src/data/content.ts           institutions, election seat counts, governments, glossary
-src/data/referendumi.json     referendums (latest, upcoming, archive, notes)
-src/data/referendumi.ts       types and helpers for the above
-src/data/kompas.json          GENERATED, do not edit by hand
-src/data/lokalne-2026.json    local elections 15 November 2026
-data/kompas-2022/             coded party positions (source of truth for the kompas)
-scripts/build-kompas.mjs      builds src/data/kompas.json from data/kompas-*/
+src/layouts/Base.astro          <head> and page shell
+src/styles/global.css           design tokens and shared classes
+src/components/ClaudeLogo.astro Claude mark (simple-icons, CC0)
+src/pages/index.astro           the one page
 ```
 
 ## Content rules (non-negotiable)

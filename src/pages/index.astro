@@ -1,97 +1,25 @@
 ---
 import Base from '../layouts/Base.astro';
-import RefCard from '../components/RefCard.astro';
-import { latest, upcoming } from '../data/referendumi';
-import kompas from '../data/kompas.json';
-import lokalne from '../data/lokalne-2026.json';
-import { fmtDate } from '../data/site';
-
-const lead = upcoming[0] ?? latest[0];
-const more = [...upcoming.slice(1), ...latest.filter((r) => r !== lead)].slice(0, 3);
-const numbers = [
-  ['90', 'poslancev v Državnem zboru'],
-  ['46', 'glasov za večino'],
-  ['4 %', 'volilni prag'],
-  ['40.000', 'podpisov za referendum'],
-  ['212', 'občin'],
-];
-const guides = [
-  ['/kako-deluje/', 'Kdo v Sloveniji kaj odloča', 'Devet ustanov, kaj delajo in česa ne morejo. Z igro, v kateri pelješ zakon skozi parlament.'],
-  ['/koalicija/', 'Sestavi koalicijo', 'Pravi volilni izidi od 2014 do 2026. Poskusi zbrati 46 glasov.'],
-  ['/vlade/', 'Kako se končajo vlade', 'Vse vlade od leta 1990 in razlog, zakaj se je končala vsaka.'],
-  ['/slovar/', 'Slovar političnih izrazov', 'Interpelacija, rebalans, zavrnitveni kvorum in drugi pojmi iz poročil.'],
-];
+import ClaudeLogo from '../components/ClaudeLogo.astro';
 ---
-<Base>
-  <section class="section front">
-    <div class="wrap grid">
-      <div class="lead">
-        <p class="label">Aktualno</p>
-        <a class="feature" href="/lokalne-volitve-2026/">
-          <p class="label">Volitve · {fmtDate(lokalne.round1)}</p>
-          <h2>Lokalne volitve 2026</h2>
-          <p class="small">Župani in občinski svetniki v {lokalne.municipalities} občinah. Kdo lahko voli, kaj je novega in kako glasovati predčasno ali po pošti.</p>
-        </a>
-        {lead && <RefCard r={lead} big />}
-        {more.length > 0 && <div class="more">{more.map((r) => <RefCard r={r} />)}</div>}
-        <a class="small all" href="/referendumi/">Vsi referendumi in arhiv</a>
-      </div>
-
-      <aside class="side">
-        <div class="kompas">
-          <p class="label">Volilni kompas</p>
-          <h2>Kateri stranki si najbližje?</h2>
-          <p>{kompas.statements.length} trditev, primerjanih s programi vseh strank v Državnem zboru za volitve 2026. Pri vsaki vidiš citat iz programa.</p>
-          <a class="btn arrow" href="/kompas/">Reši kompas</a>
-        </div>
-        <dl class="numbers">
-          <p class="label">Slovenija v številkah</p>
-          {numbers.map(([n, l]) => <div><dt class="num">{n}</dt><dd>{l}</dd></div>)}
-        </dl>
-      </aside>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <div class="section-head"><h2>Razlage</h2><span class="label">Osnove, ki jih potrebuje vsak volivec</span></div>
-      <div class="guides">
-        {guides.map(([href, t, d]) => (
-          <a href={href}><h3>{t}</h3><p class="small">{d}</p></a>
-        ))}
-      </div>
-    </div>
+<Base title="zabit.si">
+  <section class="hero">
+    <ClaudeLogo size={180} />
+    <p class="wordmark">zabit<span>.si</span></p>
   </section>
 </Base>
 
 <style>
-  .front { padding-top: 36px; }
-  .grid { display: grid; grid-template-columns: 1fr 340px; gap: 56px; align-items: start; }
-  .lead > .label { margin-bottom: 10px; }
-  .feature { display: block; text-decoration: none; background: var(--paper-deep); border-radius: 6px; padding: 20px 22px; margin-bottom: 8px; }
-  .feature h2 { margin: 6px 0 8px; }
-  .feature:hover h2 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
-  .feature .small { margin: 0; }
-  .more { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); column-gap: 28px; margin-top: 12px; }
-  .all { display: inline-block; margin-top: 18px; font-weight: 600; color: var(--ink); }
-  .side { display: grid; gap: 36px; }
-  .kompas { background: var(--ink); color: var(--paper); padding: 26px; border-radius: 6px; }
-  .kompas .label { color: #b7b1a4; }
-  .kompas h2 { font-size: 1.9rem; margin: 8px 0 12px; }
-  .kompas p:not(.label) { color: #d9d4c8; font-size: 15px; }
-  .kompas .btn { background: var(--paper); color: var(--ink); border-color: var(--paper); }
-  .numbers { margin: 0; }
-  .numbers .label { border-bottom: 1px solid var(--ink); padding-bottom: 8px; margin-bottom: 0; }
-  .numbers div { display: grid; grid-template-columns: 96px 1fr; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--rule); }
-  .numbers dt { font-family: var(--serif); font-size: 1.5rem; }
-  .numbers dd { margin: 0; font-size: 15px; color: var(--ink-2); }
-  .guides { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; }
-  .guides a { text-decoration: none; border-top: 1px solid var(--ink); padding-top: 14px; }
-  .guides a:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
-  .guides h3 { margin-bottom: 8px; }
-  @media (max-width: 900px) {
-    .grid { grid-template-columns: 1fr; gap: 40px; }
-    .guides { grid-template-columns: 1fr 1fr; }
+  .hero {
+    min-height: 100vh; min-height: 100svh;
+    display: grid; place-content: center; justify-items: center; gap: 28px;
+    padding: 24px; color: #d97757;
   }
-  @media (max-width: 560px) { .guides { grid-template-columns: 1fr; } }
+  .hero :global(svg) { width: clamp(120px, 30vw, 180px); height: auto; }
+  .wordmark {
+    margin: 0; color: var(--ink);
+    font-family: var(--serif); font-size: 40px; font-weight: 600; letter-spacing: -0.03em;
+    font-variation-settings: 'opsz' 72; line-height: 1;
+  }
+  .wordmark span { font-style: italic; font-weight: 400; color: var(--ink-3); }
 </style>
