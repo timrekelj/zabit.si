@@ -1,0 +1,1097 @@
+{
+ "researched_at": "2026-10-27",
+ "latest": [
+  {
+   "slug": "parlamentarna-preiskava-2026",
+   "date": "2026-10-11",
+   "type": "zakonodajni",
+   "title": "Novela zakona o parlamentarni preiskavi",
+   "question": "Ali ste za to, da se uveljavi Zakon o spremembah in dopolnitvah Zakona o parlamentarni preiskavi (ZPPre-B), ki ga je sprejel Državni zbor na seji dne 26. maja 2026?",
+   "question_src": "https://pisrs.si/api/uradni-list/objava/u20261278.pdf",
+   "initiator": "Pobudo so vložili nekdanji člani Odbora za varstvo človekovih pravic (1988): Franco Juri, Pavel Gantar, Spomenka Hribar, Gregor Tomc, Igor Vidmar, Vlado Miheljak in Rastko Močnik, ob pomoči civilne družbe, nevladnih organizacij, sindikatov ter opozicijskih strank Svoboda, SD in Levica (geslo »Proti politični policiji«). Pobudo s 13.369 podpisi (potrebnih 2.500) so v DZ vložili 2. junija 2026; od 10. junija do 14. julija so zbirali 40.000 overjenih podpisov in jih 21. julija 2026 v DZ vložili 44.619. DZ je 23. julija 2026 s 57 glasovi za in nobenim proti sprejel Odlok o razpisu (Uradni list RS, št. 1278/2026); dan razpisa 1. september, glasovanje 11. oktobra 2026.",
+   "what": [
+    "Novelo sta predlagali SDS in NSi-SLS-Fokus (prvopodpisana Jelka Godec); DZ jo je sprejel 26. maja 2026 (48 za, 32 proti). Spreminja ureditev iz leta 2024.",
+    "Ustavno presojo akta o odreditvi preiskave bi v 30 dneh lahko zahtevala le sodni svet ali generalni državni tožilec; zdaj jo lahko tudi tretjina poslancev, državnotožilski svet, Banka Slovenije, varuh človekovih pravic, Računsko sodišče, lokalne skupnosti, preiskovanci ter osebe, zajete v preiskavi.",
+    "Odpravi se sprotno sodno varstvo med preiskavo: preiskovanec bi lahko tožbo na upravnem sodišču vložil šele v osmih dneh po vročitvi končnega poročila komisije.",
+    "Odpravi se zadržanje (suspenzivni učinek), zaradi katerega preiskovalna komisija pred odločitvijo ustavnega sodišča ni mogla začeti dela.",
+    "Na novo ureja položaj poslancev, ki postanejo preiskovanci, in njihovo sodelovanje v komisiji.",
+    "Ustavna presoja ostane za primere, ko bi preiskava lahko posegla v neodvisnost sodstva ali tožilstva."
+   ],
+   "if_yes": "Če bi večina glasovala ZA (ali ne bi bil dosežen zavrnitveni kvorum), bi novela ZPPre-B začela veljati: krog tistih, ki lahko pred začetkom preiskave zahtevajo ustavno presojo, bi se zožil, preiskovanci pa bi sodno varstvo (upravni spor) dobili šele po koncu preiskave.",
+   "if_no": "Ker je večina glasovala PROTI in je proti glasovala več kot petina vseh volivcev, je novela zavrnjena in ne bo uveljavljena; ostane v veljavi ureditev iz leta 2024 (širši krog upravičencev do ustavne presoje in sprotno sodno varstvo). Po 25. členu ZRLI DZ v enem letu po razglasitvi izida ne sme sprejeti zakona, ki bi bil vsebinsko v nasprotju z odločitvijo volivcev.",
+   "for": [
+    {
+     "arg": "Novela odpravlja možnost širokega in množičnega blokiranja preiskav; s tem se ohranja ravnotežje med parlamentarno preiskavo in načelom delitve oblasti.",
+     "by": "Zoran Mojškerc (SDS)",
+     "src": "https://www.rtvslo.si/slovenija/zakon-o-parlamentarni-preiskavi-korak-k-vecji-ucinkovitosti-ali-zlorabi-instituta/783308"
+    },
+    {
+     "arg": "Zakon ne daje preiskavam novih pooblastil, ampak samo onemogoča njihovo blokiranje.",
+     "by": "Andrej Černigoj (poslanska skupina NSi-SLS-Fokus)",
+     "src": "https://www.rtvslo.si/slovenija/dz-razpisal-referendum-o-noveli-zakona-o-parlamentarni-preiskavi/788903"
+    },
+    {
+     "arg": "Novela iz leta 2024 je določila preširok krog upravičencev in podaljševala postopke; nova ureditev ohranja sodno varstvo tam, kjer ga je zahtevalo ustavno sodišče, komisija pa ni policija, saj za dostop do podatkov potrebuje odredbo sodišča.",
+     "by": "Barbara Levstik Šega (Demokrati, državna sekretarka na ministrstvu za pravosodje)",
+     "src": "https://nova24tv.si/novela-zakona-o-parlamentarni-preiskavi-kaj-prinasa-in-zakaj-jo-podpirajo-njeni-zagovorniki/"
+    },
+    {
+     "arg": "Novela vrača ureditev, ki je veljala 30 let; glas ZA pomeni raziskovanje politične odgovornosti vseh politikov, zoper odločitve pa ostaja tožba na upravnem sodišču.",
+     "by": "Janez Žakelj (NSi)",
+     "src": "https://nova24tv.si/novela-zakona-o-parlamentarni-preiskavi-kaj-prinasa-in-zakaj-jo-podpirajo-njeni-zagovorniki/"
+    },
+    {
+     "arg": "Od osamosvojitve je bilo odrejenih 43 parlamentarnih preiskav, končno poročilo pa jih je dobilo le 13; novela bi omogočila učinkovitejše preiskave.",
+     "by": "Nedeljko Todorović (Resni.ca)",
+     "src": "https://www.rtvslo.si/slovenija/dz-razpisal-referendum-o-noveli-zakona-o-parlamentarni-preiskavi/788903"
+    },
+    {
+     "arg": "V preiskavah v mandatu 2022–2026 so bili kritiki oblasti klicani kot priče in so se pregledovali bančni podatki zasebnikov; novela take zlorabe odpravlja, preiskave pa usmerja na nosilce javnih funkcij.",
+     "by": "Miran Videtič (Zavod za zaščito žrtev zlorabe parlamentarne preiskave)",
+     "src": "https://nova24tv.si/novela-zakona-o-parlamentarni-preiskavi-kaj-prinasa-in-zakaj-jo-podpirajo-njeni-zagovorniki/"
+    }
+   ],
+   "against": [
+    {
+     "arg": "Novela odpravlja vso predhodno sodno varstvo in politikom omogoča neomejen nadzor, ustrahovanje in kršenje človekovih pravic; izključitev sodne presoje ruši ravnotežje vej oblasti.",
+     "by": "pobudniki referenduma (Vlado Miheljak, Igor Vidmar, Rastko Močnik idr.)",
+     "src": "https://www.rtvslo.si/slovenija/civilna-druzba-za-referendum-o-zakonu-o-parlamentarni-preiskavi-v-svobodi-za-ustavno-presojo/783452"
+    },
+    {
+     "arg": "Upravni spor po koncu preiskave ni enakovreden ustavni presoji, saj se preiskave pogosto sploh ne končajo; novela bi zato verjetno padla na ustavnem sodišču.",
+     "by": "Lucija Tacer Perlin (Svoboda)",
+     "src": "https://www.rtvslo.si/slovenija/zakon-o-parlamentarni-preiskavi-korak-k-vecji-ucinkovitosti-ali-zlorabi-instituta/783308"
+    },
+    {
+     "arg": "Zakon se vrača v stanje, ki ga je ustavno sodišče že kritiziralo; odločbe ustavnega sodišča so obvezne.",
+     "by": "Dušan Štrus (Zakonodajno-pravna služba DZ)",
+     "src": "https://www.rtvslo.si/slovenija/zakon-o-parlamentarni-preiskavi-korak-k-vecji-ucinkovitosti-ali-zlorabi-instituta/783308"
+    },
+    {
+     "arg": "Preiskovalna komisija ima enaka pooblastila kot pravosodni organi; brez sprotne ustavne presoje bi lahko večina z njo obračunavala z opozicijo in kritiki.",
+     "by": "Pravna mreža za varstvo demokracije",
+     "src": "https://www.rtvslo.si/slovenija/zakon-o-parlamentarni-preiskavi-korak-k-vecji-ucinkovitosti-ali-zlorabi-instituta/783308"
+    },
+    {
+     "arg": "O dopustnosti najresnejših posegov v človekove pravice in zasebnost bi odločala politična večina sama; pred komisije bi lahko klicali tudi državljane, ki kritizirajo vlado.",
+     "by": "Tina Brecelj in Luka Mesec (Levica)",
+     "src": "https://www.rtvslo.si/slovenija/svoboda-levica-in-sd-pozivajo-k-podpisu-pobude-za-referendum-o-parlamentarni-preiskavi/785085"
+    },
+    {
+     "arg": "V preiskavo je lahko ujet kdorkoli, nihče pa ne more pravočasno zaščititi svojih pravic; posebej izpostavljeni so novinarji, katerih delo bi lahko nadzirali poslanci.",
+     "by": "Anuška Delić (Društvo novinarjev Slovenije)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-parlamentarni-preiskavi/kaj-prinasa-novela-zakona-o-parlamentarni-preiskavi/795544"
+    }
+   ],
+   "parties": [
+    {
+     "party": "GS",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/svoboda-levica-in-sd-pozivajo-k-podpisu-pobude-za-referendum-o-parlamentarni-preiskavi/785085",
+     "note": "Sodelovala pri zbiranju podpisov; napovedala tudi ustavno presojo (Janja Sluga)."
+    },
+    {
+     "party": "SDS",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/dz-razpisal-referendum-o-noveli-zakona-o-parlamentarni-preiskavi/788903",
+     "note": "Sopredlagateljica novele."
+    },
+    {
+     "party": "NSi-SLS-Fokus",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/dz-razpisal-referendum-o-noveli-zakona-o-parlamentarni-preiskavi/788903",
+     "note": "Sopredlagateljice novele."
+    },
+    {
+     "party": "SD",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/svoboda-levica-in-sd-pozivajo-k-podpisu-pobude-za-referendum-o-parlamentarni-preiskavi/785085",
+     "note": "Pridružila se je zbiranju podpisov."
+    },
+    {
+     "party": "Demokrati",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/dz-razpisal-referendum-o-noveli-zakona-o-parlamentarni-preiskavi/788903",
+     "note": "Podprli novelo; podpora razpisu referenduma po njihovih besedah ne spreminja vsebinskega stališča."
+    },
+    {
+     "party": "Levica-Vesna",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/svoboda-levica-in-sd-pozivajo-k-podpisu-pobude-za-referendum-o-parlamentarni-preiskavi/785085",
+     "note": "Pozivala k podpisu pobude (Mesec, Vrečko, Brecelj)."
+    },
+    {
+     "party": "Resni.ca",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/dz-razpisal-referendum-o-noveli-zakona-o-parlamentarni-preiskavi/788903",
+     "note": "Pozivala k »4x ZA«, a se ni prijavila kot organizatorka kampanje (po Wikipediji)."
+    }
+   ],
+   "organisations": [
+    {
+     "name": "Zavod za zaščito žrtev zlorabe parlamentarne preiskave v mandatu 2022–2026",
+     "stance": "ZA",
+     "src": "https://sl.wikipedia.org/wiki/Referendum_o_noveli_zakona_o_parlamentarni_preiskavi"
+    },
+    {
+     "name": "Društvo novinarjev Slovenije, Amnesty International Slovenije, CNVOS, Inštitut 8. marec, PIC, Umanotera, Danes je nov dan, Focus, Zasuk, Zavod Open, Zavod PLC (prijavljeni organizatorji kampanje)",
+     "stance": "PROTI",
+     "src": "https://sl.wikipedia.org/wiki/Referendum_o_noveli_zakona_o_parlamentarni_preiskavi"
+    },
+    {
+     "name": "Pravna mreža za varstvo demokracije",
+     "stance": "PROTI (kritična do novele)",
+     "src": "https://www.rtvslo.si/slovenija/zakon-o-parlamentarni-preiskavi-korak-k-vecji-ucinkovitosti-ali-zlorabi-instituta/783308"
+    },
+    {
+     "name": "Državnotožilski svet",
+     "stance": "kritičen do prenosa pristojnosti na generalnega državnega tožilca (brez stališča o referendumu)",
+     "src": "https://www.rtvslo.si/slovenija/zakon-o-parlamentarni-preiskavi-korak-k-vecji-ucinkovitosti-ali-zlorabi-instituta/783308"
+    }
+   ],
+   "result": {
+    "turnout": 54.8,
+    "yes": 48.64,
+    "no": 51.36,
+    "votes_yes": 449824,
+    "votes_no": 474950,
+    "eligible": 1697377,
+    "voted": 930137,
+    "invalid": 5209,
+    "status": "neuradni izid DVK (99,98 % preštetih glasovnic, stanje 23. 10. 2026, is_final=false); končni zapisnik DVK v Uradnem listu do 27. 10. 2026 ni bil najden",
+    "src": "https://volitve.dvk-rs.si/referendum-preiskava/",
+    "quorum_met": true,
+    "quorum_note": "PROTI 474.950 glasov = 27.98 % vseh volivcev (prag 20 % ≈ 339.475)",
+    "outcome": "Zakon zavrnjen (večina PROTI in več kot petina vseh volivcev PROTI)."
+   },
+   "aftermath": "Po neuradnih izidih (DVK, 99,98 % preštetih) je bila novela zavrnjena z 51,36 % glasov PROTI; zavrnitveni kvorum (petina vseh volivcev, okoli 339.700) je bil presežen, kar je peti tak primer po ustavni spremembi leta 2013. Premier Janez Janša je izid označil za »v glavnem test zdrave pameti« in dejal, da se lahko »z močjo propagande prepriča nekaj sto tisoč ljudi«, da je parlamentarna preiskava politična policija, ter da bo vlada voljo ljudi spoštovala. Robert Golob (Svoboda) je ocenil, da so volivci zavrnili idejo koalicije o uvedbi politične policije in da vlada nima zaupanja ljudi; Borut Sajovic (Svoboda) je dejal, da vlada s tako tesnim izidom nima bianco menice; Luka Mesec (Levica) je dejal, da vladajoča stran ne bo mogla prek preiskovalnih komisij posegati v zasebnost; SD (Han) je sporočilo izida označila kot uperjeno proti vladi. Anže Logar (Demokrati) je izide vseh štirih referendumov ocenil kot dobro popotnico vladi. Po 25. členu ZRLI DZ v enem letu ne sme sprejeti zakona, ki bi bil vsebinsko v nasprotju z izidom. Po štetju glasov po pošti in iz tujine se izid ni spremenil (21. 10. 2026: ZA 449.814, PROTI 474.898). DVK je med štetjem popravila nekatere napačne vnose podatkov okrajnih komisij (predvsem pri posvetovalnem referendumu o RTV-prispevku); neodvisna statistična analiza je opozorila še na 17 volišč z možnimi zamenjavami glasov, vendar avtor ocenjuje, da izida ne bi spremenile. Po rokovniku DVK sprejme akt o izidu in ga objavi v Uradnem listu RS; do 27. 10. 2026 te objave nismo našli.",
+   "sources": [
+    "https://pisrs.si/api/uradni-list/objava/u20261278.pdf",
+    "https://sl.wikipedia.org/wiki/Referendum_o_noveli_zakona_o_parlamentarni_preiskavi",
+    "https://sl.wikipedia.org/wiki/Referendumi_11._oktobra_2026",
+    "https://www.rtvslo.si/slovenija/zakon-o-parlamentarni-preiskavi-korak-k-vecji-ucinkovitosti-ali-zlorabi-instituta/783308",
+    "https://www.rtvslo.si/slovenija/civilna-druzba-za-referendum-o-zakonu-o-parlamentarni-preiskavi-v-svobodi-za-ustavno-presojo/783452",
+    "https://www.rtvslo.si/slovenija/svoboda-levica-in-sd-pozivajo-k-podpisu-pobude-za-referendum-o-parlamentarni-preiskavi/785085",
+    "https://www.rtvslo.si/slovenija/dz-bo-v-cetrtek-obravnaval-zahtevo-za-referendum-ki-bo-predvidoma-11-oktobra/788834",
+    "https://www.rtvslo.si/slovenija/dz-razpisal-referendum-o-noveli-zakona-o-parlamentarni-preiskavi/788903",
+    "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-parlamentarni-preiskavi/kaj-prinasa-novela-zakona-o-parlamentarni-preiskavi/795544",
+    "https://nova24tv.si/novela-zakona-o-parlamentarni-preiskavi-kaj-prinasa-in-zakaj-jo-podpirajo-njeni-zagovorniki/",
+    "https://www.rtvslo.si/slovenija/referendumi-2026/koalicija-izide-referendumov-vidi-kot-dobro-popotnico/796583",
+    "https://www.24ur.com/novice/slovenija/koalicijske-stranke-v-pricakovanju-izidov-stirih-referendumov.html",
+    "https://www.rtvslo.si/slovenija/referendumi-2026/tudi-po-danasnji-posodobitvi-izidi-referendumov-nespremenjeni/797693",
+    "https://www.tax-fin-lex.si/home/novica/37571",
+    "https://tax-fin-lex.si/home/Novica/37643",
+    "https://vecer.com/slovenija/spremljamo-rezultati-referendum-izidi-parlamentarna-preiskava-politicna-policija-dvk-10430018",
+    "https://www.dvk-rs.si/fileadmin/user_upload/referendum_oktober_26/Rokovnik_referendumskih_opravil_oktober2026.pdf",
+    "https://www.dvk-rs.si/novica/odziv-predsednika-in-vecine-clanov-drzavne-volilne-komisije-ter-njihovih-namestnikov/",
+    "https://www.rtvslo.si/slovenija/kaucic-enoletna-poreferendumska-prepoved-je-za-prakso-brez-pomena/385962",
+    "https://volitve.dvk-rs.si/referendum-preiskava/"
+   ],
+   "unverified": [
+    "Število podpisov, ki jih je DZ/ZPS formalno ugotovil kot veljavne (navedenih je le 44.619 vloženih; ZPS je zahtevo ocenila kot pravočasno in skladno z zakonom).",
+    "Objava končnega akta DVK o izidu referenduma v Uradnem listu RS – do 27. 10. 2026 je nismo našli.",
+    "Število pobude (13.369 podpisov, vloženo 2. 6. 2026) in seznam organizatorjev kampanje sta povzeta po Wikipediji; seznama na dvk-rs.si nismo odprli.",
+    "Stališče Resni.ca (»4x ZA«, neprijava v kampanjo) temelji na Wikipediji in izjavi N. Todorovića ob razpisu; izvirnega posnetka/objave stranke nismo odprli.",
+    "Podrobnosti o popravkih štetja (9 volišč, 17 dodatnih volišč z možnimi napakami) so povzete po Wikipediji (vir Delo, ki ni bil dostopen) in neodvisni analizi na GitHubu; uradne potrditve DVK za ta referendum nismo našli.",
+    "Besedilo 25. člena ZRLI (enoletna prepoved) ni bilo prebrano neposredno, povzeto po komentarju (Kaučič, RTV SLO) in ZRLI na dvk-rs.si.",
+    "Izjava predstavnika SD (Han) po glasovanju je povzeta posredno (24ur), brez dobesednega citata."
+   ],
+   "full_title": "Zakonodajni referendum o noveli Zakona o parlamentarni preiskavi (ZPPre-B)"
+  },
+  {
+   "slug": "rtv-prispevek-2026",
+   "date": "2026-10-11",
+   "type": "posvetovalni",
+   "title": "Ukinitev obveznega RTV-prispevka",
+   "question": "Ali ste za to, da se ukine obvezno plačevanje prispevka za programe Radiotelevizije Slovenija?",
+   "question_src": "https://pisrs.si/api/uradni-list/objava/u20261382.pdf",
+   "initiator": "Poslanske skupine SDS, NSi–SLS–Fokus, Demokrati in Resni.ca (prvopodpisana Jelka Godec) so predlog vložile 23. 7. 2026. Odbor DZ za kulturo ga je podprl 24. 8., DZ na izredni seji 25. 8. 2026. Odlok o razpisu (OdPRUOPRTV, Uradni list RS z dne 28. 8. 2026) je DZ sprejel 28. 8. 2026 s 45 glasovi ZA in 27 PROTI.",
+   "what": [
+    "Volivci so odločali, ali naj se ukine obvezno plačevanje RTV-prispevka (približno 14 evrov na mesec na gospodinjstvo), ki je glavni vir financiranja javnega zavoda RTV Slovenija.",
+    "Gre za posvetovalni referendum: izid pravno ne zavezuje DZ in vlade ter sam po sebi ne spremeni nobenega zakona.",
+    "Vprašanje ne določa, kako bi se RTV financirala po ukinitvi prispevka. Predlagatelji so omenjali financiranje iz državnega proračuna.",
+    "Resni.ca je že novembra 2025 v DZ vložila novelo zakona o RTV Slovenija, ki predvideva ukinitev prispevka in proračunsko financiranje. Njena obravnava je bila preložena na čas po referendumu.",
+    "Ustavno sodišče je RTV-prispevek v preteklosti označilo za ukrep, ki varuje avtonomijo javnega zavoda pred političnimi in ekonomskimi vplivi."
+   ],
+   "if_yes": "Koalicija bi izid razumela kot politični mandat za zakon, ki bi ukinil obvezni prispevek in uvedel drugačen način financiranja, npr. iz proračuna. Ministrstvo za kulturo je pred glasovanjem poudarilo, da je javna služba RTV določena z zakonom, da jo je treba financirati in da o prihodnosti prispevka še ni odločeno. Sam izid prispevka ne bi ukinil.",
+   "if_no": "Obvezni prispevek ostane v veljavi, ker se zakon ne spremeni. Ministrstvo za kulturo je napovedalo, da bodo sistemske rešitve potrebne ne glede na izid, a da o njih še niso razmišljali. Ker gre za posvetovalni referendum, tudi izid PROTI pravno ne preprečuje poznejših sprememb zakona.",
+   "for": [
+    {
+     "arg": "Medijske navade so se spremenile. Plačilo naj bo izbira, ne obveznost, saj ga zdaj plačajo tudi tisti, ki programov ne spremljajo (»obveznost ali izbira«).",
+     "by": "Alenka Jeraj (SDS)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301"
+    },
+    {
+     "arg": "Javno RTV podpiramo, želimo pa spremeniti način financiranja, npr. prek državnega proračuna, kot je urejeno v nekaterih drugih evropskih državah.",
+     "by": "Mojca Žnidarič (Demokrati)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301"
+    },
+    {
+     "arg": "Ukinitev prispevka bi vsaki družini prihranila 168,24 evra na leto. RTV naj služi vsem državljanom in posluje gospodarno.",
+     "by": "Andrej Černigoj (NSi)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301"
+    },
+    {
+     "arg": "Gospodinjstva z visokimi in nizkimi dohodki nosijo enako breme, zato je mogoč pravičnejši, na dohodek vezan model. Mesečna položnica ni edini način financiranja.",
+     "by": "Marjeta Šmid (NSi–SLS–Fokus)",
+     "src": "https://tax-fin-lex.si/home/Novica/37085"
+    },
+    {
+     "arg": "Referendum ni usmerjen proti RTV, ampak za pravičnejši in odgovornejši sistem. Ljudje naj odločijo, DZ pa naj jim sledi.",
+     "by": "Zoran Stevanović (Resni.ca)",
+     "src": "https://tax-fin-lex.si/home/Novica/37085"
+    },
+    {
+     "arg": "Gledalci naj imajo možnost izbire. Odločitev o plačilu je lahko pritisk na kakovost vsebin.",
+     "by": "Velislav Žvipelj (SLS)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301"
+    }
+   ],
+   "against": [
+    {
+     "arg": "Kdor odloča o financiranju, odloča tudi o informaciji. Vprašanje je manipulativno in spolitizirano.",
+     "by": "Helena Milinković (Sindikat novinarjev Slovenije)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301"
+    },
+    {
+     "arg": "Strošek RTV bi ostal, le preselil bi se v proračun, o katerem vsako leto odloča parlamentarna večina. Prispevek varuje avtonomijo RTV, kar je poudarilo tudi ustavno sodišče.",
+     "by": "Darko Ratajc (SD)",
+     "src": "https://tax-fin-lex.si/home/Novica/37085"
+    },
+    {
+     "arg": "Ukinitev prispevka bi pomenila konec javne RTV, kot jo poznamo, tudi pri prenosih športnih dogodkov. Racionalizacija je stvar vodstva zavoda.",
+     "by": "Robert Golob (Gibanje Svoboda)",
+     "src": "https://tax-fin-lex.si/home/Novica/37085"
+    },
+    {
+     "arg": "RTV ni le položnica: vključuje orkester, Radio Ars, založbo ter verski, športni in manjšinski program. Spletni vplivneži ne morejo nadomestiti novinarskega dela.",
+     "by": "Asta Vrečko (Levica)",
+     "src": "https://tax-fin-lex.si/home/Novica/37085"
+    },
+    {
+     "arg": "Gre za neodvisnost, ne le za prispevek: s proračunskim financiranjem bi vladajoče stranke lahko vplivale na poročanje (»RTV Slovenija ni državni medij«).",
+     "by": "Filip Dobranić (Danes je nov dan)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301"
+    },
+    {
+     "arg": "S prehodom na proračunsko financiranje bi bile ogrožene otroške, kulturne in druge vsebine. Javni mediji so steber evropskih družb.",
+     "by": "Marko Milosavljević (Zavod Open)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301"
+    }
+   ],
+   "parties": [
+    {
+     "party": "GS",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301",
+     "note": "Prijavljena organizatorka kampanje PROTI (Matej Arčon na soočenju RTV)."
+    },
+    {
+     "party": "SDS",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301",
+     "note": "Sopredlagateljica; nastopila Alenka Jeraj."
+    },
+    {
+     "party": "NSi-SLS-Fokus",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301",
+     "note": "Sopredlagateljica; NSi, SLS in Fokus so nastopali ločeno (Černigoj, Žvipelj, Tušak)."
+    },
+    {
+     "party": "SD",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301",
+     "note": "Darko Ratajc."
+    },
+    {
+     "party": "Demokrati",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301",
+     "note": "Sopredlagateljica; Mojca Žnidarič."
+    },
+    {
+     "party": "Levica-Vesna",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301",
+     "note": "Levica (Asta Vrečko) in Vesna (Jaka Zevnik) sta bili ločeni organizatorki kampanje PROTI."
+    },
+    {
+     "party": "Resni.ca",
+     "stance": "ZA",
+     "src": "https://n1info.si/novice/slovenija/stevanovic-vztraja-pri-ukinitvi-rtv-prispevka-jansa-prispevek-bodo-placevali-tisti-ki-to-zelijo/",
+     "note": "Resni.ca je sopredlagateljica referenduma in je pozvala h glasovanju ZA, vendar se ni prijavila kot organizatorka kampanje. Ukinitev prispevka je ena njenih ključnih predvolilnih obljub."
+    }
+   ],
+   "organisations": [
+    {
+     "org": "Društvo novinarjev Slovenije, Sindikat novinarjev Slovenije",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301"
+    },
+    {
+     "org": "Amnesty International Slovenije, Danes je nov dan, Zasuk, Zavod Open, Zavod PLC, Jaša Jenull",
+     "stance": "PROTI",
+     "src": "https://sl.wikipedia.org/wiki/Referendum_o_ukinitvi_obveznega_plačevanja_RTV_prispevka"
+    },
+    {
+     "org": "Uprava RTV Slovenija (Natalija Gorščak)",
+     "stance": "opozarjala na večjo politično odvisnost ob ukinitvi prispevka",
+     "src": "https://sl.wikipedia.org/wiki/Referendum_o_ukinitvi_obveznega_plačevanja_RTV_prispevka"
+    }
+   ],
+   "result": {
+    "turnout": 54.8,
+    "yes": 49.84,
+    "no": 50.16,
+    "votes_yes": 462099,
+    "votes_no": 464999,
+    "eligible": 1697377,
+    "voted": 930192,
+    "invalid": 2921,
+    "status": "neuradni izid DVK (99,98 % preštetih glasovnic, stanje 23. 10. 2026, is_final=false); končni zapisnik DVK v Uradnem listu do 27. 10. 2026 ni bil najden",
+    "src": "https://volitve.dvk-rs.si/referendum-rtv-prispevek/",
+    "quorum_met": null,
+    "quorum_note": "Pri posvetovalnem referendumu zavrnitveni kvorum (20 %) ne velja; izid ni pravno zavezujoč.",
+    "outcome": "Tesna večina PROTI ukinitvi obveznega RTV-prispevka (razlika okoli 2.900 glasov); posvetovalni izid ni zavezujoč."
+   },
+   "aftermath": "Izid je bil zelo tesen. Premier Janez Janša je 12. 10. na omrežju X zapisal, da bodo prispevek plačevali tisti, ki to želijo. Predsednik DZ Zoran Stevanović (Resni.ca) je napovedal, da bo stranka vztrajala pri noveli o odpravi obveznega prispevka (»Naša obljuba ostaja jasna«). Ocenil je, da se kaže močna polarizacija in da »zmagovalcev ni«, ter opozoril na nelogičnosti pri štetju, ki jih je treba preveriti. Predsednica uprave RTV Natalija Gorščak je ocenila, da izid »kljub populističnemu vprašanju« potrjuje dobro delo zavoda in politiki ne daje legitimnosti za ukinitev prispevka. Zavzela se je za javno razpravo o preobrazbi RTV. Društvo in sindikat novinarjev sta pozdravila, da so volivci prepoznali pomen RTV. Do 27. 10. 2026 nismo našli konkretnega vladnega predloga zakona o RTV.",
+   "sources": [
+    "https://pisrs.si/api/uradni-list/objava/u20261382.pdf",
+    "https://sl.wikipedia.org/wiki/Referendum_o_ukinitvi_obveznega_plačevanja_RTV_prispevka",
+    "https://sl.wikipedia.org/wiki/Referendumi_11._oktobra_2026",
+    "https://www.rtvslo.si/slovenija/poslanci-potrdili-razpis-treh-posvetovalnih-referendumov/792112",
+    "https://www.24ur.com/novice/slovenija/vladajoci-zelijo-tri-referendume-tudi-o-rtv-prispevku.html",
+    "https://tax-fin-lex.si/home/Novica/37085",
+    "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-ukinitvi-rtv-prispevka/predreferendumsko-soocenje-o-ukinitvi-rtv-prispevka/796301",
+    "https://n1info.si/novice/slovenija/vodnik-po-superreferendumskem-dnevu-o-cem-bomo-odlocali-na-referendumih-11-oktobra/",
+    "https://n1info.si/novice/slovenija/vlado-smo-vprasali-kaj-bo-z-rtv-slovenija-ce-bo-vecina-na-referendumu-glasovala-za-ali-proti/",
+    "https://n1info.si/novice/slovenija/stevanovic-vztraja-pri-ukinitvi-rtv-prispevka-jansa-prispevek-bodo-placevali-tisti-ki-to-zelijo/",
+    "https://tax-fin-lex.si/home/novica/37572",
+    "https://www.gov.si/novice/2026-09-07-odloki-o-razpisu-zakonodajnega-in-posvetovalnih-referendumov/"
+   ],
+   "unverified": [
+    "Točen znesek prispevka (Wikipedija navaja 14,02 evra na mesec; NSi navaja prihranek 168,24 evra na leto, kar se ujema).",
+    "Ali je koalicija po 12. 10. 2026 vložila konkreten predlog zakona o RTV ali uvrstila novelo Resni.ce na sejo DZ, ni preverjeno.",
+    "Stališča Varuha človekovih pravic do tega referenduma nismo našli.",
+    "Rezultatov (DVK) namenoma nismo raziskovali. Viri navajajo različne vmesne odstotke, zato se zanašajte na DVK."
+   ],
+   "full_title": "Posvetovalni referendum o ukinitvi obveznega plačevanja RTV-prispevka"
+  },
+  {
+   "slug": "volilna-pravica-tujcev-2026",
+   "date": "2026-10-11",
+   "type": "posvetovalni",
+   "title": "Volilna pravica tujcev na lokalnih volitvah",
+   "question": "Ali ste za to, da imajo pravico voliti na lokalnih volitvah v Republiki Sloveniji državljani Republike Slovenije ali druge države članice Evropske unije, ne pa tudi državljani tretjih držav, ki niso državljani Republike Slovenije?",
+   "question_src": "https://pisrs.si/api/uradni-list/objava/u20261384.pdf",
+   "initiator": "Poslanske skupine SDS, NSi–SLS–Fokus, Demokrati in Resni.ca (prvopodpisana Jelka Godec) so predlog vložile 23. 7. 2026. Odbor za notranje zadeve in javno upravo ga je podprl 24. 8., DZ 25. 8. 2026 (46 ZA, 29 PROTI). Odlok o razpisu (OdPRVPLV, Uradni list RS z dne 28. 8. 2026) je DZ sprejel 28. 8. 2026 s 45 glasovi ZA in 27 PROTI.",
+   "what": [
+    "Od leta 2002 so lahko na lokalnih volitvah volili tudi državljani tretjih držav (zunaj EU) z dovoljenjem za stalno prebivanje in prijavljenim stalnim prebivališčem v Sloveniji.",
+    "DZ je že 15. 6. 2026 po skrajšanem postopku s 47 glasovi ZA in 32 PROTI sprejel novelo zakona o lokalnih volitvah (predlagatelji SDS, NSi, SLS, Fokus, Resni.ca), ki jim to pravico odvzema. Novela velja od 2. 9. 2026.",
+    "Referendum je zato spraševal o že sprejeti in veljavni ureditvi. Volilno pravico ohranijo državljani Slovenije in drugih držav EU.",
+    "Državljani tretjih držav lahko volilno pravico pridobijo z državljanstvom, kar po navedbah koalicije zahteva približno deset let prebivanja.",
+    "Zakonodajno-pravna služba DZ je opozorila, da bi bil razpis referenduma z enako vsebino, kot jo ima že sprejeti zakon, v nasprotju z referendumsko zakonodajo.",
+    "Pobuda kulturnih društev za zakonodajni referendum o noveli (prvopodpisana Svetlana Slapšak) je zbrala premalo podpisov in je bila konec avgusta umaknjena."
+   ],
+   "if_yes": "Pravno se nič ne spremeni, ker novela že velja. Koalicija je izid ZA predstavljala kot dodatno politično legitimnost za sprejeto ureditev. N1 je ocenil, da bi izid lahko vplival na razpravo, če bi ustavno sodišče zakon pozneje razveljavilo. Ministrstvo za lokalno samoupravo pred glasovanjem ni želelo konkretno napovedati ukrepov.",
+   "if_no": "Ker gre za posvetovalni referendum, tudi izid PROTI ne bi samodejno razveljavil novele. Ministrstvo je pred glasovanjem napovedalo, da bo izid (vključno z udeležbo) ocenilo po končnih rezultatih DVK in šele nato odločalo o zakonu. Ni pa povedalo, ali bi ga spremenilo pred lokalnimi volitvami 15. 11. 2026.",
+   "for": [
+    {
+     "arg": "Število volilnih upravičencev iz tretjih držav se je znatno povečalo, zato je njihov vpliv na izid lokalnih volitev večji, vpliv državljanov pa manjši.",
+     "by": "Andrej Kosi (SDS)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897"
+    },
+    {
+     "arg": "Odločanje o svetnikih, županih in lokalnem razvoju je vezano na državljanstvo. To ni diskriminacija, saj lahko tujci zaprosijo za državljanstvo in nato dobijo vse politične pravice.",
+     "by": "Anton Šturbej (SDS)",
+     "src": "https://www.rtvslo.si/slovenija/poslanci-potrdili-spremembe-zakona-o-lokalnih-volitvah-opozicija-omenja-ustavno-presojo/785348"
+    },
+    {
+     "arg": "Treba je ohraniti jezik, kulturo in vrednote. Kdor se tu trajno naseli, naj pridobi državljanstvo.",
+     "by": "Aleksander Gungl (NSi)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897"
+    },
+    {
+     "arg": "Sprememba zmanjšuje možnost političnih taktik, usmerjenih v posamezne skupine v majhnih občinah, kjer lahko nekaj glasov odloči izid.",
+     "by": "Nedeljko Todorović (Resni.ca)",
+     "src": "https://www.rtvslo.si/slovenija/poslanci-potrdili-spremembe-zakona-o-lokalnih-volitvah-opozicija-omenja-ustavno-presojo/785348"
+    },
+    {
+     "arg": "Zakon so pospešili, da bi dali večjo težo slovenskim državljanom. Nasprotniki se v 24 letih niso zavzeli za enake pravice Slovencev v tujini.",
+     "by": "Elena Zavadlav Ušaj (Demokrati)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897"
+    },
+    {
+     "arg": "Občina je ožji del države v državi. Tujec lahko po desetih letih pridobi državljanstvo, zato mora biti jasno, ali se želi vključiti.",
+     "by": "Srečko Ocvirk (SLS)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897"
+    }
+   ],
+   "against": [
+    {
+     "arg": "Odvzem pravice je samovoljen, referendum o že sprejetem zakonu pa je zloraba. »Boli me, da so meni in sto tisoč drugim odvzeli to osnovno pravico.«",
+     "by": "Christian Moe (Amnesty International Slovenije)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897"
+    },
+    {
+     "arg": "Ti ljudje zakonito živijo in delajo v Sloveniji, plačujejo davke, vzgajajo otroke in sodelujejo v lokalnem življenju. Po skoraj 25 letih ni bilo resne utemeljitve, odvzem pa je nevaren precedens.",
+     "by": "Gibanje Svoboda, SD in Levica-Vesna (stališča v DZ)",
+     "src": "https://www.rtvslo.si/slovenija/poslanci-potrdili-spremembe-zakona-o-lokalnih-volitvah-opozicija-omenja-ustavno-presojo/785348"
+    },
+    {
+     "arg": "Zakon je bil sprejet brez analize, ki bi dokazovala škodljivost dosedanje ureditve, in le nekaj mesecev pred volitvami. Krši načelo lokalne samouprave (138. člen ustave).",
+     "by": "Andreja Katič (SD), zahteva za ustavno presojo",
+     "src": "https://tax-fin-lex.si/Home/Novica/37194"
+    },
+    {
+     "arg": "Odvzem pravice pomeni, da ljudje nimajo glasu pri lokalnih zadevah, kot so ceste, vrtci in šole, čeprav gospodarstvo temelji na tuji delovni sili.",
+     "by": "Jasmin Feratović (Piratska stranka)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897"
+    },
+    {
+     "arg": "Referendum je »megla«. O zadevi bi moralo odločiti ustavno sodišče, mnenje zakonodajno-pravne službe pa bi moralo ustaviti večino.",
+     "by": "Lenart Žavbi (Gibanje Svoboda)",
+     "src": "https://www.tax-fin-lex.si/home/Novica/37069"
+    },
+    {
+     "arg": "Pravica ni nikomur škodovala. Odvzem je izključevanje, ne integracija.",
+     "by": "Flurina Ametaj (Kulturno društvo Gmajna)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897"
+    }
+   ],
+   "parties": [
+    {
+     "party": "GS",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897",
+     "note": "Sara Žibrat; sopodpisnica zahteve za ustavno presojo zakona."
+    },
+    {
+     "party": "SDS",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897",
+     "note": "Sopredlagateljica zakona in referenduma; Andrej Kosi."
+    },
+    {
+     "party": "NSi-SLS-Fokus",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897",
+     "note": "Gungl (NSi), Ocvirk (SLS), Šimenc (Fokus)."
+    },
+    {
+     "party": "SD",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897",
+     "note": "Darko Ratajc; sopodpisnica zahteve za ustavno presojo."
+    },
+    {
+     "party": "Demokrati",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897",
+     "note": "Sopredlagateljica referenduma; Elena Zavadlav Ušaj. Ob sprejemu zakona junija 2026 skupina ni predstavila stališča."
+    },
+    {
+     "party": "Levica-Vesna",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897",
+     "note": "Levica (Dan Juvan) in Vesna (Barbara Strajnar); sopodpisnica zahteve za ustavno presojo."
+    },
+    {
+     "party": "Resni.ca",
+     "stance": "ZA",
+     "src": "https://sl.wikipedia.org/wiki/Referendumi_11._oktobra_2026",
+     "note": "Resni.ca je sopredlagateljica referenduma in je pozvala h glasovanju ZA, vendar se ni prijavila kot organizatorka kampanje. Sopredlagateljica tudi zakonske novele."
+    }
+   ],
+   "organisations": [
+    {
+     "org": "Amnesty International Slovenije, KD Gmajna, Danes je nov dan, Zasuk, Zavod Open, Zavod PLC, Jaša Jenull",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897"
+    },
+    {
+     "org": "Pravna mreža za varstvo demokracije (s Christianom Moejem)",
+     "stance": "pobuda za ustavno presojo",
+     "src": "https://tax-fin-lex.si/home/novica/37590"
+    }
+   ],
+   "result": {
+    "turnout": 54.8,
+    "yes": 55.23,
+    "no": 44.77,
+    "votes_yes": 511588,
+    "votes_no": 414642,
+    "eligible": 1697377,
+    "voted": 930111,
+    "invalid": 3679,
+    "status": "neuradni izid DVK (99,98 % preštetih glasovnic, stanje 23. 10. 2026, is_final=false); končni zapisnik DVK v Uradnem listu do 27. 10. 2026 ni bil najden",
+    "src": "https://volitve.dvk-rs.si/referendum-volilna-pravica-tujcev/",
+    "quorum_met": null,
+    "quorum_note": "Pri posvetovalnem referendumu zavrnitveni kvorum (20 %) ne velja; izid ni pravno zavezujoč.",
+    "outcome": "Večina ZA omejitvi volilne pravice na lokalnih volitvah na državljane RS in EU; posvetovalni izid ni zavezujoč."
+   },
+   "aftermath": "Novela zakona o lokalnih volitvah velja od 2. 9. 2026, zato bodo lokalne volitve 15. 11. 2026 potekale brez volilne pravice državljanov tretjih držav. Poslanci GS, SD in Levice (40 podpisov) so 4. 9. 2026 vložili zahtevo za ustavno presojo s predlogom za začasno zadržanje. Ustavno sodišče je zadržanje 10. 9. zavrnilo (6 : 2). 13. 10. 2026 je s 5 : 2 zavrnilo še predlog za zadržanje, ki ga je vložil Christian Moe s Pravno mrežo za varstvo demokracije (proti sta glasovali sodnici Neža Kogovšek Šalamon in Barbara Kresal). Vsebinske odločitve o ustavnosti do 27. 10. 2026 še ni. Po referendumu je Jernej Vrtovec (NSi) izid pri dveh posvetovalnih referendumih označil za »kristalno jasen«, Anže Logar (Demokrati) pa za dobro popotnico vladi. Nataša Posel (Amnesty) je opozorila, da so bili volivci potisnjeni v odločanje o pravicah manjšin.",
+   "sources": [
+    "https://pisrs.si/api/uradni-list/objava/u20261384.pdf",
+    "https://sl.wikipedia.org/wiki/Referendum_o_volilni_pravici_tujcev_na_lokalnih_volitvah",
+    "https://sl.wikipedia.org/wiki/Referendumi_11._oktobra_2026",
+    "https://www.rtvslo.si/slovenija/poslanci-potrdili-razpis-treh-posvetovalnih-referendumov/792112",
+    "https://www.24ur.com/novice/slovenija/vladajoci-zelijo-tri-referendume-tudi-o-rtv-prispevku.html",
+    "https://www.rtvslo.si/slovenija/poslanci-potrdili-spremembe-zakona-o-lokalnih-volitvah-opozicija-omenja-ustavno-presojo/785348",
+    "https://www.tax-fin-lex.si/home/Novica/37069",
+    "https://tax-fin-lex.si/Home/Novica/37194",
+    "https://tax-fin-lex.si/home/novica/37590",
+    "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-volilni-pravici-drzavljanov-tretjih-drzav-na-lokalnih-volitvah/predreferendumsko-soocenje-o-volilni-pravici-tujcev-na-lokalnih-volitvah/795897",
+    "https://n1info.si/novice/slovenija/vodnik-po-superreferendumskem-dnevu-o-cem-bomo-odlocali-na-referendumih-11-oktobra/",
+    "https://n1info.si/novice/slovenija/vlado-smo-vprasali-kaj-bo-z-volilno-pravico-tujcev-ce-bo-vecina-na-referendumu-glasovala-za-ali-proti/",
+    "https://tax-fin-lex.si/home/novica/37572",
+    "https://www.gov.si/novice/2026-09-07-odloki-o-razpisu-zakonodajnega-in-posvetovalnih-referendumov/"
+   ],
+   "unverified": [
+    "Število prizadetih: Christian Moe govori o »sto tisoč« ljudeh, iskalni povzetek STA navaja približno 100.000. Uradnega podatka nismo preverili.",
+    "Glasovanje DZ 25. 8. (46 ZA, 29 PROTI) je po RTV navedeno za socialno pomoč in volilno pravico tujcev skupaj. Končni odlok 28. 8.: 45 : 27 (Wikipedija).",
+    "Datum zavrnitve prvega predloga za zadržanje (10. 9., 6 : 2) je povzet po Wikipediji; članka Dela nismo odprli.",
+    "Datum lokalnih volitev 15. 11. 2026 je naveden po N1 (napoved ministrstva). Ali je bila po referendumu sprejeta kakršna koli dodatna sprememba, ni preverjeno.",
+    "Stališča Varuha človekovih pravic nismo našli."
+   ],
+   "full_title": "Posvetovalni referendum o volilni pravici državljanov tretjih držav na lokalnih volitvah"
+  },
+  {
+   "slug": "socialna-pomoc-2026",
+   "date": "2026-10-11",
+   "type": "posvetovalni",
+   "title": "Socialna pomoč in družbeno koristno delo",
+   "question": "Ali ste za to, da se pravica do denarne socialne pomoči za delovno sposobne osebe, ki nimajo objektivnih ovir za delo, pogojuje z njihovim aktivnim opravljanjem družbeno koristnega dela?",
+   "question_src": "https://pisrs.si/api/uradni-list/objava/u20261383.pdf",
+   "initiator": "Poslanske skupine SDS, NSi–SLS–Fokus, Demokrati in Resni.ca (prvopodpisana Jelka Godec) so predlog vložile 23. 7. 2026 (pobuda je po N1 prišla predvsem iz NSi). Odbor DZ za socialne zadeve ga je podprl 24. 8., DZ 25. 8. 2026 (46 ZA, 29 PROTI). Odlok o razpisu (OdPRDSPDKD, Uradni list RS z dne 28. 8. 2026) je DZ sprejel 28. 8. 2026 s 45 glasovi ZA in 27 PROTI.",
+   "what": [
+    "Denarna socialna pomoč zagotavlja minimalna sredstva za preživetje. Osnovni znesek minimalnega dohodka je od marca 2026 507,43 evra, o upravičenosti odločajo centri za socialno delo.",
+    "Vprašanje je, ali naj delovno sposobni prejemniki brez objektivnih ovir za delo pomoč prejmejo le, če aktivno opravljajo družbeno koristno delo.",
+    "Delovno sposobni brezposelni prejemniki morajo že zdaj biti prijavljeni na zavodu za zaposlovanje in lahko pomoč izgubijo, če zavrnejo ponujeno delo ali aktivacijo.",
+    "Vprašanje ne določa vrste dela, obsega ur, izjem ali posledic zavrnitve. To bi morala urediti poznejša zakonodaja.",
+    "Zakonodajno-pravna služba DZ je opozorila, da je vprašanje presplošno, da je izraz »aktivno« nejasen in da bi bil odvzem pomoči, ki zagotavlja eksistenčni minimum, lahko ustavno sporen."
+   ],
+   "if_yes": "Ministrstvo za demografijo, družino in socialne zadeve (ministrica Mateja Ribič) je pred glasovanjem napovedalo, da bo izid ZA »jasen signal, da je to področje treba spremeniti«. Morebitne spremembe zakona o socialnovarstvenih prejemkih naj bi pripravili po strokovnem usklajevanju. Podrobnosti (ure dela, delno izplačilo, prispevki) ministrstvo še ni znalo pojasniti.",
+   "if_no": "Ostane veljavna ureditev. Ministrstvo na vprašanje N1, kaj bi storilo ob izidu PROTI, ni odgovorilo. Ker gre za posvetovalni referendum, izid PROTI pravno ne bi preprečil poznejših sprememb.",
+   "for": [
+    {
+     "arg": "Socialna država mora pomagati tistim, ki ne morejo delati, aktivirati tiste, ki lahko, in biti pravična do tistih, ki delajo in sistem financirajo. Pomoč naj temelji na vzajemnosti.",
+     "by": "Karmen Furman (SDS)",
+     "src": "https://tax-fin-lex.si/home/Novica/37088"
+    },
+    {
+     "arg": "61 odstotkov prejemnikov je dolgotrajno brezposelnih, v povprečju skoraj tri leta. Denarni prejemek ni edini odgovor, potrebna je učinkovitejša aktivacija.",
+     "by": "Tomislav Nemec, državni sekretar na MDDSZ",
+     "src": "https://tax-fin-lex.si/home/Novica/37088"
+    },
+    {
+     "arg": "»Zdrav človek potrebuje delo, ne socialne podpore.« Gre za pomoč pri vključevanju, ne za kazen.",
+     "by": "Aleksander Gungl (NSi–SLS–Fokus)",
+     "src": "https://tax-fin-lex.si/home/Novica/37088"
+    },
+    {
+     "arg": "Država mora razlikovati med tistimi, ki ne morejo delati, in tistimi, ki nočejo.",
+     "by": "Nedeljko Todorović (Resni.ca)",
+     "src": "https://tax-fin-lex.si/home/Novica/37088"
+    },
+    {
+     "arg": "Veliko ljudi, ki bi lahko delali, prejema pomoč. Nič ni narobe, če delovno sposobni brezposelni opravijo nekaj ur koristnega dela.",
+     "by": "Dejan Zakrajšek (Demokrati)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175"
+    },
+    {
+     "arg": "Mednarodne organizacije so javna in družbeno koristna dela ocenile pozitivno. Najslabše je, če človek ostane doma brez dela.",
+     "by": "Andrej Magajna (Nova socialdemokracija)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175"
+    }
+   ],
+   "against": [
+    {
+     "arg": "Delovno sposoben brezposelni že zdaj ne more zavračati dela, ker bi izgubil pomoč. Vprašanje je politična manipulacija.",
+     "by": "Klemen Boštjančič (Gibanje Svoboda)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175"
+    },
+    {
+     "arg": "Vprašanje temelji na stereotipih. Slovenija ima z več kot 30 pogoji enega najbolj restriktivnih sistemov v Evropi, zato trditve o množičnih zlorabah niso utemeljene.",
+     "by": "Vesna Leskošek (Amnesty International Slovenije)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175"
+    },
+    {
+     "arg": "Država že danes ne zagotavlja dovolj javnih del za vse, ki bi se želeli vključiti, stroški novega sistema pa bi presegli koristi.",
+     "by": "Damijan Bezjak Zrim (SD)",
+     "src": "https://tax-fin-lex.si/home/Novica/37088"
+    },
+    {
+     "arg": "Prisilno delo za okoli 500 evrov na mesec brez delavskih pravic je zasužnjevanje. Prizadelo bi tudi starejše brezposelne, ki dela ne najdejo.",
+     "by": "Nataša Sukič (Levica)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175"
+    },
+    {
+     "arg": "Predlog ni pripravljen: vlada ne ve, koliko ljudi bi ukrep zajel in kako bi preverjala delovno sposobnost.",
+     "by": "Filip Dobranić (Danes je nov dan)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175"
+    },
+    {
+     "arg": "Med prejemniki je veliko otrok (julija 16.513, večinoma starih 14 let ali manj), zato bi ukrep lahko družine potisnil v globljo revščino.",
+     "by": "Katarina Mauch (Zavod PLC)",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175"
+    }
+   ],
+   "parties": [
+    {
+     "party": "GS",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175",
+     "note": "Klemen Boštjančič."
+    },
+    {
+     "party": "SDS",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175",
+     "note": "Karmen Furman."
+    },
+    {
+     "party": "NSi-SLS-Fokus",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175",
+     "note": "Reberšek (NSi), Bregant (SLS), Tušak (Fokus)."
+    },
+    {
+     "party": "SD",
+     "stance": "PROTI",
+     "src": "https://tax-fin-lex.si/home/Novica/37088",
+     "note": "Damijan Bezjak Zrim; Luka Goršek na soočenju POP TV."
+    },
+    {
+     "party": "Demokrati",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175",
+     "note": "Dejan Zakrajšek; Mojca Žnidarič je pozvala k upoštevanju pripomb zakonodajno-pravne službe."
+    },
+    {
+     "party": "Levica-Vesna",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175",
+     "note": "Levica (Nataša Sukič). Vesna pri tem vprašanju ni navedena med organizatorji kampanje."
+    },
+    {
+     "party": "Resni.ca",
+     "stance": "ZA",
+     "src": "https://tax-fin-lex.si/home/Novica/37088",
+     "note": "Resni.ca je sopredlagateljica referenduma in je pozvala h glasovanju ZA, vendar se ni prijavila kot organizatorka kampanje."
+    }
+   ],
+   "organisations": [
+    {
+     "org": "Amnesty International Slovenije, Danes je nov dan, Zasuk, Zavod Open, Zavod PLC, Jaša Jenull",
+     "stance": "PROTI",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175"
+    },
+    {
+     "org": "Nova socialdemokracija (zunajparlamentarna)",
+     "stance": "ZA",
+     "src": "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175"
+    },
+    {
+     "org": "Društvo socialnih delavk in delavcev Slovenije",
+     "stance": "opozarjalo na nejasnosti vprašanja",
+     "src": "https://tax-fin-lex.si/home/Novica/37457"
+    }
+   ],
+   "result": {
+    "turnout": 54.8,
+    "yes": 60.48,
+    "no": 39.52,
+    "votes_yes": 560354,
+    "votes_no": 366136,
+    "eligible": 1697377,
+    "voted": 930117,
+    "invalid": 3425,
+    "status": "neuradni izid DVK (99,98 % preštetih glasovnic, stanje 23. 10. 2026, is_final=false); končni zapisnik DVK v Uradnem listu do 27. 10. 2026 ni bil najden",
+    "src": "https://volitve.dvk-rs.si/referendum-socialna-pomoc/",
+    "quorum_met": null,
+    "quorum_note": "Pri posvetovalnem referendumu zavrnitveni kvorum (20 %) ne velja; izid ni pravno zavezujoč.",
+    "outcome": "Večina ZA pogojevanju denarne socialne pomoči z družbeno koristnim delom; posvetovalni izid ni zavezujoč."
+   },
+   "aftermath": "Ministrica za demografijo, družino in socialne zadeve Mateja Ribič je 12. 10. 2026 izid razumela kot jasno željo po spremembah in pravičnejši socialni politiki. Napovedala je, da bo ministrstvo »nemudoma« začelo celovito reformo socialnih transferjev: pregled sistema, odpravo pomanjkljivosti in različne oblike aktivacije delovno sposobnih, brez nagrajevanja neaktivnosti in zlorab. Jernej Vrtovec (NSi) je dejal, da bo koalicija voljo volivcev uresničila z zakonodajo. Premier Janša je dejal, da bo vlada voljo ljudi spoštovala. Do 27. 10. 2026 nismo našli konkretnega osnutka novele zakona o socialnovarstvenih prejemkih ali časovnice.",
+   "sources": [
+    "https://pisrs.si/api/uradni-list/objava/u20261383.pdf",
+    "https://sl.wikipedia.org/wiki/Referendum_o_denarni_socialni_pomoči_za_delovno_sposobne_upravičence",
+    "https://sl.wikipedia.org/wiki/Referendumi_11._oktobra_2026",
+    "https://www.rtvslo.si/slovenija/poslanci-potrdili-razpis-treh-posvetovalnih-referendumov/792112",
+    "https://www.24ur.com/novice/slovenija/vladajoci-zelijo-tri-referendume-tudi-o-rtv-prispevku.html",
+    "https://tax-fin-lex.si/home/Novica/37088",
+    "https://www.rtvslo.si/slovenija/referendumi-2026/referendum-o-pogojevanju-socialne-pomoci-z-druzbenokoristnim-delom/prvo-soocenje-mnenj-naj-bo-socialna-pomoc-pogojena-z-druzbenokoristnim-delom/795175",
+    "https://n1info.si/novice/slovenija/vodnik-po-superreferendumskem-dnevu-o-cem-bomo-odlocali-na-referendumih-11-oktobra/",
+    "https://n1info.si/novice/slovenija/vlado-smo-vprasali-kaj-bo-s-socialno-pomocjo-ce-bo-vecina-na-referendumu-glasovala-za-ali-proti/",
+    "https://www.gov.si/novice/2026-10-12-izjava-ministrice-ribic-glede-izida-referenduma/",
+    "https://tax-fin-lex.si/home/novica/37572",
+    "https://www.gov.si/novice/2026-09-07-odloki-o-razpisu-zakonodajnega-in-posvetovalnih-referendumov/",
+    "https://n1info.si/novice/slovenija/ministrica-ribic-napovedala-zacetek-reforme-socialnih-transferjev-voljo-ljudstva-bomo-spostovali/"
+   ],
+   "unverified": [
+    "Stališča Varuha človekovih pravic do tega referenduma nismo našli.",
+    "Mnenje Društva socialnih delavk in delavcev (tax-fin-lex 37457) poznamo le iz povzetka iskalnika; članka nismo odprli.",
+    "Članka N1 o napovedi reforme ministrice Ribič nismo odprli, ampak smo ga videli le v iskalnih rezultatih. Vsebina je povzeta po izjavi na gov.si.",
+    "Glasovanje DZ 25. 8. (46 : 29) je povzeto po RTV; končni odlok 28. 8.: 45 : 27 (Wikipedija)."
+   ],
+   "full_title": "Posvetovalni referendum o pogojevanju denarne socialne pomoči z družbeno koristnim delom"
+  }
+ ],
+ "upcoming": [
+  {
+   "slug": "interventni-zakon-2026",
+   "date": "2026-12-06",
+   "type": "zakonodajni",
+   "title": "Interventni zakon za razvoj Slovenije",
+   "question": "Ali ste za to, da se uveljavi Zakon o interventnih ukrepih za razvoj Slovenije (ZIURS), ki ga je sprejel Državni zbor na seji dne 11. maja 2026?",
+   "question_src": "https://pisrs.si/api/uradni-list/objava/u20261692.pdf",
+   "initiator": "Sindikalne centrale: Konfederacija sindikatov javnega sektorja Slovenije (KSJS, Branimir Štrukelj), Zveza svobodnih sindikatov Slovenije (ZSSS, Andrej Zorko), Konfederacija sindikatov Slovenije Pergam (KSS, Jakob Počivavšek) in Konfederacija sindikatov 90 Slovenije (Damjan Volf). Pobudo z več kot 47.000 podpisi je KSJS (prvopodpisani Štrukelj) vložila 18. 5. 2026. DZ je 27. 5. 2026 (48 za, 35 proti) sprejel sklep o nedopustnosti referenduma (Uradni list RS, št. 771/2026), češ da zakon v pretežni meri ureja davke in obvezne dajatve. Ustavno sodišče je z odločbo U-I-106/26 (seja 24. 7. 2026, objava v Uradnem listu RS, št. 1315/2026 z dne 4. 8. 2026; 7 glasov proti 1, ločeno mnenje sodnika Marka Starmana) sklep razveljavilo. Podpise so zbirali od 1. 9. do 5. 10. 2026; ministrstvo je naštelo 42.694 overjenih podpisov (potrebnih 40.000). Zahtevo so vložili 9. 10. 2026, DZ je odlok o razpisu sprejel na 29. izredni seji 16. 10. 2026.",
+   "what": [
+    "Trajno nižji DDV (5 %) na osnovna živila (15 živil in brezglutenski izdelki) ter možnost začasno nižje stopnje DDV (9,5 %) za elektriko, zemeljski plin, daljinsko ogrevanje in drva.",
+    "Uvaja zgornjo mejo (kapico) za plačilo socialnih prispevkov pri bruto plači okoli 7.500 evrov ter ugodnejšo obravnavo malih podjetnikov in normirancev (nižji prispevki za manjše dohodke).",
+    "Zaposlenim upokojencem omogoča polno plačo in polno pokojnino, uvaja samodejno upokojitev ter odpravlja prispevek za dolgotrajno oskrbo za upokojence in popoldanske s.p.",
+    "Odpravlja prepoved, da bi zdravniki iz javne mreže delali tudi pri zasebnikih.",
+    "Znižuje obdavčitev oddajanja nepremičnin in začasno zamika napovedane omejitve kratkoročnega oddajanja; skupaj spreminja okoli deset zakonov.",
+    "Ocene izpada javnih prihodkov se razlikujejo: predlagatelji okoli 550–571 milijonov evrov letno, prejšnja vlada okoli 1 milijarde evrov letno (1,4 % BDP), Fiskalni svet okoli 900 milijonov, po zadnjem izračunu pa 1,2 milijarde evrov večji primanjkljaj v letu 2027."
+   ],
+   "if_yes": "Če zakona na referendumu ne zavrne zahtevana večina, ga predsednica republike razglasi, objavi se v Uradnem listu in začne veljati po svojih določbah. Zakon do zdaj ni bil razglašen, ker je postopek zaradi referenduma zadržan.",
+   "if_no": "Zakon je zavrnjen, če proti glasuje večina volivcev, ki so veljavno glasovali, in hkrati vsaj petina vseh volilnih upravičencev. V tem primeru zakon ne začne veljati, DZ pa v enem letu ne sme sprejeti zakona z enako vsebino.",
+   "for": [
+    {
+     "arg": "Zakon razbremenjuje vse in nikomur nič ne jemlje; pomeni prvi korak k razbremenitvi dela in gospodarstva.",
+     "by": "Janez Janša (SDS), Janez Cigler Kralj in Janez Žakelj (NSi), Marko Lotrič (Fokus)",
+     "src": "https://www.rtvslo.si/n/781827"
+    },
+    {
+     "arg": "Gre za razvojni zakon, ne zakon za bogate: trajno nižji DDV na osnovna živila, polna plača in pokojnina za zaposlene upokojence. Vlada podpira odlok in zakon.",
+     "by": "Peter Papež, državni sekretar na ministrstvu za finance",
+     "src": "https://tax-fin-lex.si/home/Novica/37640"
+    },
+    {
+     "arg": "Ukrepi izboljšujejo poslovno in davčno okolje; če zakon pade, gre Slovenija nazaj, ne naprej.",
+     "by": "predsednik vlade Janez Janša (Planet TV, povzema Siol)",
+     "src": "https://siol.net/novice/slovenija/sindikati-vlozili-zahtevo-za-razpis-referenduma-o-interventnem-zakonu-703575"
+    },
+    {
+     "arg": "Kar je dobro za gospodarstvo, je dobro za ljudi; zavrnitev bi vsaj za leto dni zaustavila davčne, zdravstvene in pokojninske reforme.",
+     "by": "Tibor Šimonka, predsednik GZS",
+     "src": "https://www.24ur.com/novice/slovenija/sindikati-zbrali-podpise-za-referendum-o-interventnem-zakonu.html"
+    },
+    {
+     "arg": "Kapica na prispevke in davčne razbremenitve krepijo konkurenčnost; zakona ni mogoče razumeti kot zakon za bogate.",
+     "by": "Vesna Nahtigal, generalna direktorica GZS",
+     "src": "https://www.rtvslo.si/n/779637"
+    },
+    {
+     "arg": "Ljudem mora po plačilu položnic in nakupu hrane ostati dovolj za dostojno življenje; država ne bi smela ljudem najprej vzeti čim več in nato vračati prek ukrepov.",
+     "by": "Dejan Zakrajšek (Demokrati), Nedeljko Todorović (Resni.ca)",
+     "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html"
+    }
+   ],
+   "against": [
+    {
+     "arg": "To ni zakon za razvoj, ampak za razkroj solidarnosti in socialne države; koristi predvsem najbogatejšim.",
+     "by": "Branimir Štrukelj (KSJS) in sindikalne centrale",
+     "src": "https://siol.net/novice/slovenija/sindikati-vlozili-zahtevo-za-razpis-referenduma-o-interventnem-zakonu-703575"
+    },
+    {
+     "arg": "Izpad okoli milijarde evrov ogroža financiranje javnega zdravstva, šolstva, socialnega varstva in dolgotrajne oskrbe ter odpira vrata zahtevam po rezih plač in pokojnin.",
+     "by": "Andrej Zorko (ZSSS), Branimir Štrukelj (KSJS)",
+     "src": "https://www.zsss.si/zbiranje-podpisov-referendum-ziurs/"
+    },
+    {
+     "arg": "Zakon je bil sprejet brez socialnega dialoga, čeprav posega v delovno pravo, pokojninski in zdravstveni sistem; ruši 30 let star družbeni dogovor.",
+     "by": "sindikati; Vladimir Šega (Levica), Andreja Katič (SD)",
+     "src": "https://www.24ur.com/novice/slovenija/sindikati-zbrali-podpise-za-referendum-o-interventnem-zakonu.html"
+    },
+    {
+     "arg": "Zakon bi v letu 2027 povečal primanjkljaj za 1,2 milijarde evrov in je veliko tveganje za javne finance.",
+     "by": "Davorin Kračun, predsednik Fiskalnega sveta (opozorilo, ne priporočilo glede glasovanja)",
+     "src": "https://www.rtvslo.si/n/795096"
+    },
+    {
+     "arg": "Vlada ni navedla finančnih posledic zakona niti jih ni upoštevala v proračunih.",
+     "by": "Darko Ratajc (SD), Alenka Bratušek (Svoboda)",
+     "src": "https://tax-fin-lex.si/home/Novica/37640"
+    },
+    {
+     "arg": "Ukrepi so delni in fiskalno tvegani, ne krepijo produktivnosti in lahko ogrozijo izplačila iz načrta za okrevanje in odpornost.",
+     "by": "prejšnja vlada (mnenje z dne 7. 5. 2026)",
+     "src": "https://www.gov.si/novice/2026-05-07-vlada-o-zakonu-o-interventnih-ukrepih-za-razvoj-slovenije/"
+    }
+   ],
+   "parties": [
+    {
+     "party": "GS",
+     "stance": "PROTI",
+     "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
+     "note": "PROTI zakonu (podpira referendum). Alenka Bratušek: »6. decembra boste dobili drugi rdeči karton«; Svoboda je sindikatom ponudila infrastrukturo za kampanjo."
+    },
+    {
+     "party": "SDS",
+     "stance": "ZA",
+     "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
+     "note": "ZA zakon. Rado Gladek, Zvonko Černač; SDS je zakon v DZ podprla."
+    },
+    {
+     "party": "NSi-SLS-Fokus",
+     "stance": "ZA",
+     "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
+     "note": "ZA zakon (sopredlagatelji). Janez Žakelj: »Zakon nikomur nič ne jemlje.«"
+    },
+    {
+     "party": "SD",
+     "stance": "PROTI",
+     "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
+     "note": "PROTI zakonu (podpira referendum). Darko Ratajc; Andreja Katič je napovedala sodelovanje v kampanji."
+    },
+    {
+     "party": "Demokrati",
+     "stance": "ZA",
+     "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
+     "note": "ZA zakon (sopredlagatelji). Dejan Zakrajšek, Elena Zavadlav Ušaj."
+    },
+    {
+     "party": "Levica-Vesna",
+     "stance": "PROTI",
+     "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
+     "note": "PROTI zakonu (podpira referendum). Vladimir Šega: »To ni popravek, to je poseg v družbeni dogovor.«"
+    },
+    {
+     "party": "Resni.ca",
+     "stance": "ZA",
+     "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
+     "note": "ZA zakon (sopredlagatelji). Nedeljko Todorović pričakuje zmago glasov ZA."
+    }
+   ],
+   "orgs": [
+    {
+     "org": "GZS",
+     "stance": "ZA zakon",
+     "src": "https://www.24ur.com/novice/slovenija/sindikati-zbrali-podpise-za-referendum-o-interventnem-zakonu.html"
+    },
+    {
+     "org": "ZDS",
+     "stance": "delno ZA (korak v pravo smer, a premalo)",
+     "src": "https://www.rtvslo.si/n/779637",
+     "note": "stališče iz aprila 2026, k predlogu zakona"
+    },
+    {
+     "org": "OZS",
+     "stance": "ni podatka",
+     "src": ""
+    },
+    {
+     "org": "ZSSS",
+     "stance": "PROTI zakonu (pobudnik)",
+     "src": "https://www.zsss.si/na-kocki-je-ogromno-ziurs-910/"
+    },
+    {
+     "org": "KSJS",
+     "stance": "PROTI zakonu (pobudnik)",
+     "src": "https://siol.net/novice/slovenija/sindikati-vlozili-zahtevo-za-razpis-referenduma-o-interventnem-zakonu-703575"
+    },
+    {
+     "org": "KSS Pergam, Konfederacija sindikatov 90",
+     "stance": "PROTI zakonu (pobudnika)",
+     "src": "https://www.zsss.si/zbiranje-podpisov-referendum-ziurs/"
+    },
+    {
+     "org": "Fiskalni svet",
+     "stance": "brez priporočila; opozarja na 1,2 milijarde evrov večji primanjkljaj v letu 2027",
+     "src": "https://www.rtvslo.si/n/795096"
+    },
+    {
+     "org": "Zdravniške organizacije",
+     "stance": "podpirajo zakon (po povzetku STA)",
+     "src": "https://tax-fin-lex.si/home/Novica/37128"
+    },
+    {
+     "org": "ZPIZ in ZZZS",
+     "stance": "opozarjata na velike finančne posledice (po povzetku STA)",
+     "src": "https://tax-fin-lex.si/home/Novica/37128"
+    },
+    {
+     "org": "Banka Slovenije",
+     "stance": "ni podatka",
+     "src": ""
+    }
+   ],
+   "timeline": [
+    "11. 5. 2026 – DZ sprejme zakon (47 za, 35 proti).",
+    "18. 5. 2026 – KSJS vloži pobudo z več kot 47.000 podpisi.",
+    "27. 5. 2026 – DZ sprejme sklep o nedopustnosti referenduma (48 za, 35 proti).",
+    "24. 7. 2026 – Ustavno sodišče sklep razveljavi (U-I-106/26, objava 4. 8. 2026).",
+    "1. 9.–5. 10. 2026 – zbiranje podpisov; 42.694 overjenih podpisov.",
+    "9. 10. 2026 – sindikati vložijo zahtevo za razpis.",
+    "16. 10. 2026 – DZ sprejme odlok o razpisu (Uradni list RS, št. 1692/2026).",
+    "30. 10. 2026 – dan razpisa, začnejo teči roki.",
+    "6. 12. 2026 – glasovanje."
+   ],
+   "official_act": "Odlok o razpisu zakonodajnega referenduma o Zakonu o interventnih ukrepih za razvoj Slovenije (OdZIURS), sprejet na seji DZ 16. 10. 2026, objavljen v Uradnem listu RS, št. 1692/2026 z dne 16. 10. 2026 (št. 005-02/26-1/23, EPA 341-X; podpisal podpredsednik DZ Danijel Krivec). Dan razpisa (začetek rokov): 30. 10. 2026. Glasovanje: nedelja, 6. 12. 2026.",
+   "result": null,
+   "aftermath": "",
+   "sources": [
+    "https://pisrs.si/api/uradni-list/objava/u20261692.pdf",
+    "https://tax-fin-lex.si/Dokument/Podrobnosti/b94c410d-948c-452c-a0ef-88ddc7894023",
+    "https://tax-fin-lex.si/Dokument/Podrobnosti/6a21e5a7-d0c2-4367-b445-d35cb3c2bd77",
+    "https://tax-fin-lex.si/home/Novica/37640",
+    "https://tax-fin-lex.si/home/Novica/37128",
+    "https://svet24.si/novice/slovenija/referendum-interventni-zakon-december-1933077",
+    "https://siol.net/novice/slovenija/sindikati-vlozili-zahtevo-za-razpis-referenduma-o-interventnem-zakonu-703575",
+    "https://www.24ur.com/novice/slovenija/ustavno-sodisce-dopustilo-referendum-o-interventnem-zakonu.html",
+    "https://www.24ur.com/novice/slovenija/sindikati-zbrali-podpise-za-referendum-o-interventnem-zakonu.html",
+    "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
+    "https://www.24ur.com/novice/slovenija/koalicija-predlaga-nove-referendume-o-ddv-javni-upravi-in-prepovedi-burk.html",
+    "https://www.zurnal24.si/slovenija/referendumi-o-burkah-javnem-sektorju-in-nizjem-ddv-pod-vprasanjem-466948",
+    "https://www.zsss.si/zbiranje-podpisov-referendum-ziurs/",
+    "https://www.zsss.si/na-kocki-je-ogromno-ziurs-910/",
+    "https://www.rtvslo.si/n/779637",
+    "https://www.rtvslo.si/n/781827",
+    "https://www.rtvslo.si/n/795096",
+    "https://www.gov.si/novice/2026-05-07-vlada-o-zakonu-o-interventnih-ukrepih-za-razvoj-slovenije/",
+    "https://portal-os.si/referendumska-jesen-prihaja-11-oktobra-kar-stiri-glasovnice-na-obzorju-pa-je-ze-peti-referendum/",
+    "https://www.dvk-rs.si/volitve-in-referendumi/referendumi/",
+    "https://sl.wikipedia.org/wiki/Referendum_o_volilni_pravici_tujcev_na_lokalnih_volitvah"
+   ],
+   "unverified": [
+    "Začetek referendumske kampanje: po ZVRK se kampanja lahko začne najprej 30 dni pred glasovanjem (torej 6. 11. 2026), seznama registriranih organizatorjev kampanje in rokovnika DVK za 6. 12. 2026 pa na dvk-rs.si (stanje 27. 10. 2026) še ni.",
+    "Izid glasovanja v DZ o odloku z dne 16. 10. 2026 (viri navajajo le, da ga je podprla tudi koalicija).",
+    "Natančna vsebina ukrepov (stopnje DDV, kapica 7.500 evrov, mikro s.p.) je povzeta po medijskih opisih predloga in sprejetega zakona, ne po prečiščenem besedilu ZIURS.",
+    "Stališči OZS in Banke Slovenije: ni podatka.",
+    "Finančni minister Andrej Šircelj je bil po povzetku STA (tax-fin-lex 37128) kritičen do znižanja DDV na osnovna živila; njegovega stališča glede referenduma nisem našel.",
+    "Trije posvetovalni referendumi, ki jih je koalicija (SDS, NSi, Demokrati) predlagala 9. 10. 2026 (nižji DDV na hrano in energijo, racionalizacija javne uprave, prepoved zakrivanja obraza), po stanju 19. 10. 2026 niso bili uvrščeni na sejo in niso razpisani; koalicija jih lahko še umakne. Novejšega podatka nisem našel.",
+    "Pobuda za zakonodajni referendum o noveli Zakona o lokalnih volitvah (volilna pravica tujcev) je po Wikipediji propadla oziroma je bila umaknjena; novela velja od 2. 9. 2026. To je potrjeno le na Wikipediji."
+   ],
+   "full_title": "Zakonodajni referendum o Zakonu o interventnih ukrepih za razvoj Slovenije (ZIURS)"
+  }
+ ],
+ "archive": [
+  {
+   "date": "2015-12-20",
+   "topic": "Zakonodajni referendum o noveli Zakona o zakonski zvezi in družinskih razmerjih (izenačitev zakonske zveze istospolnih parov)",
+   "outcome": "Zavrnjen (ZA 36,49 %, PROTI 63,51 %)",
+   "turnout": 36.38,
+   "src": "https://en.wikipedia.org/wiki/2015_Slovenian_same-sex_marriage_referendum"
+  },
+  {
+   "date": "2017-09-24",
+   "topic": "Zakonodajni referendum o Zakonu o gradnji drugega tira Divača–Koper (ZIUGDT)",
+   "outcome": "ZA 53,47 %, PROTI 46,53 %; zakon ni bil zavrnjen; izid je Vrhovno sodišče 14. 3. 2018 razveljavilo",
+   "turnout": 20.55,
+   "src": "https://sl.wikipedia.org/wiki/Referendum_o_zakonu_o_drugem_tiru"
+  },
+  {
+   "date": "2018-05-13",
+   "topic": "Ponovljeni zakonodajni referendum o zakonu o drugem tiru Divača–Koper",
+   "outcome": "ZA 49,94 %, PROTI 50,06 %; zavrnitveni kvorum (20 %) ni bil dosežen, zakon uveljavljen",
+   "turnout": 15.01,
+   "src": "https://sl.wikipedia.org/wiki/Referendum_o_zakonu_o_drugem_tiru"
+  },
+  {
+   "date": "2021-07-11",
+   "topic": "Zakonodajni referendum o noveli Zakona o vodah (ZV-1G)",
+   "outcome": "Zavrnjen (ZA 13,25 %, PROTI 86,75 %)",
+   "turnout": 46.45,
+   "src": "https://en.wikipedia.org/wiki/2021_Slovenian_Waters_Act_referendum"
+  },
+  {
+   "date": "2022-11-27",
+   "topic": "Zakonodajni referendum o noveli Zakona o Vladi RS (ZVRS-J)",
+   "outcome": "Potrjen (ZA 56,69 %, PROTI 43,31 %)",
+   "turnout": 41.83,
+   "src": "https://en.wikipedia.org/wiki/2022_Slovenian_referendum"
+  },
+  {
+   "date": "2022-11-27",
+   "topic": "Zakonodajni referendum o noveli zakona o dolgotrajni oskrbi (zamik uveljavitve)",
+   "outcome": "Potrjen (ZA 62,27 %, PROTI 37,73 %)",
+   "turnout": 41.84,
+   "src": "https://en.wikipedia.org/wiki/2022_Slovenian_referendum"
+  },
+  {
+   "date": "2022-11-27",
+   "topic": "Zakonodajni referendum o noveli Zakona o RTV Slovenija (ZRTVS-1B)",
+   "outcome": "Potrjen (ZA 62,83 %, PROTI 37,17 %)",
+   "turnout": 41.85,
+   "src": "https://en.wikipedia.org/wiki/2022_Slovenian_referendum"
+  },
+  {
+   "date": "2024-06-09",
+   "topic": "Posvetovalni referendum o uvedbi preferenčnega glasu na volitvah v DZ",
+   "outcome": "Večina ZA (70,89 %, PROTI 29,11 %)",
+   "turnout": 41.43,
+   "src": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-1842/zapisnik-o-ugotovitvi-izida-posvetovalnega-referenduma-o-uvedbi-preferencnega-glasu-za-volitve-poslank-in-poslancev-v-drzavni-zbor-republike-slovenije-ki-je-bil-9--6--2024"
+  },
+  {
+   "date": "2024-06-09",
+   "topic": "Posvetovalni referendum o ureditvi pravice do pomoči pri prostovoljnem končanju življenja",
+   "outcome": "Večina ZA (54,89 %, PROTI 45,11 %)",
+   "turnout": 41.43,
+   "src": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-1843/zapisnik-o-ugotovitvi-izida-posvetovalnega-referenduma-o-ureditvi-pravice-do-pomoci-pri-prostovoljnem-koncanju-zivljenja-ki-je-bil-9--6--2024"
+  },
+  {
+   "date": "2024-06-09",
+   "topic": "Posvetovalni referendum o gojenju in predelovanju konoplje v medicinske namene",
+   "outcome": "Večina ZA (66,71 %, PROTI 33,29 %)",
+   "turnout": 41.43,
+   "src": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-1844/zapisnik-o-ugotovitvi-izida-posvetovalnega-referenduma-o-gojenju-in-predelovanju-konoplje-v-medicinske-namene-ki-je-bil-9--6--2024"
+  },
+  {
+   "date": "2024-06-09",
+   "topic": "Posvetovalni referendum o gojenju in posedovanju konoplje za omejeno osebno rabo",
+   "outcome": "Večina ZA (51,57 %, PROTI 48,43 %)",
+   "turnout": 41.43,
+   "src": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-1845/zapisnik-o-ugotovitvi-izida-posvetovalnega-referenduma-o-gojenju-in-posedovanju-konoplje-za-omejeno-osebno-rabo-ki-je-bil-9--6--2024"
+  },
+  {
+   "date": "2025-05-11",
+   "topic": "Zakonodajni referendum o Zakonu o dodatku k pokojnini za izjemne dosežke na področju umetnosti (ZDPIDU)",
+   "outcome": "Zavrnjen (ZA 7,47 %, PROTI 92,53 %)",
+   "turnout": 25.99,
+   "src": "https://www.dvk-rs.si/fileadmin/user_upload/Zapisnik_o_ugotovitvi_izida_referenduma_ZDPIDU_maj2025.docx"
+  },
+  {
+   "date": "2025-11-23",
+   "topic": "Zakonodajni referendum o Zakonu o pomoči pri prostovoljnem končanju življenja (ZPPKŽ)",
+   "outcome": "Zavrnjen (ZA 46,56 %, PROTI 53,44 %)",
+   "turnout": 41.08,
+   "src": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-3505/zapisnik-o-ugotovitvi-izida-glasovanja-na-zakonodajnem-referendumu-o-zakonu-o-pomoci-pri-prostovoljnem-koncanju-zivljenja-zppkz-in-o-izidu-referenduma-ki-je-bil-23--11--2025"
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "Zakonodajni referendum o noveli Zakona o parlamentarni preiskavi (ZPPre-B)",
+   "outcome": "Zavrnjen (ZA 48,64 %, PROTI 51,36 %); neuradni izid",
+   "turnout": 54.8,
+   "src": "https://volitve.dvk-rs.si/referendum-preiskava/"
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "Posvetovalni referendum o ukinitvi obveznega RTV-prispevka",
+   "outcome": "Večina PROTI (ZA 49,84 %, PROTI 50,16 %); neuradni izid",
+   "turnout": 54.8,
+   "src": "https://volitve.dvk-rs.si/referendum-rtv-prispevek/"
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "Posvetovalni referendum o volilni pravici državljanov tretjih držav na lokalnih volitvah",
+   "outcome": "Večina ZA (ZA 55,23 %, PROTI 44,77 %); neuradni izid",
+   "turnout": 54.8,
+   "src": "https://volitve.dvk-rs.si/referendum-volilna-pravica-tujcev/"
+  },
+  {
+   "date": "2026-10-11",
+   "topic": "Posvetovalni referendum o pogojevanju denarne socialne pomoči z družbeno koristnim delom",
+   "outcome": "Večina ZA (ZA 60,48 %, PROTI 39,52 %); neuradni izid",
+   "turnout": 54.8,
+   "src": "https://volitve.dvk-rs.si/referendum-socialna-pomoc/"
+  }
+ ],
+ "notes": [
+  "Izidi referendumov 11. 10. 2026 so neuradni (DVK, stanje 23. 10. 2026); DVK mora končni izid ugotoviti in objaviti v Uradnem listu.",
+  "Posvetovalni referendum o obrambnih izdatkih/članstvu v Natu (2025) je DZ 18. 7. 2025 preklical; ni bil izveden, zato ni v arhivu.",
+  "Koalicija je 9. 10. 2026 predlagala še tri posvetovalne referendume (nižji DDV na hrano in energijo, krčenje javne uprave, prepoved zakrivanja obraza); do 19. 10. 2026 niso bili razpisani, novejšega stanja nismo našli."
+ ]
+}

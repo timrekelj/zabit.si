@@ -1,0 +1,97 @@
+// Explainer content. Every fact here should be traceable to the Constitution (Ustava RS),
+// the Državni zbor or the Državna volilna komisija.
+
+export const institutions = [
+  { id: 'volivci', n: '1,7 mio', t: 'Volivci', meta: 'Vsi državljani od 18. leta naprej.',
+    does: 'Volijo poslance, predsednika republike, župane in občinske svete ter evropske poslance. Lahko zberejo podpise za predlog zakona (5.000) ali za referendum (40.000).',
+    cant: 'Ne volijo neposredno predsednika vlade ali ministrov. Te izbere Državni zbor.',
+    why: 'Vse ostale ustanove na tej strani obstajajo zato, ker jih je nekdo izvolil.' },
+  { id: 'dz', n: '90', t: 'Državni zbor', meta: 'Mandat 4 leta. 88 poslancev iz splošnih volitev in po en predstavnik italijanske in madžarske narodne skupnosti.',
+    does: 'Sprejema zakone in proračun, voli predsednika vlade, imenuje ministre in nadzira vlado.',
+    cant: 'Ne vodi ministrstev in sam ne razglasi zakona; to stori predsednik republike.',
+    why: 'Plače, pokojnine, davki, šolstvo, zdravstvo: skoraj vsako pravilo, ki vpliva na vsakdan, je zakon, ki ga sprejme ta dvorana.' },
+  { id: 'vlada', n: '1 + ministri', t: 'Vlada', meta: 'Predsednika vlade izvoli Državni zbor z vsaj 46 glasovi.',
+    does: 'Vodi državo iz dneva v dan, pripravi proračun in večino predlogov zakonov, izdaja uredbe.',
+    cant: 'Ne more sama sprejeti zakona. Brez večine v Državnem zboru je ujeta.',
+    why: 'Ministrstva odločajo o čakalnih dobah, maturi, cestah, subvencijah in o tem, kako se zakoni izvajajo v praksi.' },
+  { id: 'pr', n: '1', t: 'Predsednik republike', meta: 'Voljen neposredno, mandat 5 let, največ dvakrat zapored.',
+    does: 'Predstavlja državo, je vrhovni poveljnik obrambnih sil, predlaga kandidata za predsednika vlade in ustavne sodnike, razglaša zakone, podeljuje pomilostitve.',
+    cant: 'Nima veta na zakone in ne vodi vlade. Moč ima predvsem v predlaganju in javni besedi.',
+    why: 'Ko se po volitvah stranke ne morejo dogovoriti, prvi predlaga mandatarja.' },
+  { id: 'ds', n: '40', t: 'Državni svet', meta: 'Mandat 5 let. Predstavniki lokalnih, delodajalskih, delojemalskih, kmečkih, obrtniških in negospodarskih interesov.',
+    does: 'Lahko predlaga zakone, daje mnenja in v 7 dneh izglasuje odložilni veto na sprejeti zakon.',
+    cant: 'Zakona ne more dokončno ustaviti: Državni zbor veto preglasuje s 46 glasovi.',
+    why: 'Je zadnja priložnost, da se o zakonu še enkrat glasuje, preden začne veljati.' },
+  { id: 'us', n: '9', t: 'Ustavno sodišče', meta: 'Sodniki z mandatom 9 let. Izvoli jih Državni zbor na predlog predsednika republike.',
+    does: 'Presoja, ali so zakoni in predpisi v skladu z ustavo, in jih lahko razveljavi. Odloča o ustavnih pritožbah posameznikov.',
+    cant: 'Ne more samo začeti postopka. Nekdo mora vložiti zahtevo ali pobudo.',
+    why: 'Zakon, ki ga sprejme večina, lahko razveljavi, če krši pravice posameznika ali manjšine.' },
+  { id: 'obcine', n: '212', t: 'Občine', meta: 'Župan in občinski svet, mandat 4 leta.',
+    does: 'Vrtci, lokalne ceste, mestni promet, komunala, športni objekti, prostorski načrti.',
+    cant: 'Ne more spreminjati državnih zakonov.',
+    why: 'Na lokalnih volitvah je udeležba nižja, zato posamezen glas šteje več.' },
+  { id: 'ep', n: '9', t: 'Evropski parlament', meta: 'Slovenija ima 9 evropskih poslancev, mandat 5 let.',
+    does: 'S Svetom EU sprejema evropsko zakonodajo, ki velja tudi pri nas, od gostovanja v mobilnih omrežjih do pravil za kmetijstvo.',
+    cant: 'Ne more neposredno spreminjati slovenskih zakonov.',
+    why: 'Velik del pravil, ki veljajo v Sloveniji, nastane na ravni EU.' },
+  { id: 'varuh', n: '1', t: 'Varuh človekovih pravic', meta: 'Izvoli ga Državni zbor na predlog predsednika republike, mandat 6 let.',
+    does: 'Sprejema pritožbe ljudi, ko jim državni organi kršijo pravice, in o tem javno poroča.',
+    cant: 'Ne izdaja obveznih odločb; opozarja in priporoča.',
+    why: 'Brezplačen naslov, kamor se lahko obrne vsak, ki ga država obravnava nepravično.' },
+];
+
+export const elections = {
+  '2014': {
+    parties: [['SMC', 'Stranka Mira Cerarja', 36], ['SDS', 'Slovenska demokratska stranka', 21], ['DeSUS', 'Demokratična stranka upokojencev Slovenije', 10], ['SD', 'Socialni demokrati', 6], ['ZL', 'Združena levica', 6], ['NSi', 'Nova Slovenija', 5], ['ZaAB', 'Zavezništvo Alenke Bratušek', 4], ['NS', 'Poslanca narodnih skupnosti', 2]],
+    truth: 'Vlado so sestavili SMC, DeSUS in SD z 52 poslanci. Predsednik vlade je postal Miro Cerar, čigar stranka je bila ustanovljena nekaj tednov pred volitvami.',
+  },
+  '2018': {
+    parties: [['SDS', 'Slovenska demokratska stranka', 25], ['LMŠ', 'Lista Marjana Šarca', 13], ['SD', 'Socialni demokrati', 10], ['SMC', 'Stranka modernega centra', 10], ['Levica', 'Levica', 9], ['NSi', 'Nova Slovenija', 7], ['SAB', 'Stranka Alenke Bratušek', 5], ['DeSUS', 'Demokratična stranka upokojencev Slovenije', 5], ['SNS', 'Slovenska nacionalna stranka', 4], ['NS', 'Poslanca narodnih skupnosti', 2]],
+    truth: 'Stranka z največ sedeži ni sestavila vlade. LMŠ, SD, SMC, SAB in DeSUS so imeli skupaj 43 poslancev, torej manjšinsko vlado, ki jo je s pogodbo podpirala Levica. Leta 2020 je predsednik vlade odstopil in brez novih volitev je nastala koalicija SDS, SMC, NSi in DeSUS.',
+  },
+  '2022': {
+    parties: [['GS', 'Gibanje Svoboda', 41], ['SDS', 'Slovenska demokratska stranka', 27], ['NSi', 'Nova Slovenija', 8], ['SD', 'Socialni demokrati', 7], ['Levica', 'Levica', 5], ['NS', 'Poslanca narodnih skupnosti', 2]],
+    truth: 'Vlado so sestavili Gibanje Svoboda, SD in Levica s 53 poslanci. Gibanje Svoboda je na volitvah nastopilo prvič.',
+  },
+  // TODO: add 2026 once seat counts are verified against volitve.gov.si.
+} as const;
+
+export const endings = { vol: 'Volitve', ods: 'Odstop', nez: 'Konstruktivna nezaupnica', zau: 'Izgubljena zaupnica', ost: 'Drugo' } as const;
+
+export const governments: [string, string, keyof typeof endings, string][] = [
+  ['1990–1992', 'Lojze Peterle', 'nez', 'Skupščina je z nezaupnico izvolila Janeza Drnovška.'],
+  ['1992–2000', 'Janez Drnovšek (I–III)', 'zau', 'Vlada je leta 2000 izgubila glasovanje o zaupnici.'],
+  ['2000', 'Andrej Bajuk', 'vol', 'Vlada je trajala nekaj mesecev, do rednih volitev.'],
+  ['2000–2002', 'Janez Drnovšek (IV)', 'ost', 'Drnovšek je bil izvoljen za predsednika republike.'],
+  ['2002–2004', 'Anton Rop', 'vol', 'Redne volitve.'],
+  ['2004–2008', 'Janez Janša (I)', 'vol', 'Redne volitve.'],
+  ['2008–2011', 'Borut Pahor', 'zau', 'Vlada je izgubila glasovanje o zaupnici. Prve predčasne volitve.'],
+  ['2012–2013', 'Janez Janša (II)', 'nez', 'Državni zbor je z nezaupnico izvolil Alenko Bratušek.'],
+  ['2013–2014', 'Alenka Bratušek', 'ods', 'Predsednica vlade je odstopila. Predčasne volitve.'],
+  ['2014–2018', 'Miro Cerar', 'ods', 'Predsednik vlade je odstopil nekaj mesecev pred rednimi volitvami.'],
+  ['2018–2020', 'Marjan Šarec', 'ods', 'Predsednik vlade je odstopil; nova koalicija je nastala brez volitev.'],
+  ['2020–2022', 'Janez Janša (III)', 'vol', 'Redne volitve.'],
+  ['2022–2026', 'Robert Golob', 'vol', 'Volitve 2026.'],
+  // TODO: add the government formed after the 2026 election once verified.
+];
+
+export const glossary: [string, string, string][] = [
+  ['Interpelacija', 'Poslanci uradno zahtevajo, da minister ali vlada pojasni svoje delo. Sledita razprava in glasovanje o nezaupnici.', 'Formalno zaslišanje ministra pred vsem parlamentom.'],
+  ['Konstruktivna nezaupnica', 'Odstavitev predsednika vlade, pri kateri Državni zbor hkrati z vsaj 46 glasovi izvoli novega.', 'Vlade ne moreš samo vreči; imeti moraš že pripravljeno novo.'],
+  ['Zaupnica', 'Vlada sama vpraša Državni zbor, ali jo še podpira. Če izgubi, sledi iskanje nove vlade ali predčasne volitve.', 'Vlada postavi vprašanje »ali smo še skupaj?«.'],
+  ['Mandatar', 'Kandidat za predsednika vlade, ki poskuša sestaviti koalicijo.', 'Tisti, ki mora vse partnerje spraviti za isto mizo.'],
+  ['Koalicijska pogodba', 'Dogovor strank, ki sestavljajo vlado, o tem, kaj bodo skupaj naredile v mandatu.', 'Skupni načrt, ki ga vsi podpišejo na začetku.'],
+  ['Rebalans', 'Sprememba sprejetega proračuna med letom.', 'Popravek družinskega proračuna, ko se sredi leta pokvari avto.'],
+  ['Odložilni veto', 'Državni svet zakon vrne Državnemu zboru v ponovno glasovanje, kjer mora dobiti vsaj 46 glasov.', 'Zahteva, da se o istem še enkrat glasuje, s strožjim pogojem.'],
+  ['Amandma', 'Predlog spremembe besedila zakona med postopkom sprejemanja.', 'Popravek k osnutku, preden je dokončen.'],
+  ['Nujni postopek', 'Hitrejši postopek sprejemanja zakona za izredne razmere ali interese države.', 'Bližnjica, ki skrajša razpravo.'],
+  ['Kvorum', 'Najmanjše število navzočih, da je odločanje veljavno. V Državnem zboru je to 46 poslancev.', 'Brez dovolj prisotnih se ne odloča.'],
+  ['Zavrnitveni kvorum', 'Na zakonodajnem referendumu je zakon zavrnjen le, če proti glasuje večina in hkrati vsaj petina vseh volivcev.', 'Ni dovolj, da je proti več ljudi; mora jih biti tudi dovolj.'],
+  ['Posvetovalni referendum', 'Referendum, na katerem Državni zbor vpraša volivce za mnenje. Rezultat ni pravno zavezujoč.', 'Anketa z volilnimi skrinjicami.'],
+  ['Obravnava zakona', 'Faze sprejemanja zakona: splošna razprava, obravnava po členih in končno glasovanje.', 'Osnutek, popravki, končna različica.'],
+  ['Poslanska skupina', 'Poslanci iste stranke, ki v Državnem zboru delujejo skupaj.', 'Ekipa znotraj parlamenta.'],
+  ['Nepovezani poslanec', 'Poslanec, ki je izstopil iz svoje poslanske skupine, a obdrži mandat.', 'Mandat pripada poslancu, ne stranki.'],
+  ['Uredba', 'Predpis, ki ga izda vlada za izvajanje zakona. Ne potrebuje glasovanja v Državnem zboru.', 'Zakon pove kaj, uredba pove kako.'],
+  ['Uradni list', 'Uradno glasilo, v katerem se objavijo zakoni. Zakon ne velja, dokler ni objavljen.', 'Kar ni objavljeno, ne velja.'],
+  ['Predčasne volitve', 'Volitve pred koncem rednega štiriletnega mandata, ker ni mogoče sestaviti vlade.', 'Ponovni začetek, ko se v parlamentu ne izide.'],
+];

@@ -1,0 +1,22 @@
+[
+ {"id":"davek_visoki","t":"Ljudje z najvišjimi dohodki naj plačujejo višje davke kot zdaj."},
+ {"id":"davek_place","t":"Obdavčitev plač je treba znižati, tudi če bo država zato imela manj denarja."},
+ {"id":"davek_nepremicnine","t":"Uvesti je treba davek na nepremičnine, ki bi bil višji za drugo in vsako nadaljnjo nepremičnino."},
+ {"id":"min_placa","t":"Minimalno plačo je treba občutno dvigniti."},
+ {"id":"soupravljanje","t":"Delavci naj imajo zakonsko pravico do soupravljanja podjetij in deleža v dobičku."},
+ {"id":"zasebno_zdravstvo","t":"Zasebni izvajalci (koncesionarji) naj imajo večjo vlogo v javnem zdravstvu."},
+ {"id":"dopolnilno","t":"Dopolnilno zdravstveno zavarovanje naj se ukine in nadomesti z obveznim prispevkom."},
+ {"id":"zasebne_sole","t":"Zasebne šole naj dobijo enako javno financiranje kot javne šole."},
+ {"id":"javna_stanovanja","t":"Država naj gradi veliko več javnih najemnih stanovanj."},
+ {"id":"najemnine","t":"Država naj omeji višino najemnin na trgu."},
+ {"id":"jek2","t":"Slovenija naj zgradi nov blok jedrske elektrarne (JEK2)."},
+ {"id":"premog","t":"Slovenija naj čim prej, pred letom 2033, preneha kuriti premog."},
+ {"id":"migracije","t":"Slovenija naj strožje omeji priseljevanje."},
+ {"id":"ograja","t":"Žičnato ograjo na meji s Hrvaško je treba odstraniti."},
+ {"id":"nato","t":"Slovenija naj ostane članica zveze NATO."},
+ {"id":"obramba","t":"Izdatke za obrambo je treba povečati na vsaj 2 % BDP."},
+ {"id":"konoplja","t":"Uporaba konoplje za odrasle naj bo legalna."},
+ {"id":"rtv","t":"RTV prispevek naj se ukine."},
+ {"id":"upokojitev","t":"Upokojitveno starost je treba dvigniti."},
+ {"id":"brezplacen_prevoz","t":"Javni potniški promet naj bo brezplačen za vse."}
+]

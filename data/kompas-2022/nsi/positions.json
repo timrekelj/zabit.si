@@ -1,0 +1,93 @@
+{
+ "party": "NSi",
+ "source_title": "Odločno naprej! Vladni program 2022-2026 (Nova Slovenija – Krščanski demokrati)",
+ "source_url": "https://nsi.si/wp-content/uploads/2022/03/odlocno-naprej.pdf",
+ "positions": {
+  "davek_visoki": {
+   "v": -2,
+   "quote": "Znižanje 50-odstotne dohodninske stopnje.Tako visoka davčna stopnja signalizira nekonkurenčno visoke obdavčitve dela v Sloveniji.",
+   "page": 10
+  },
+  "davek_place": {
+   "v": 2,
+   "quote": "Nova Slovenija je odločena to miselnost preseči, zato predlaga, da se v naši državi končno izdatneje razbremeni tudi davkoplačevalce, še posebej srednji sloj prebivalcev.",
+   "page": 10
+  },
+  "davek_nepremicnine": {
+   "v": 1,
+   "quote": "V Novi Sloveniji predlagamo razmislek o uvedbi davka na prazne nepremičnine (stanovanja, hiše), v katerih nihče ne živi. Razumen davek na nepremičnine bi spodbudil aktivacijo in izrabo praznih nepremičnin",
+   "page": 56
+  },
+  "min_placa": {
+   "v": null
+  },
+  "soupravljanje": {
+   "v": null
+  },
+  "zasebno_zdravstvo": {
+   "v": 2,
+   "quote": "V javno mrežo bomo vključili vse razpoložljive zdravstvene kapacitete (tako javne zavode kot zasebnike).",
+   "page": 26
+  },
+  "dopolnilno": {
+   "v": -1,
+   "quote": "Preoblikovanje dopolnilnega zdravstvenega zavarovanja – uvedba sistema »več košaric pravic zdravstvenega zavarovanja«.",
+   "page": 27
+  },
+  "zasebne_sole": {
+   "v": 1,
+   "quote": "V Novi Sloveniji smo na strani pravice do izbire: ob ohranjanju visoke kakovosti javnega šolstva podpiramo tudi razvoj zasebnega šolstva.",
+   "page": 52
+  },
+  "javna_stanovanja": {
+   "v": 0,
+   "quote": "Zagotoviti fond prehodnih najemnih stanovanj Stanovanjskega sklada RS. Najem bi bil časovno omejen in bi služil kot varnostna mreža mladim iskalcem stanovanj, dokler se ne postavijo na lastne noge.",
+   "page": 56
+  },
+  "najemnine": {
+   "v": null
+  },
+  "jek2": {
+   "v": 2,
+   "quote": "Energetske neodvisnosti ni mogoče doseči brez jedrske opcije. Zato v Novi Sloveniji podpiramo izgradnjo drugega bloka jedrske elektrarne Krško (v nadaljevanju: JEK2).",
+   "page": 14
+  },
+  "premog": {
+   "v": -1,
+   "quote": "Podpiramo postopno opuščanje rabe premoga in zmanjševanje odvisnosti od uvoza fosilnih goriv ob sočasni zagotoviti razpršenih virov proizvodnje električne energije.",
+   "page": 14
+  },
+  "migracije": {
+   "v": 1,
+   "quote": "Vendar pa ne moremo sprejeti vseh, ki si želijo priti k nam. Slovenija je maloštevilna država. Zmožnosti sprejemanja in integracije priseljencev so omejene. Priseljevanje potrebuje meje in jasna pravila.",
+   "page": 49
+  },
+  "ograja": {
+   "v": null
+  },
+  "nato": {
+   "v": 2,
+   "quote": "NATO je hrbtenica evroatlantske varnosti in stabilnosti. Za Slovenijo je članstvo v zavezništvu najcenejša in tudi najboljša zavarovalna polica",
+   "page": 39
+  },
+  "obramba": {
+   "v": 1,
+   "quote": "Obljube je potrebno izpolnjevati. Napovedujemo postopen dvig obrambnih izdatkov Republike Slovenije na višino 1,5 % BDP v letu 2024.",
+   "page": 39
+  },
+  "konoplja": {
+   "v": null
+  },
+  "rtv": {
+   "v": null
+  },
+  "upokojitev": {
+   "v": null
+  },
+  "brezplacen_prevoz": {
+   "v": -1,
+   "quote": "Cenovna politika mora biti privlačna, tudi z ugodnimi terminskimi vozovnicami za vse skupine prebivalstva.",
+   "page": 63
+  }
+ }
+}

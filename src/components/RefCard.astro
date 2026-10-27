@@ -1,0 +1,29 @@
+---
+import { isUnofficial, type Ref } from '../data/referendumi';
+import { fmtDate } from '../data/site';
+interface Props { r: Ref; big?: boolean }
+const { r, big = false } = Astro.props;
+const done = !!r.result;
+---
+<a class:list={['card', { big }]} href={`/referendumi/${r.slug}/`}>
+  <p class="label">{done ? (r.type === 'posvetovalni' ? 'Posvetovalni referendum' : 'Zakonodajni referendum') : 'Prihaja'} · {fmtDate(r.date)}{isUnofficial(r) && ' · neuradni izid'}</p>
+  <h3>{r.title}</h3>
+  <p class="q">»{r.question}«</p>
+  {done && r.result && (
+    <p class="small res num">
+      Za {r.result.yes.toLocaleString('sl-SI')} % · Proti {r.result.no.toLocaleString('sl-SI')} % · udeležba {r.result.turnout.toLocaleString('sl-SI')} %
+      <br /><strong>{r.result.outcome}</strong>
+    </p>
+  )}
+  <span class="more small arrow">Vprašanje, argumenti in stališča strank </span>
+</a>
+<style>
+  .card { display: block; text-decoration: none; padding: 20px 0; border-top: 1px solid var(--ink); }
+  .card:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+  h3 { margin: 6px 0 10px; }
+  .big h3 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); }
+  .q { font-family: var(--serif); font-style: italic; color: var(--ink-2); font-size: 1.05rem; }
+  .big .q { font-size: 1.25rem; }
+  .res { margin: 0 0 10px; }
+  .more { color: var(--ink); font-weight: 600; }
+</style>

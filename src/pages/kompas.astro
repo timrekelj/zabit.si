@@ -1,0 +1,197 @@
+---
+import Base from '../layouts/Base.astro';
+import kompas from '../data/kompas.json';
+const n = kompas.statements.length;
+---
+<Base title="Volilni kompas" description="Odgovori na 20 trditev in primerjaj svoja stališča s programi strank.">
+  <section class="section">
+    <div class="wrap">
+      <div id="intro" class="intro">
+        <p class="label">Volilni kompas</p>
+        <h1>Kateri stranki si najbližje?</h1>
+        <p class="dek narrow">{n} trditev o davkih, zdravstvu, stanovanjih, energiji in varnosti. Ob vsaki povej, ali se strinjaš. Na koncu vidiš, kako se tvoji odgovori ujemajo s programi strank, in pri vsaki trditvi točno, kaj stranka piše.</p>
+        <ul class="facts small">
+          <li>Traja približno 4 minute.</li>
+          <li>Odgovori ostanejo v tvojem brskalniku. Ničesar ne shranjujemo.</li>
+          <li>Stališča strank so vzeta iz njihovih uradnih programov, s citatom in stranjo. Če program o temi ne govori, to tudi napišemo.</li>
+          <li>Podlaga: {kompas.basis.toLowerCase()}. Programe za volitve 2026 dodajamo.</li>
+        </ul>
+        <button class="btn arrow" id="go">Začni</button>
+      </div>
+
+      <div id="quiz" class="quiz" hidden>
+        <div class="bar"><span id="count" class="label num"></span><div class="track"><i id="prog"></i></div></div>
+        <p class="label" id="topic"></p>
+        <h2 id="stmt"></h2>
+        <p class="small ctx" id="ctx"></p>
+        <div class="answers" id="answers">
+          <button data-v="2">Se strinjam</button>
+          <button data-v="1">Delno se strinjam</button>
+          <button data-v="0">Nevtralno</button>
+          <button data-v="-1">Delno se ne strinjam</button>
+          <button data-v="-2">Se ne strinjam</button>
+        </div>
+        <label class="weight"><input type="checkbox" id="imp" /> To mi je posebej pomembno (šteje dvojno)</label>
+        <div class="nav">
+          <button class="link" id="back">Nazaj</button>
+          <button class="link" id="skip">Preskoči</button>
+        </div>
+      </div>
+
+      <div id="res" hidden>
+        <p class="label">Tvoj rezultat</p>
+        <h1>Ujemanje s programi strank</h1>
+        <p class="dek narrow">To ni priporočilo, koga voliti. Pokaže le, kako se tvoji odgovori ujemajo z zapisanimi stališči. Spodaj lahko preveriš vsako trditev posebej.</p>
+        <ol class="ranking" id="ranking"></ol>
+        <p class="small method"><strong>Kako računamo:</strong> pri vsaki trditvi primerjamo tvoj odgovor s stališčem v programu na lestvici od »se strinjam« do »se ne strinjam«. Enak odgovor je 100 %, nasproten 0 %. Trditve, ki si jih preskočil ali o katerih program molči, ne štejejo. Pomembne trditve štejejo dvojno.</p>
+        <div class="row"><button class="btn line" id="again">Začni znova</button></div>
+
+        <h2 class="bd-head">Po trditvah</h2>
+        <div id="breakdown"></div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script is:inline define:vars={{ kompas }}>window.__K = kompas;</script>
+
+<script>
+  type Pos = { v: number; q: string; p: number | null; u?: string } | null;
+  type Party = { id: string; short: string; name: string; source: string; url: string; pos: Record<string, Pos> };
+  const K = (window as any).__K as { statements: { id: string; t: string; topic: string; ctx: string }[]; parties: Party[] };
+  const S = K.statements;
+  const LBL: Record<string, string> = { '2': 'Se strinjam', '1': 'Delno se strinjam', '0': 'Nevtralno', '-1': 'Delno se ne strinjam', '-2': 'Se ne strinjam' };
+  const answers: (number | null)[] = Array(S.length).fill(undefined);
+  const weight: boolean[] = Array(S.length).fill(false);
+  let i = 0;
+
+  const $ = (id: string) => document.getElementById(id)!;
+  const esc = (t: string) => t.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
+
+  function show(view: 'intro' | 'quiz' | 'res') {
+    (['intro', 'quiz', 'res'] as const).forEach((v) => ($(v).hidden = v !== view));
+    window.scrollTo({ top: 0 });
+  }
+
+  function renderQ() {
+    const s = S[i];
+    $('count').textContent = `${i + 1} / ${S.length}`;
+    ($('prog') as HTMLElement).style.width = `${(i / S.length) * 100}%`;
+    $('topic').textContent = s.topic;
+    $('stmt').textContent = s.t;
+    $('ctx').textContent = s.ctx;
+    ($('imp') as HTMLInputElement).checked = weight[i];
+    document.querySelectorAll<HTMLButtonElement>('#answers button').forEach((b) =>
+      b.setAttribute('aria-pressed', String(answers[i] !== undefined && answers[i] !== null && Number(b.dataset.v) === answers[i])));
+    ($('back') as HTMLButtonElement).disabled = i === 0;
+  }
+
+  function next(v: number | null) {
+    answers[i] = v;
+    weight[i] = ($('imp') as HTMLInputElement).checked;
+    if (i < S.length - 1) { i++; renderQ(); } else results();
+  }
+
+  function score(p: Party) {
+    let sum = 0, w = 0, n = 0;
+    S.forEach((s, k) => {
+      const u = answers[k], pp = p.pos[s.id];
+      if (u === null || u === undefined || !pp) return;
+      const wt = weight[k] ? 2 : 1;
+      sum += wt * (1 - Math.abs(u - pp.v) / 4); w += wt; n++;
+    });
+    return { pct: w ? Math.round((sum / w) * 100) : null, n };
+  }
+
+  function results() {
+    const ranked = K.parties.map((p) => ({ p, ...score(p) })).sort((a, b) => (b.pct ?? -1) - (a.pct ?? -1));
+    $('ranking').innerHTML = ranked.map(({ p, pct, n }) => `
+      <li>
+        <div class="who"><strong>${p.short}</strong><span class="small">${p.name}</span></div>
+        <div class="meter"><i style="width:${pct ?? 0}%"></i></div>
+        <div class="pct num">${pct === null ? '–' : pct + ' %'}</div>
+        <div class="small cov">primerjano pri ${n} od ${S.length} trditev</div>
+      </li>`).join('');
+
+    // breakdown: parties in fixed alphabetical order, not by score
+    const fixed = [...K.parties].sort((a, b) => a.short.localeCompare(b.short, 'sl'));
+    $('breakdown').innerHTML = S.map((s, k) => {
+      const u = answers[k];
+      const rows = fixed.map((p) => {
+        const x = p.pos[s.id];
+        if (!x) return `<li><span class="ps">${p.short}</span><span class="pill neutral">Program ne omenja</span><span></span></li>`;
+        const cls = x.v > 0 ? 'yes' : x.v < 0 ? 'no' : 'neutral';
+        const href = (x.u || p.url) + (x.p ? `#page=${x.p}` : '');
+        return `<li><span class="ps">${p.short}</span><span class="pill ${cls}">${LBL[String(x.v)]}</span>
+          <blockquote>»${esc(x.q)}« <a href="${href}" target="_blank" rel="noopener">${x.p ? `str. ${x.p}` : 'vir'}</a></blockquote></li>`;
+      }).join('');
+      return `<details class="bd"><summary><span class="label">${s.topic}</span><span class="st">${esc(s.t)}</span>
+        <span class="you small">Ti: ${u === null || u === undefined ? 'preskočeno' : LBL[String(u)]}${weight[k] ? ' · pomembno' : ''}</span></summary>
+        <ul>${rows}</ul></details>`;
+    }).join('');
+    show('res');
+  }
+
+  $('go').onclick = () => { i = 0; renderQ(); show('quiz'); };
+  document.querySelectorAll<HTMLButtonElement>('#answers button').forEach((b) => (b.onclick = () => next(Number(b.dataset.v))));
+  $('skip').onclick = () => next(null);
+  $('back').onclick = () => { if (i > 0) { i--; renderQ(); } };
+  $('again').onclick = () => { answers.fill(undefined as any); weight.fill(false); i = 0; renderQ(); show('quiz'); };
+</script>
+
+<style>
+  .intro { max-width: 760px; }
+  .facts { margin: 24px 0 28px; padding: 0; list-style: none; border-top: 1px solid var(--rule); }
+  .facts li { padding: 9px 0; border-bottom: 1px solid var(--rule); }
+  .quiz { max-width: 760px; }
+  .bar { display: flex; align-items: center; gap: 14px; margin-bottom: 40px; }
+  .track { flex: 1; height: 3px; background: var(--rule); }
+  .track i { display: block; height: 100%; background: var(--ink); transition: width .25s; }
+  #stmt { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 8px 0 14px; }
+  .ctx { max-width: 36rem; margin-bottom: 28px; }
+  .answers { display: grid; gap: 8px; }
+  .answers button {
+    text-align: left; padding: 14px 18px; border: 1px solid var(--rule); border-radius: 6px;
+    background: #fffefb; font-size: 16px; font-weight: 500; transition: border-color .12s, background .12s;
+  }
+  .answers button:hover { border-color: var(--ink); }
+  .answers button[aria-pressed='true'] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .weight { display: flex; gap: 10px; align-items: center; margin: 18px 0 8px; font-size: 15px; color: var(--ink-2); cursor: pointer; }
+  .weight input { width: 18px; height: 18px; accent-color: var(--ink); }
+  .nav { display: flex; justify-content: space-between; margin-top: 18px; }
+  .link { background: none; border: 0; padding: 0; text-decoration: underline; text-underline-offset: 3px; color: var(--ink-2); font-size: 15px; }
+  .link:disabled { opacity: .3; cursor: default; }
+  .method { max-width: 44rem; margin-top: 18px; }
+  .row { margin: 20px 0 0; }
+  .bd-head { margin: 56px 0 16px; }
+</style>
+<style is:global>
+  .ranking { list-style: none; margin: 32px 0 0; padding: 0; border-top: 1px solid var(--ink); max-width: 860px; }
+  .ranking li { display: grid; grid-template-columns: 220px 1fr 70px; grid-template-rows: auto auto; column-gap: 20px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+  .ranking .who strong { display: block; font-family: var(--serif); font-size: 1.4rem; font-weight: 500; }
+  .ranking .who .small { font-size: 13px; }
+  .ranking .meter { height: 10px; background: var(--paper-deep); border-radius: 999px; overflow: hidden; }
+  .ranking .meter i { display: block; height: 100%; background: var(--ink); border-radius: 999px; }
+  .ranking .pct { font-family: var(--serif); font-size: 1.5rem; text-align: right; }
+  .ranking .cov { grid-column: 2 / 4; font-size: 12px; color: var(--ink-3); margin-top: 4px; }
+  .bd { border-top: 1px solid var(--rule); }
+  .bd:last-child { border-bottom: 1px solid var(--rule); }
+  .bd summary { list-style: none; cursor: pointer; padding: 16px 0; display: grid; grid-template-columns: 110px 1fr auto; gap: 16px; align-items: baseline; }
+  .bd summary::-webkit-details-marker { display: none; }
+  .bd .st { font-family: var(--serif); font-size: 1.15rem; }
+  .bd .you { white-space: nowrap; }
+  .bd ul { list-style: none; margin: 0 0 18px; padding: 0 0 0 126px; }
+  .bd li { display: grid; grid-template-columns: 64px 170px 1fr; gap: 12px; align-items: baseline; padding: 8px 0; border-top: 1px dashed var(--rule); font-size: 15px; }
+  .bd .ps { font-weight: 600; }
+  .bd .pill { justify-self: start; }
+  .bd blockquote { margin: 0; font-family: var(--serif); font-size: 1rem; color: var(--ink-2); }
+  @media (max-width: 760px) {
+    .ranking li { grid-template-columns: 1fr 64px; }
+    .ranking .meter { grid-column: 1 / -1; grid-row: 2; margin-top: 8px; }
+    .ranking .cov { grid-column: 1 / -1; grid-row: 3; }
+    .bd summary { grid-template-columns: 1fr; gap: 4px; }
+    .bd ul { padding-left: 0; }
+    .bd li { grid-template-columns: 56px 1fr; }
+    .bd blockquote { grid-column: 1 / -1; }
+  }
+</style>

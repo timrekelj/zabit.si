@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Kako delamo" description="Pravila, po katerih pripravljamo vsebine na zabit.si.">
+  <section class="section">
+    <div class="wrap narrow">
+      <p class="label">Kako delamo</p>
+      <h1>Pravila, ki se jih držimo</h1>
+      <p class="dek">zabit.si razlaga slovensko politiko vsem, ki jo želijo razumeti, ne glede na to, koga volijo.</p>
+      <ol class="rules">
+        <li><h3>Vsako dejstvo ima vir.</h3><p>Ustava, Državni zbor, Državna volilna komisija, Uradni list in uradni programi strank. Pri vsaki trditvi je povezava.</p></li>
+        <li><h3>Obe strani enako skrbno.</h3><p>Pri referendumih in spornih temah predstavimo najmočnejše argumente obeh strani, v podobni dolžini in z navedbo, kdo jih zagovarja.</p></li>
+        <li><h3>Stališča strank iz njihovih dokumentov.</h3><p>Volilni kompas temelji izključno na uradnih programih in javnih stališčih strank, s citatom in stranjo. Če stranka o temi ne govori, tega ne ugibamo.</p></li>
+        <li><h3>Šale samo na račun sistema.</h3><p>Humor, ki bi deloval samo proti eni stranki, ne objavimo.</p></li>
+        <li><h3>Napake popravimo javno.</h3><p>Popravke objavimo z datumom. Piši na <a href="mailto:popravki@zabit.si">popravki@zabit.si</a>.</p></li>
+      </ol>
+    </div>
+  </section>
+</Base>
+<style>
+  .rules { margin: 36px 0 0; padding: 0; list-style: none; counter-reset: r; border-top: 1px solid var(--ink); }
+  .rules li { counter-increment: r; display: grid; grid-template-columns: 48px 1fr; padding: 18px 0; border-bottom: 1px solid var(--rule); }
+  .rules li::before { content: counter(r); font-family: var(--serif); font-size: 1.6rem; color: var(--ink-3); grid-row: span 2; line-height: 1; }
+  .rules h3 { margin-bottom: 6px; }
+  .rules p { margin: 0; color: var(--ink-2); }
+</style>

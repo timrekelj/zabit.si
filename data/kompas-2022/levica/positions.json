@@ -1,0 +1,105 @@
+{
+ "party": "Levica",
+ "source_title": "Program stranke Levica za državnozborske volitve 2022",
+ "source_url": "https://www.levica.si/wp-content/uploads/2022/03/levica-program-2022-online.pdf",
+ "positions": {
+  "davek_visoki": {
+   "v": 2,
+   "quote": "Proračunskih primanjkljajev ne bomo krpali z rezi v socialo, temveč z višjimi davki na kapital, premoženje in dohodke bogatih.",
+   "page": 60
+  },
+  "davek_place": {
+   "v": -2,
+   "quote": "Razveljavili bomo dohodninsko reformo aktualne vlade. Ustavili bomo postopen dvig splošne olajšave in ponovno uvedli 50-% stopnjo za peti dohodninski razred.",
+   "page": 61
+  },
+  "davek_nepremicnine": {
+   "v": 2,
+   "quote": "Progresivni davek na nepremičnine: Uvedli bomo pravičen davek na nepremičnine, ki bo bolj obdavčil tiste z več stanovanjskimi nepremičninami, kot jih potrebujejo za lastno gospodinjstvo",
+   "page": 34
+  },
+  "min_placa": {
+   "v": 2,
+   "quote": "Minimalno plačo bomo postopoma dvignili na vsaj 1000 evrov neto.",
+   "page": 12
+  },
+  "soupravljanje": {
+   "v": 2,
+   "quote": "Z novelo Zakona o sodelovanju delavcev pri upravljanju bodo pravico do soupravljanja pridobili vsi delavci in delavke, vključno s prekarnimi delavci in delavkami.",
+   "page": 16
+  },
+  "zasebno_zdravstvo": {
+   "v": -2,
+   "quote": "Ustavili bomo podeljevanje koncesij in poskrbeli, da bodo koncesionarji delovali neprofitno in da bodo presežke vračali v javni zdravstveni sistem.",
+   "page": 29
+  },
+  "dopolnilno": {
+   "v": 2,
+   "quote": "Dopolnilno zdravstveno zavarovanje bomo ob ohranitvi iste ravni pravic prenesli v obvezno ter zagotovili proporcionalno, pravično in solidarno financiranje z dvigom prispevnih stopenj in obdavčitvijo dohodkov iz kapitala.",
+   "page": 29
+  },
+  "zasebne_sole": {
+   "v": -2,
+   "quote": "S spremembo 57. člena ustave bomo ločili javno in zasebno šolstvo. Država ne sme sprejemati nikakršne odgovornosti za financiranje zasebnih šol in vrtcev iz javnih sredstev.",
+   "page": 37
+  },
+  "javna_stanovanja": {
+   "v": 2,
+   "quote": "Proračunska sredstva za stanovanjski sklad bomo zvišali na raven, ki bo zagotovila vsaj 30.000 javnih najemnih stanovanjskih enot do leta 2030.",
+   "page": 34
+  },
+  "najemnine": {
+   "v": 2,
+   "quote": "Regulacija najemnega trga: Vzpostavili bomo mehanizme za kakovostno, varno in dostopno najemanje stanovanj. Določili bomo najvišje najemnine, najvišjo možno rast najemnin in najnižje bivanjske standarde",
+   "page": 34
+  },
+  "jek2": {
+   "v": -1,
+   "quote": "Začasno bomo zaustavili projekt NEK-2 in izvedli referendum o njeni gradnji.",
+   "page": 63
+  },
+  "premog": {
+   "v": 2,
+   "quote": "Sprejeli bomo načrt za opustitev pridobivanja in rabe premoga do leta 2030 in gospodarsko prestrukturiranje Šaleške regije.",
+   "page": 63
+  },
+  "migracije": {
+   "v": -2,
+   "quote": "Olajšali bomo pridobitev statusa begunca in izboljšali položaj beguncev in begunk, odstranili rezilno žico in druge “tehnične ovire” z meje ter zagotovili varne migracijske poti.",
+   "page": 27
+  },
+  "ograja": {
+   "v": 2,
+   "quote": "Z meje bomo odstranili žico in izvajali politiko podeljevanja azilov vsem pomoči ali zaščite potrebnim",
+   "page": 78
+  },
+  "nato": {
+   "v": -2,
+   "quote": "Izstopili bomo iz NATO pakta in tako spet dosegli nevtralnost.",
+   "page": 78
+  },
+  "obramba": {
+   "v": -2,
+   "quote": "Preklicali bomo »zaveze NATU« o zviševanju vojaških izdatkov in izgradnji srednjih bataljonskih bojnih skupin in ta denar raje namenili za raziskave in razvoj, okrepitev javnega zdravstva, izgradnjo javnih najemnih stanovanj ipd.",
+   "page": 80
+  },
+  "konoplja": {
+   "v": null
+  },
+  "rtv": {
+   "v": -2,
+   "quote": "RTV bomo zagotovili ustrezno raven financiranja in v zakon uvedli samodejno usklajevanje višine prispevka z inflacijo.",
+   "page": 51
+  },
+  "upokojitev": {
+   "v": -2,
+   "quote": "Nasprotovali bomo vsakemu poizkusu dvigovanja upokojitvene starosti.",
+   "page": 25
+  },
+  "brezplacen_prevoz": {
+   "v": 1,
+   "quote": "Uvedli bomo javni brezplačni železniški potniški promet, vključno z brezplačnim prevozom koles.",
+   "page": 55
+  }
+ }
+}
