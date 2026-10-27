@@ -64,7 +64,7 @@ p { margin: 0 0 1em; }
 }
 .dek { font-family: var(--serif); font-size: 1.3rem; line-height: 1.4; color: var(--ink-2); font-variation-settings: 'opsz' 24; }
 .small { font-size: 14px; color: var(--ink-2); }
-.num { font-feature-settings: 'tnum' 1; }
+.num { font-variant-numeric: lining-nums; }
 mark { background: linear-gradient(transparent 55%, var(--mark) 55%); color: inherit; padding: 0 1px; }
 
 /* rules and sections */
