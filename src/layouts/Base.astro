@@ -25,8 +25,11 @@ const path = Astro.url.pathname;
       <a href="/" class="wordmark">zabit<span>.si</span></a>
       <p class="tag">{site.tagline}</p>
     </div>
-    <nav class="wrap">
-      <ul>
+    <nav class="wrap" id="nav">
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav-list">
+        <span class="cur">{nav.find((n) => path.startsWith(n.href))?.label ?? 'Domov'}</span><span class="menu-label">Meni</span>
+      </button>
+      <ul id="nav-list">
         {nav.map((n) => (
           <li><a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a></li>
         ))}
@@ -35,6 +38,14 @@ const path = Astro.url.pathname;
   </header>
 
   <main><slot /></main>
+  <script>
+    const nav = document.getElementById('nav')!;
+    const btn = nav.querySelector<HTMLButtonElement>('.menu-btn')!;
+    btn.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', String(open));
+    });
+  </script>
 
   <footer class="foot">
     <div class="wrap grid">
@@ -69,9 +80,24 @@ const path = Astro.url.pathname;
   nav a[aria-current='page'] { border-color: var(--ink); }
   .foot { border-top: 1px solid var(--ink); margin-top: 40px; padding: 32px 0 48px; }
   .foot .grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 32px; }
+  .menu-btn { display: none; }
   @media (max-width: 720px) {
-    .wordmark { font-size: 38px; }
-    nav ul { overflow-x: auto; flex-wrap: nowrap; white-space: nowrap; }
+    .top .label:first-child { font-size: 11px; }
+    .brand { padding-top: 16px; padding-bottom: 10px; gap: 6px; }
+    .wordmark { font-size: 36px; }
+    .tag { font-size: 16px; }
+    .menu-btn {
+      display: flex; width: 100%; justify-content: space-between; align-items: center;
+      background: none; border: 0; border-top: 1px solid var(--rule); padding: 12px 0; font-size: 15px; font-weight: 600;
+    }
+    .menu-label { display: inline-flex; align-items: center; gap: 8px; font-weight: 500; color: var(--ink-2); }
+    .menu-label::after { content: ''; width: 8px; height: 8px; border-right: 1.5px solid; border-bottom: 1.5px solid; transform: rotate(45deg) translateY(-3px); transition: transform .15s; }
+    nav.open .menu-label::after { transform: rotate(-135deg) translateY(-1px); }
+    nav ul { display: none; flex-direction: column; gap: 0; padding: 0 0 8px; }
+    nav.open ul { display: flex; }
+    nav li a { display: block; padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 16px; }
+    nav li:last-child a { border-bottom: 0; }
+    nav a[aria-current='page'] { border-color: var(--rule); font-weight: 700; }
     .foot .grid { grid-template-columns: 1fr; }
   }
 </style>

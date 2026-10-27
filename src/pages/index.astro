@@ -33,6 +33,8 @@ const guides = [
           <p class="small">Župani in občinski svetniki v {lokalne.municipalities} občinah. Kdo lahko voli, kaj je novega in kako glasovati predčasno ali po pošti.</p>
         </a>
         {lead && <RefCard r={lead} big />}
+      </div>
+      <div class="rest">
         {more.length > 0 && <div class="more">{more.map((r) => <RefCard r={r} />)}</div>}
         <a class="small all" href="/referendumi/">Vsi referendumi in arhiv</a>
       </div>
@@ -66,7 +68,10 @@ const guides = [
 
 <style>
   .front { padding-top: 36px; }
-  .grid { display: grid; grid-template-columns: 1fr 340px; gap: 56px; align-items: start; }
+  .grid { display: grid; grid-template-columns: 1fr 340px; grid-template-areas: 'lead side' 'rest side'; column-gap: 56px; align-items: start; }
+  .lead { grid-area: lead; }
+  .rest { grid-area: rest; }
+  .side { grid-area: side; }
   .lead > .label { margin-bottom: 10px; }
   .feature { display: block; text-decoration: none; background: var(--paper-deep); border-radius: 6px; padding: 20px 22px; margin-bottom: 8px; }
   .feature h2 { margin: 6px 0 8px; }
@@ -90,7 +95,8 @@ const guides = [
   .guides a:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
   .guides h3 { margin-bottom: 8px; }
   @media (max-width: 900px) {
-    .grid { grid-template-columns: 1fr; gap: 40px; }
+    .grid { grid-template-columns: 1fr; grid-template-areas: 'lead' 'side' 'rest'; row-gap: 32px; }
+    .section-head .label { display: none; }
     .guides { grid-template-columns: 1fr 1fr; }
   }
   @media (max-width: 560px) { .guides { grid-template-columns: 1fr; } }

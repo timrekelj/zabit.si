@@ -90,6 +90,9 @@ import { institutions } from '../data/content';
   tabs.forEach((b) => b.addEventListener('click', () => {
     tabs.forEach((x) => x.setAttribute('aria-selected', String(x === b)));
     document.querySelectorAll<HTMLElement>('.detail').forEach((d) => (d.hidden = d.dataset.for !== b.dataset.id));
+    if (window.matchMedia('(max-width: 820px)').matches) {
+      document.querySelector<HTMLElement>(`.detail[data-for="${b.dataset.id}"]`)!.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }));
 
   // Bill game
