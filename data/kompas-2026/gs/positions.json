@@ -1,0 +1,97 @@
+{
+ "party": "Gibanje Svoboda",
+ "source_title": "Program stranke Svoboda. Delo še ni končano!",
+ "source_url": "https://gibanjesvoboda.si/wp-content/uploads/2026/03/Svoboda-Delo-se-ni-koncano.pdf",
+ "positions": {
+  "davek_visoki": {
+   "v": -1,
+   "quote": "Trenutni davčni sistem nesorazmerno obremenjuje visoko izobražene strokovnjake, ki ustvarjajo visoko dodano vrednost. Uvedli bomo gradualno oz. postopno razvojno kapico.",
+   "page": 6
+  },
+  "davek_place": {
+   "v": 1,
+   "quote": "Naš cilj ni nižanje davkov za vsako ceno, temveč razvojno usmerjeno prestrukturiranje: manj obremenitev dela in večja aktivacija premoženja.",
+   "page": 31
+  },
+  "davek_nepremicnine": {
+   "v": 1,
+   "quote": "Progresivni davek na prazna stanovanja: Uvedli bomo davek na nepremičnine, ki bo bolj obremenil tista stanovanja, ki niso dom in niso oddana v dolgoročni najem, ampak jih posamezniki kopičijo kot naložbe.",
+   "page": 12
+  },
+  "min_placa": {
+   "v": 0,
+   "quote": "Hkrati bomo sistemsko uredili področje minimalne plače in s tem povezan vpliv na ostale plače v gospodarstvu in javnem sektorju.",
+   "page": 29
+  },
+  "javna_uprava": {
+   "v": -1,
+   "quote": "Slovenska javna uprava je pod hudim demografskim pritiskom. Povprečna starost uradnikov je visoka, mladi pa se za delo v javnem sektorju ne odločajo v zadostnem številu.",
+   "page": 50
+  },
+  "zasebno_zdravstvo": {
+   "v": -2,
+   "quote": "Koncesije le kot dopolnilo, ne pravilo: Koncesionarji so del javne zdravstvene mreže in zanje morajo veljati ista pravila kot za javne zdravstvene zavode",
+   "page": 15
+  },
+  "dvojna_praksa": {
+   "v": 0,
+   "quote": "Cilj je preprost: omogočiti ustavno dopustno dodatno delo, vendar na način, ki ne prazni javnega sistema in ne podaljšuje čakalnih dob.",
+   "page": 14
+  },
+  "zasebne_sole": {
+   "v": null
+  },
+  "javna_stanovanja": {
+   "v": 2,
+   "quote": "Robustna javna gradnja – 20.000 stanovanj do leta 2035: Država prevzema vlogo graditelja.",
+   "page": 12
+  },
+  "najemnine": {
+   "v": 0,
+   "quote": "Register najemnih pogodb: Vzpostavili bomo pregleden register najemnih pogodb in cen. Najemojemalci bodo vedeli, kakšna je poštena cena",
+   "page": 13
+  },
+  "jek2": {
+   "v": 2,
+   "quote": "zato bomo odgovorno sprejeli končno investicijsko odločitev za drugi blok jedrske elektrarne (JEK2) in izpeljali postopke umeščanja v prostor.",
+   "page": 38
+  },
+  "migracije": {
+   "v": 1,
+   "quote": "Zavzemamo se za strožje preverjanje na zunanjih mejah in jasno ločnico med tistimi, ki potrebujejo zaščito, in ekonomskimi migranti.",
+   "page": 47
+  },
+  "volilna_pravica_tujcev": {
+   "v": null
+  },
+  "socialna_pomoc": {
+   "v": 1,
+   "quote": "Aktivacija: Socialno pomoč bomo povezovali z zaposlovanjem, da transferji naj postanejo odskočna deska za vključitev v družbo.",
+   "page": 9
+  },
+  "nato": {
+   "v": 2,
+   "quote": "Smo zvesti člani EU in zavezništva NATO, hkrati pa zagovarjamo večjo strateško avtonomijo Evrope.",
+   "page": 52
+  },
+  "obramba": {
+   "v": 2,
+   "quote": "Do konca leta 2025 smo presegli zavezo 2 % BDP za obrambo. A geopolitična realnost zahteva več. Naš strateški cilj do leta 2030 je postopno in vzdržno povečanje proti 3 % BDP.",
+   "page": 47
+  },
+  "konoplja": {
+   "v": null
+  },
+  "rtv": {
+   "v": null
+  },
+  "upokojitev": {
+   "v": -1,
+   "quote": "Motivacija namesto prisile ● Bonusi za daljše delo: Okrepili bomo sistem nagrajevanja za tiste, ki želijo delati po izpolnitvi pogojev za upokojitev.",
+   "page": 7
+  },
+  "evtanazija": {
+   "v": null
+  }
+ }
+}

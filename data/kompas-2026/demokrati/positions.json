@@ -1,0 +1,85 @@
+{
+ "party": "Demokrati",
+ "source_title": "Uspešna Slovenija 2034 – Program Anžeta Logarja (volilni program stranke Demokrati. Anžeta Logarja)",
+ "source_url": "https://www.demokrati.si/wp-content/uploads/2026/02/volilni-program-stranke-demokrati-anzeta-logarja.pdf",
+ "positions": {
+  "davek_visoki": {
+   "v": -2,
+   "quote": "Uvedba spremenjene dohodninske lestvice (zmanjšanje obdavčitve v zadnjem dohodninskem razredu s 50 % in združitev z zgornjim razredom na 40 %);",
+   "page": 11
+  },
+  "davek_place": {
+   "v": 1,
+   "quote": "Zvišanje letne splošne dohodninske davčne olajšave na 7 tisoč evrov oziroma na raven kratkoročnih minimalnih stroškov;",
+   "page": 11
+  },
+  "davek_nepremicnine": {
+   "v": null
+  },
+  "min_placa": {
+   "v": null
+  },
+  "javna_uprava": {
+   "v": 1,
+   "quote": "Zmanjšanje števila ministrstev v prvem koraku na 14; Sistemski nadzor nad rastjo števila javnih uslužbencev;",
+   "page": 39
+  },
+  "zasebno_zdravstvo": {
+   "v": 1,
+   "quote": "Vključevanje zasebnih izvajalcev v javno mrežo pod enotnimi pogoji (kakovost, dostopnost, integracija);",
+   "page": 57
+  },
+  "dvojna_praksa": {
+   "v": null
+  },
+  "zasebne_sole": {
+   "v": null
+  },
+  "javna_stanovanja": {
+   "v": null
+  },
+  "najemnine": {
+   "v": null
+  },
+  "jek2": {
+   "v": 2,
+   "quote": "JEK2 je prvorazredni nacionalni strateški projekt.",
+   "page": 18
+  },
+  "migracije": {
+   "v": 0,
+   "quote": "Svoje napore bomo usmerili v sistemske ukrepe za učinkovito upravljanje migracij (poenostavitev legalnih migracij in strožji nadzor ilegalnih migracij) z namenom spremembe dojemanja Slovenije kot idealne tranzitne države za ilegalne migracije.",
+   "page": 45
+  },
+  "volilna_pravica_tujcev": {
+   "v": null
+  },
+  "socialna_pomoc": {
+   "v": 2,
+   "quote": "socialno pomoč povezali z vključevanjem v javna dela (npr. pomoč v skupnosti, vzdrževanje okolja); v primeru neupravičenega odklona ponudbe za javna dela zmanjšali višino pomoči do 50 %;",
+   "page": 62
+  },
+  "nato": {
+   "v": 2,
+   "quote": "Ključni cilji morajo biti: dobri sosedski odnosi, sidrišče Slovenije v EU in v zvezi NATO ter zagotavljanje varnosti, miru in blaginje državljanom.",
+   "page": 34
+  },
+  "obramba": {
+   "v": 1,
+   "quote": "tovrstne investicije se štejejo neposredno v kvoto investicij za obrambo do mednarodno dogovorjene višine 3,5 % BDP za obrambo",
+   "page": 24
+  },
+  "konoplja": {
+   "v": null
+  },
+  "rtv": {
+   "v": null
+  },
+  "upokojitev": {
+   "v": null
+  },
+  "evtanazija": {
+   "v": null
+  }
+ }
+}

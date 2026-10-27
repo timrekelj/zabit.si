@@ -1,12 +1,15 @@
 // Merges coded party positions into src/data/kompas.json.
-// usage: node scripts/build-kompas.mjs <dir with statements.json and <party>/positions.json>
+// usage: node scripts/build-kompas.mjs data/kompas-<year>
+// <dir>/kompas.json: { basis, parties: [[id, short, name], ...] }
+// <dir>/statements.json: [{ id, t, topic?, ctx?, src? }]
+// <dir>/<id>/positions.json: coded program, see AGENTS.md
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 const dir = process.argv[2];
 const statements = JSON.parse(readFileSync(join(dir, 'statements.json'), 'utf8'));
 
-// Topic label and neutral one-line context shown under each statement.
+// Fallback topic/context for the 2022 statement set (2026 keeps them in statements.json).
 const meta = {
   davek_visoki: ['Davki', 'Dohodnina je progresivna: višji dohodki so obdavčeni z višjo stopnjo.'],
   davek_place: ['Davki', 'Nižji davki na plače pomenijo več denarja za zaposlene in manj prihodkov za proračun.'],
@@ -30,17 +33,17 @@ const meta = {
   brezplacen_prevoz: ['Promet', 'Brezplačen javni prevoz imajo danes upokojenci in nekatere druge skupine.'],
 };
 
-const parties = [
-  ['gs', 'GS', 'Gibanje Svoboda'],
-  ['sds', 'SDS', 'Slovenska demokratska stranka'],
-  ['nsi', 'NSi', 'Nova Slovenija'],
-  ['sd', 'SD', 'Socialni demokrati'],
-  ['levica', 'Levica', 'Levica'],
-];
+const cfg = JSON.parse(readFileSync(join(dir, 'kompas.json'), 'utf8'));
+const parties = cfg.parties;
 
 const out = {
-  basis: 'Programi strank za volitve v Državni zbor 2022',
-  statements: statements.map((s) => ({ id: s.id, t: s.t, topic: meta[s.id][0], ctx: meta[s.id][1] })),
+  basis: cfg.basis,
+  statements: statements.map((s) => ({
+    id: s.id, t: s.t,
+    topic: s.topic ?? meta[s.id][0],
+    ctx: s.ctx ?? meta[s.id][1],
+    ...(s.src ? { src: s.src } : {}),
+  })),
   parties: [],
 };
 for (const [key, short, name] of parties) {

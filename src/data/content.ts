@@ -53,10 +53,13 @@ export const elections = {
     parties: [['GS', 'Gibanje Svoboda', 41], ['SDS', 'Slovenska demokratska stranka', 27], ['NSi', 'Nova Slovenija', 8], ['SD', 'Socialni demokrati', 7], ['Levica', 'Levica', 5], ['NS', 'Poslanca narodnih skupnosti', 2]],
     truth: 'Vlado so sestavili Gibanje Svoboda, SD in Levica s 53 poslanci. Gibanje Svoboda je na volitvah nastopilo prvič.',
   },
-  // TODO: add 2026 once seat counts are verified against volitve.gov.si.
+  '2026': {
+    parties: [['Svoboda', 'Gibanje Svoboda', 29], ['SDS', 'Slovenska demokratska stranka', 28], ['NSi-SLS-Fokus', 'Nova Slovenija, Slovenska ljudska stranka, Fokus Marka Lotriča', 9], ['SD', 'Socialni demokrati', 6], ['Demokrati', 'Demokrati. Anžeta Logarja', 6], ['Levica-Vesna', 'Levica in Vesna', 5], ['Resni.ca', 'Državljansko gibanje Resni.ca', 5], ['NS', 'Poslanca narodnih skupnosti', 2]],
+    truth: 'Predsednica republike v prvem krogu ni predlagala mandatarja, ker nihče ni imel vidne večine. V drugem krogu so Janeza Janšo predlagali poslanci SDS, NSi-SLS-Fokus, Demokratov in Resni.ce; Državni zbor ga je 22. maja 2026 izvolil s 51 glasovi. Vlado sestavljajo SDS, NSi-SLS-Fokus in Demokrati (43 poslancev), Resni.ca jo podpira od zunaj, njen predsednik pa je predsednik Državnega zbora. Stranka z največ sedeži (Svoboda) je v opoziciji.',
+  },
 } as const;
 
-export const endings = { vol: 'Volitve', ods: 'Odstop', nez: 'Konstruktivna nezaupnica', zau: 'Izgubljena zaupnica', ost: 'Drugo' } as const;
+export const endings = { vol: 'Volitve', ods: 'Odstop', nez: 'Konstruktivna nezaupnica', zau: 'Izgubljena zaupnica', ost: 'Drugo', cur: 'Trenutna vlada' } as const;
 
 export const governments: [string, string, keyof typeof endings, string][] = [
   ['1990–1992', 'Lojze Peterle', 'nez', 'Skupščina je z nezaupnico izvolila Janeza Drnovška.'],
@@ -71,8 +74,8 @@ export const governments: [string, string, keyof typeof endings, string][] = [
   ['2014–2018', 'Miro Cerar', 'ods', 'Predsednik vlade je odstopil nekaj mesecev pred rednimi volitvami.'],
   ['2018–2020', 'Marjan Šarec', 'ods', 'Predsednik vlade je odstopil; nova koalicija je nastala brez volitev.'],
   ['2020–2022', 'Janez Janša (III)', 'vol', 'Redne volitve.'],
-  ['2022–2026', 'Robert Golob', 'vol', 'Volitve 2026.'],
-  // TODO: add the government formed after the 2026 election once verified.
+  ['2022–2026', 'Robert Golob', 'vol', 'Redne volitve 22. marca 2026. Vlada je delovala do 4. junija 2026.'],
+  ['2026–', 'Janez Janša (IV)', 'cur', 'Izvoljen 22. maja 2026 s 51 glasovi; vlada imenovana 4. junija 2026. Koalicija SDS, NSi-SLS-Fokus in Demokrati, s podporo Resni.ce.'],
 ];
 
 export const glossary: [string, string, string][] = [

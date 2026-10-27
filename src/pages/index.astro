@@ -3,6 +3,8 @@ import Base from '../layouts/Base.astro';
 import RefCard from '../components/RefCard.astro';
 import { latest, upcoming } from '../data/referendumi';
 import kompas from '../data/kompas.json';
+import lokalne from '../data/lokalne-2026.json';
+import { fmtDate } from '../data/site';
 
 const lead = upcoming[0] ?? latest[0];
 const more = [...upcoming.slice(1), ...latest.filter((r) => r !== lead)].slice(0, 3);
@@ -15,7 +17,7 @@ const numbers = [
 ];
 const guides = [
   ['/kako-deluje/', 'Kdo v Sloveniji kaj odloča', 'Devet ustanov, kaj delajo in česa ne morejo. Z igro, v kateri pelješ zakon skozi parlament.'],
-  ['/koalicija/', 'Sestavi koalicijo', 'Pravi volilni izidi 2014, 2018 in 2022. Poskusi zbrati 46 glasov.'],
+  ['/koalicija/', 'Sestavi koalicijo', 'Pravi volilni izidi od 2014 do 2026. Poskusi zbrati 46 glasov.'],
   ['/vlade/', 'Kako se končajo vlade', 'Vse vlade od leta 1990 in razlog, zakaj se je končala vsaka.'],
   ['/slovar/', 'Slovar političnih izrazov', 'Interpelacija, rebalans, zavrnitveni kvorum in drugi pojmi iz poročil.'],
 ];
@@ -25,6 +27,11 @@ const guides = [
     <div class="wrap grid">
       <div class="lead">
         <p class="label">Aktualno</p>
+        <a class="feature" href="/lokalne-volitve-2026/">
+          <p class="label">Volitve · {fmtDate(lokalne.round1)}</p>
+          <h2>Lokalne volitve 2026</h2>
+          <p class="small">Župani in občinski svetniki v {lokalne.municipalities} občinah. Kdo lahko voli, kaj je novega in kako glasovati predčasno ali po pošti.</p>
+        </a>
         {lead && <RefCard r={lead} big />}
         {more.length > 0 && <div class="more">{more.map((r) => <RefCard r={r} />)}</div>}
         <a class="small all" href="/referendumi/">Vsi referendumi in arhiv</a>
@@ -34,7 +41,7 @@ const guides = [
         <div class="kompas">
           <p class="label">Volilni kompas</p>
           <h2>Kateri stranki si najbližje?</h2>
-          <p>{kompas.statements.length} trditev, primerjanih s programi strank za volitve 2022. Pri vsaki vidiš citat iz programa. Programe za 2026 dodajamo.</p>
+          <p>{kompas.statements.length} trditev, primerjanih s programi vseh strank v Državnem zboru za volitve 2026. Pri vsaki vidiš citat iz programa.</p>
           <a class="btn arrow" href="/kompas/">Reši kompas</a>
         </div>
         <dl class="numbers">
@@ -61,6 +68,10 @@ const guides = [
   .front { padding-top: 36px; }
   .grid { display: grid; grid-template-columns: 1fr 340px; gap: 56px; align-items: start; }
   .lead > .label { margin-bottom: 10px; }
+  .feature { display: block; text-decoration: none; background: var(--paper-deep); border-radius: 6px; padding: 20px 22px; margin-bottom: 8px; }
+  .feature h2 { margin: 6px 0 8px; }
+  .feature:hover h2 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+  .feature .small { margin: 0; }
   .more { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); column-gap: 28px; margin-top: 12px; }
   .all { display: inline-block; margin-top: 18px; font-weight: 600; color: var(--ink); }
   .side { display: grid; gap: 36px; }

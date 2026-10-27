@@ -6,6 +6,7 @@ export const site = {
 };
 
 export const nav = [
+  { href: '/lokalne-volitve-2026/', label: 'Lokalne volitve' },
   { href: '/referendumi/', label: 'Referendumi' },
   { href: '/kompas/', label: 'Volilni kompas' },
   { href: '/kako-deluje/', label: 'Kako deluje država' },

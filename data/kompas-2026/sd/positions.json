@@ -1,0 +1,99 @@
+{
+ "party": "SD",
+ "source_title": "Dogovor za mir. Za razvoj. Za blaginjo. Sektorski program Socialnih demokratov 2026 - 2030",
+ "source_url": "https://socialnidemokrati.si/wp-content/uploads/2026/02/SD-DZV2026-Sektorski-program-2026-2030-v1.pdf",
+ "positions": {
+  "davek_visoki": {
+   "v": 1,
+   "quote": "Zmanjšali bomo davke za delavski in srednji razred, to pa uravnotežili s progresivno obdavčitvijo vseh vrst premoženja na način, da bodo tisti, ki imajo več, tudi plačali več",
+   "page": 7,
+   "url": "https://socialnidemokrati.si/wp-content/uploads/2026/02/SD-DZV2026-Program-prioritet-2026-2030-v1.pdf"
+  },
+  "davek_place": {
+   "v": 0,
+   "quote": "Pripravili bomo celovito davčno reformo, ki bo znižala obremenitve dela ter hkrati povečala obremenitve premoženja in bo javnofinančno nevtralna.",
+   "page": 7,
+   "url": "https://socialnidemokrati.si/wp-content/uploads/2026/02/SD-DZV2026-Program-prioritet-2026-2030-v1.pdf"
+  },
+  "davek_nepremicnine": {
+   "v": 1,
+   "quote": "Uvedba univerzalnega premoženjskega davka (ne samo nepremičnin) s progresivno obdavčitvijo od 1 do največ 5 tisočink (od 0,1% do 0,5%) premoženja ob prehodno upoštevani splošni olajšavi.",
+   "page": 28
+  },
+  "min_placa": {
+   "v": 1,
+   "quote": "Zagovarjali bomo trajno povečevanje minimalne plače (brez dodatkov kot npr. nadurno delo).",
+   "page": 55
+  },
+  "javna_uprava": {
+   "v": -1,
+   "quote": "ministrstva pa pozovejo posredne proračunske uporabnike, da v čim večji meri neposredno zaposlijo delavce za opravljanje del, ki jih sedaj najemajo pri zunanjih izvajalcih.",
+   "page": 33
+  },
+  "zasebno_zdravstvo": {
+   "v": null
+  },
+  "dvojna_praksa": {
+   "v": 1,
+   "quote": "Sprejeli bomo smiseln in ustavnopraven način omejevanja dvojnih praks hkratnega dela zdravnikov v zasebnem in javnem sektorju, ki bo usmerjen v krepitev in zaščito javnega zdravstva.",
+   "page": 53
+  },
+  "zasebne_sole": {
+   "v": null
+  },
+  "javna_stanovanja": {
+   "v": 2,
+   "quote": "Nadaljevanje z ukrepi za pospešeno gradnjo javnih najemnih stanovanj z dodatnimi javnimi sredstvi v obliki nepovratnih in povratnih sredstev ter državnih poroštev.",
+   "page": 63
+  },
+  "najemnine": {
+   "v": 1,
+   "quote": "velja razmisliti o vzpostavitvi zakonske možnosti, da po zgledu nekaterih drugih zahodnih držav država omogoči občinam, da omejijo rast najemnin stanovanj, ki se oddajo na trgu.",
+   "page": 63
+  },
+  "jek2": {
+   "v": 1,
+   "quote": "Socialni demokrati skupaj s stroko menimo, da bo podnebne cilje in hkratno energetsko stabilnost, neodvisnost ter samozadostnost praktično nemogoče dosegati brez jedrske energije v kombinaciji z obnovljivimi viri energije.",
+   "page": 36
+  },
+  "migracije": {
+   "v": 0,
+   "quote": "Slovenija potrebuje strategijo na področju migracij, ki bo okrepila multidisciplinarno uresničevanje njenih ciljev: ustrezen odnos do tuje delovne sile, zagotavljanje hitrih in učinkovitih postopkov za ugotavljanje upravičenosti do mednarodne zaščite, odkrivanje in preprečevanje nezakonitih migracij",
+   "page": 10
+  },
+  "volilna_pravica_tujcev": {
+   "v": null
+  },
+  "socialna_pomoc": {
+   "v": null
+  },
+  "nato": {
+   "v": 1,
+   "quote": "Močnejše sodelovanje na obrambnem področju z državami Zahodnega Balkana v okviru EU, Nata ter obstoječih regionalnih pobud",
+   "page": 5
+  },
+  "obramba": {
+   "v": -1,
+   "quote": "Nasprotovali bomo zniževanju proračunskih sredstev za socialno varnost v korist povečevanja obrambnega proračuna.",
+   "page": 59
+  },
+  "konoplja": {
+   "v": 1,
+   "quote": "Ustrezneje bomo regulirali proizvodnjo, trgovanje in uporabo konoplje (tako za medicinsko kot osebno rabo).",
+   "page": 40
+  },
+  "rtv": {
+   "v": -1,
+   "quote": "Zaščita neodvisnosti STA in RTV Slovenije in zagotovitev financiranja nemotenega izvajanja javne službe.",
+   "page": 67
+  },
+  "upokojitev": {
+   "v": -1,
+   "quote": "Zagovarjamo t.i. “tretjo upokojitveno kombinacijo” (v primeru dviga zgornje meje upokojitvene starosti na 67 let), ker si ne želimo, da bi se v prihodnje pri starejših delavcih poslabšalo njihovo zdravstveno stanje",
+   "page": 58
+  },
+  "evtanazija": {
+   "v": null
+  }
+ }
+}

@@ -33,7 +33,7 @@ or `null` if the program does not address the statement.
 ```
 
 ```sh
-node scripts/build-kompas.mjs data/kompas-2022
+node scripts/build-kompas.mjs data/kompas-2026
 ```
 
 Topic labels and the one-line context under each statement live in `scripts/build-kompas.mjs`.

@@ -1,0 +1,288 @@
+{
+ "researched_at": "2026-10-27",
+ "dz2026": {
+  "date": "2026-03-22",
+  "turnout": 70.25,
+  "src": "https://www.tax-fin-lex.si/Dokument/Podrobnosti/589462b8-5d30-46de-946d-399dde9571f4",
+  "src_note": "Zapisnik DVK o ugotovitvi izida volitev poslancev v DZ (Uradni list RS, št. 197/2026 z dne 7. 4. 2026), prepis na Tax-Fin-Lex; volilnih upravičencev 1.695.249, glasovalo 1.190.932, veljavnih glasovnic 1.179.769.",
+  "lists": [
+   {
+    "short": "Svoboda",
+    "name": "Gibanje Svoboda",
+    "pct": 28.66,
+    "seats": 29,
+    "src": "https://www.tax-fin-lex.si/Dokument/Podrobnosti/589462b8-5d30-46de-946d-399dde9571f4"
+   },
+   {
+    "short": "SDS",
+    "name": "Slovenska demokratska stranka",
+    "pct": 27.88,
+    "seats": 28,
+    "src": "https://www.tax-fin-lex.si/Dokument/Podrobnosti/589462b8-5d30-46de-946d-399dde9571f4"
+   },
+   {
+    "short": "NSi-SLS-Fokus",
+    "name": "Nova Slovenija, Slovenska ljudska stranka, Fokus Marka Lotriča",
+    "pct": 9.26,
+    "seats": 9,
+    "src": "https://www.tax-fin-lex.si/Dokument/Podrobnosti/589462b8-5d30-46de-946d-399dde9571f4"
+   },
+   {
+    "short": "SD",
+    "name": "Socialni demokrati",
+    "pct": 6.71,
+    "seats": 6,
+    "src": "https://www.tax-fin-lex.si/Dokument/Podrobnosti/589462b8-5d30-46de-946d-399dde9571f4"
+   },
+   {
+    "short": "Demokrati",
+    "name": "Demokrati. Anžeta Logarja",
+    "pct": 6.69,
+    "seats": 6,
+    "src": "https://www.tax-fin-lex.si/Dokument/Podrobnosti/589462b8-5d30-46de-946d-399dde9571f4"
+   },
+   {
+    "short": "Levica-Vesna",
+    "name": "Levica in Vesna",
+    "pct": 5.69,
+    "seats": 5,
+    "src": "https://www.tax-fin-lex.si/Dokument/Podrobnosti/589462b8-5d30-46de-946d-399dde9571f4"
+   },
+   {
+    "short": "Resni.ca",
+    "name": "Državljansko gibanje Resni.ca",
+    "pct": 5.49,
+    "seats": 5,
+    "src": "https://www.tax-fin-lex.si/Dokument/Podrobnosti/589462b8-5d30-46de-946d-399dde9571f4"
+   }
+  ],
+  "minorities": 2,
+  "minorities_note": "Po en poslanec italijanske in madžarske narodne skupnosti (posebni volitvi, ločen zapisnik DVK). Prag 4 %; pod pragom med drugim Prerod (3,05 %), Pirati (2,36 %), SNS (2,24 %)."
+ },
+ "government": {
+  "pm": "Janez Janša (SDS)",
+  "elected": "2026-05-22",
+  "votes_for": 51,
+  "votes_against": 36,
+  "coalition": [
+   "SDS",
+   "NSi",
+   "SLS",
+   "Fokus",
+   "Demokrati"
+  ],
+  "coalition_seats": 43,
+  "appointed": "2026-06-04",
+  "appointed_votes": "49 za, 30 proti",
+  "support": "Pet poslancev Resni.ce je podpisalo Janševo kandidaturo in ga po poročanju podprlo, vendar stranka ni del vlade in formalno ostaja v opoziciji (njen predsednik Zoran Stevanović je predsednik DZ). Po poročanju medijev sta Janšo verjetno podprla tudi poslanca narodnih skupnosti, uradnega sporazuma z njima nismo našli. Vlada je 10. 6. 2026 vsem poslanskim strankam in poslancema narodnih skupnosti ponudila sporazum »Partnerstvo za uspešno Slovenijo«; Resni.ca ga je 29. 6. zavrnila, enako druge opozicijske stranke.",
+  "summary": "Predsednica Nataša Pirc Musar v prvem krogu 25. 4. 2026 ni predlagala mandatarja, ker nihče ni imel vidne večine, Golob pa vlade ni želel sestavljati. V drugem krogu je Janševo kandidaturo vložilo 48 poslancev SDS, NSi-SLS-Fokus, Demokratov in Resni.ce; DZ ga je 22. 5. izvolil s 51 glasovi, vlada pa je bila imenovana 4. 6. 2026.",
+  "previous_ended": "2026-06-04",
+  "src": [
+   "https://siol.net/novice/slovenija/poslanci-potrdili-janez-jansa-je-novi-mandatar-692114",
+   "https://www.tax-fin-lex.si/Home/Novica/36164",
+   "https://siol.net/novice/slovenija/natasa-pirc-musar-ne-bo-predlagala-mandatarja-690160",
+   "https://siol.net/novice/slovenija/kolegij-predsednika-dz-o-predlogu-seje-za-izvolitev-mandatarja-691927",
+   "https://n1info.si/novice/slovenija/novi-ministri-prisegli-vlada-imenovana-foto-video/",
+   "https://en.wikipedia.org/wiki/16th_Government_of_Slovenia",
+   "https://www.gov.si/novice/2026-06-10-parlamentarnim-strankam-poslan-sporazum-partnerstvo-za-uspesno-slovenijo/",
+   "https://n1info.si/novice/slovenija/stevanovic-resnica-ne-bo-podpisala-partnerstva-ki-ga-ponuja-jansa/"
+  ]
+ },
+ "local2026": {
+  "round1": "2026-11-15",
+  "round2": "2026-11-29",
+  "elected": [
+   "župani (neposredno, večinsko; drugi krog med prvima dvema, če nihče ne dobi večine veljavnih glasov)",
+   "člani občinskih svetov (7 do 45 članov; do 11 večinsko, nad 11 proporcionalno; v nekaterih občinah tudi predstavniki italijanske, madžarske in romske skupnosti)",
+   "člani svetov ožjih delov občin (krajevne, vaške, četrtne skupnosti), kjer obstajajo"
+  ],
+  "municipalities": 212,
+  "who_can_vote": "Državljani Slovenije in državljani drugih držav EU, ki so na dan glasovanja dopolnili 18 let in imajo v občini prijavljeno stalno prebivališče (državljani EU tudi z dovoljenjem/potrdilom in prijavljenim prebivališčem v Sloveniji). Voli se samo v občini stalnega prebivališča. Državljani držav zunaj EU od 2. 9. 2026 na lokalnih volitvah ne volijo več.",
+  "foreigners_change": {
+   "law": "Zakon o spremembah Zakona o lokalnih volitvah (ZLV-M), Uradni list RS, št. 1389/2026 z dne 1. 9. 2026; DZ ga je sprejel 15. 6. 2026 (47 za, 32 proti) na predlog SDS, NSi, SLS, Fokus in Resni.ce. Odvzema volilno pravico na lokalnih volitvah državljanom tretjih držav z dovoljenjem za stalno prebivanje (pravica je veljala od 2002).",
+   "in_force": "2026-09-02",
+   "court_status": "Poslanci GS, SD in Levice so 4. 9. 2026 vložili zahtevo za oceno ustavnosti. Ustavno sodišče je 10. 9. 2026 (6 : 2) zavrnilo začasno zadržanje, 13. 10. 2026 (5 : 2) pa še predlog za zadržanje iz pobude Christiana Moeja. Vsebinske odločitve do 27. 10. 2026 ni. Na posvetovalnem referendumu 11. 10. 2026 je po neuradnih izidih 55,2 % volivcev podprlo omejitev.",
+   "src": "https://www.rtvslo.si/slovenija/ustavno-sodisce-ni-zadrzalo-sprememb-zakona-o-lokalnih-volitvah/793363",
+   "src_more": [
+    "https://pisrs.si/api/uradni-list/objava/u20261389.pdf",
+    "https://tax-fin-lex.si/Home/Novica/37158",
+    "https://www.gov.si/novice/2026-10-07-vlada-sprejela-mnenje-glede-pobude-za-oceno-ustavnosti-novele-zakona-o-lokalnih-volitvah/",
+    "https://volitve.dvk-rs.si/referendum-volilna-pravica-tujcev/"
+   ]
+  },
+  "how_to_vote": [
+   {
+    "point": "Glasuje se na volišču v občini stalnega prebivališča; obvestilo volivcem lahko velja tudi za morebitni drugi krog volitev župana.",
+    "src": "https://www.gov.si/assets/ministrstva/MLSKRR/Direktorat-za-lokalno-samoupravo/Lokalne-volitve-2026/LV_2026_Odgovori-na-pogosta-vprasanja-o-lokalnih-volitvah_za-spletno-objavo.docx"
+   },
+   {
+    "point": "Predčasno glasovanje bo v tednu pred volitvami; DVK občinskim volilnim komisijam priporoča torek 10., sredo 11. in/ali četrtek 12. novembra, dneve določi vsaka občina.",
+    "src": "https://tax-fin-lex.si/home/Novica/37078"
+   },
+   {
+    "point": "Po pošti lahko glasujejo volivci v priporu, zaporu, bolnišnici ali socialnovarstvenem zavodu ter invalidi; namero morajo sporočiti občinski volilni komisiji do 4. 11. 2026.",
+    "src": "https://tax-fin-lex.si/home/Novica/37078"
+   },
+   {
+    "point": "Bolni volivci, ki ne morejo na volišče, lahko glasovanje na domu sporočijo do 11. 11. 2026.",
+    "src": "https://tax-fin-lex.si/home/Novica/37078"
+   },
+   {
+    "point": "Na lokalnih volitvah se voli samo v občini, kjer ima volivec prijavljeno stalno prebivališče; splošnega glasovanja zunaj občine (kot na voliščih OMNIA pri državnih volitvah) ni.",
+    "src": "https://www.gov.si/teme/lokalne-volitve/"
+   },
+   {
+    "point": "Član volilnega odbora pred glasovanjem ugotovi istovetnost volivca z osebnim dokumentom ali na drug način.",
+    "src": "https://www.gov.si/teme/lokalne-volitve/"
+   },
+   {
+    "point": "Volilna kampanja traja od 15. 10. do 13. 11. 2026 opolnoči, nato velja volilni molk.",
+    "src": "https://tax-fin-lex.si/home/Novica/37078"
+   }
+  ],
+  "facts": [
+   {
+    "fact": "Redne lokalne volitve so na tretjo nedeljo v novembru; razpisal jih je predsednik DZ Zoran Stevanović, roki za volilna opravila tečejo od 7. 9. 2026.",
+    "src": "https://www.gov.si/teme/lokalne-volitve/"
+   },
+   {
+    "fact": "Kandidature za župane in svetnike so morale biti vložene do 15. 10., občinske volilne komisije jih potrdijo do 25. 10. in objavijo najpozneje 30. 10. 2026.",
+    "src": "https://tax-fin-lex.si/home/Novica/37078"
+   },
+   {
+    "fact": "Novela ZLV-M občinam omogoča več volilnih enot v posameznem ožjem delu občine (krajevni, vaški, četrtni skupnosti), če to uredijo z odlokom.",
+    "src": "https://tax-fin-lex.si/Home/Novica/37158"
+   },
+   {
+    "fact": "Od 25. 2. 2026 (ZLV-L) ne more kandidirati, kdor je bil obsojen na več kot eno leto nepogojnega zapora za naklepno kaznivo dejanje, med prestajanjem kazni in še pet let po njej.",
+    "src": "https://tax-fin-lex.si/dokument/podrobnosti/823f15d2-0bef-4a21-a534-e1d89f2ca9ab"
+   }
+  ],
+  "src": [
+   "https://www.gov.si/teme/lokalne-volitve/",
+   "https://tax-fin-lex.si/home/Novica/37078",
+   "https://www.dvk-rs.si/fileadmin/user_upload/Rokovnik_volilnih_opravil_LV_2026.pdf",
+   "https://n1info.si/novice/slovenija/volilna-pravila-pred-lokalnimi-volitvami-2026/"
+  ]
+ },
+ "kompas_context": {
+  "davek_visoki": {
+   "topic": "Davki",
+   "ctx": "Dohodnina ima pet razredov (16, 26, 33, 39 in 50 %); najvišja, 50-odstotna stopnja v letu 2026 velja za letno neto davčno osnovo nad približno 82.300 evrov.",
+   "src": "https://www.racunovodja.com/printCL.asp?cl=14073"
+  },
+  "davek_place": {
+   "topic": "Davki",
+   "ctx": "Interventni zakon ZIURS (sprejet maja 2026) bi uvedel kapico za socialne prispevke pri bruto plači okoli 7.500 evrov in druge davčne razbremenitve; zaradi referenduma 6. 12. 2026 še ne velja.",
+   "src": "https://tax-fin-lex.si/home/Novica/37640"
+  },
+  "davek_nepremicnine": {
+   "topic": "Davki",
+   "ctx": "Splošnega davka na nepremičnine ni; občine pobirajo nadomestilo za uporabo stavbnega zemljišča. Golobova vlada je predlog davka (1,45 % na drugo in nadaljnje nepremičnine) leta 2025 opustila.",
+   "src": "https://www.zurnal24.si/pod-streho/nepremicnine/vlada-prelomila-obljubo-to-se-bo-zgodilo-z-nepremicninskim-davkom-443543"
+  },
+  "min_placa": {
+   "topic": "Plače",
+   "ctx": "Minimalna plača je od 1. 1. 2026 1.481,88 evra bruto, kar je približno 16 % več kot leta 2025 (1.277,72 evra); usklajuje se z minimalnimi življenjskimi stroški in rastjo cen.",
+   "src": "https://www.gov.si/novice/2026-01-28-dolocen-znesek-minimalne-place-za-2026/"
+  },
+  "javna_uprava": {
+   "topic": "Javni sektor",
+   "ctx": "V javnem sektorju dela 16,8 % vseh zaposlenih (povprečje OECD 18,4 %), v desetih letih se je število povečalo za 17 %. Vlada napoveduje prestrukturiranje in posvetovalni referendum pred morebitnimi rezi.",
+   "src": "https://tax-fin-lex.si/Home/Novica/37363"
+  },
+  "zasebno_zdravstvo": {
+   "topic": "Zdravstvo",
+   "ctx": "Zasebni koncesionarji delajo v javni zdravstveni mreži; koncesijo podeli občina ali država po javnem razpisu, kadar javni zavod ne more zagotoviti dostopnosti storitev.",
+   "src": "https://www.gov.si/assets/ministrstva/MZ/DOKUMENTI/JZZ/2538090d6e/Pojasnilo-glede-pridobitve-koncesije-za-opravljanje-zdravstvene-dejavnosti-na-primarni-in-sekundarni-ravni.pdf"
+  },
+  "dvojna_praksa": {
+   "topic": "Zdravstvo",
+   "ctx": "Prepoved dela javnih zdravnikov pri zasebnikih iz leta 2025 je ustavno sodišče decembra 2025 delno razveljavilo; zdaj je potrebno soglasje delodajalca. ZIURS bi prepoved odpravil, a čaka na referendum.",
+   "src": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-3988"
+  },
+  "zasebne_sole": {
+   "topic": "Šolstvo",
+   "ctx": "Po noveli iz leta 2021 država zasebnim osnovnim šolam z javno veljavnim programom financira 100 % obveznega programa in 85 % razširjenega programa (podaljšano bivanje, varstvo).",
+   "src": "https://www.rtvslo.si/slovenija/dz-podprl-spremembe-financiranja-zasebnih-osnovnih-sol/494104"
+  },
+  "javna_stanovanja": {
+   "topic": "Stanovanja",
+   "ctx": "Zakon iz leta 2025 za gradnjo in prenovo javnih najemnih stanovanj namenja 100 milijonov evrov letno do leta 2034; gradijo jih stanovanjski sklad, občine in neprofitne organizacije.",
+   "src": "https://tax-fin-lex.si/Dokument/Podrobnosti/5c99790f-392e-4566-9d3c-582a7030150e"
+  },
+  "najemnine": {
+   "topic": "Stanovanja",
+   "ctx": "Tržne najemnine niso omejene; regulirane so le neprofitne. Zakon o gostinstvu od 2026 v občinah s pomanjkanjem stanovanj omejuje kratkoročno oddajanje na 60 dni letno, kar bi ZIURS zamaknil.",
+   "src": "https://tax-fin-lex.si/home/Novica/37169"
+  },
+  "jek2": {
+   "topic": "Energetika",
+   "ctx": "Projekt JEK2 je v fazi umeščanja v prostor (DPN začet februarja 2026); posvetovalni referendum iz leta 2024 je bil preklican, končna investicijska odločitev je predvidena okoli leta 2028.",
+   "src": "https://www.posavskiobzornik.si/datoteke/katalogTrgovina/0426.pdf"
+  },
+  "migracije": {
+   "topic": "Migracije",
+   "ctx": "Vlada je 22. 10. 2026 v DZ poslala novelo zakona o tujcih: združitev z družino šele po treh letih bivanja, dvakrat višji pogoj sredstev za preživljanje in znanje slovenščine B1 za stalno prebivanje.",
+   "src": "https://www.rtvslo.si/slovenija/vlada-potrdila-zaostrovanje-zdruzevanja-tujih-delavcev-z-druzinami-v-sloveniji/797813"
+  },
+  "volilna_pravica_tujcev": {
+   "topic": "Volilna pravica",
+   "ctx": "Od 2. 9. 2026 državljani tretjih držav s stalnim prebivališčem po noveli ZLV-M ne volijo na lokalnih volitvah; ustavno sodišče je ni zadržalo, o ustavnosti še odloča.",
+   "src": "https://www.rtvslo.si/slovenija/ustavno-sodisce-ni-zadrzalo-sprememb-zakona-o-lokalnih-volitvah/793363"
+  },
+  "socialna_pomoc": {
+   "topic": "Socialna varnost",
+   "ctx": "Delovno sposobni prejemniki socialne pomoči (osnovni znesek 507,43 evra) morajo biti prijavljeni na zavodu za zaposlovanje; na posvetovalnem referendumu 11. 10. je 60 % podprlo pogojevanje z delom.",
+   "src": "https://volitve.dvk-rs.si/referendum-socialna-pomoc/"
+  },
+  "nato": {
+   "topic": "Obramba",
+   "ctx": "Slovenija je članica Nata od leta 2004. Julija 2025 je DZ preklical posvetovalni referendum o obrambnih izdatkih, s tem je odpadel tudi napovedani referendum o članstvu v Natu.",
+   "src": "https://n1info.si/novice/slovenija/zdaj-je-dokoncno-referendumov-o-obrambnih-izdatkih-in-o-clanstvu-v-natu-ne-bo/"
+  },
+  "obramba": {
+   "topic": "Obramba",
+   "ctx": "Resolucija iz 2025 predvideva 2,2 % BDP za obrambo v 2026 in 3 % do 2030; Nato je v Haagu sprejel cilj 5 % do 2035. Vlada je julija 2026 z rebalansom povečala obrambni proračun.",
+   "src": "https://www.rtvslo.si/slovenija/vlada-predlaga-dvig-proracunske-porabe-za-letos-vec-denarja-predvsem-za-obrambo/788339"
+  },
+  "konoplja": {
+   "topic": "Droge",
+   "ctx": "Gojenje in posest konoplje za osebno rabo ostajata prepovedana, čeprav jo je posvetovalni referendum 2024 tesno podprl (51,6 %); zakon o konoplji za medicinske namene je DZ sprejel julija 2025.",
+   "src": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-1845/zapisnik-o-ugotovitvi-izida-posvetovalnega-referenduma-o-gojenju-in-posedovanju-konoplje-za-omejeno-osebno-rabo-ki-je-bil-9--6--2024"
+  },
+  "rtv": {
+   "topic": "Mediji",
+   "ctx": "RTV-prispevek (okoli 14 evrov mesečno na gospodinjstvo) je obvezen; na posvetovalnem referendumu 11. 10. 2026 je tesna večina (50,2 %) glasovala proti ukinitvi, Resni.ca vztraja pri noveli.",
+   "src": "https://volitve.dvk-rs.si/referendum-rtv-prispevek/"
+  },
+  "upokojitev": {
+   "topic": "Pokojnine",
+   "ctx": "Pokojninska reforma (ZPIZ-2O) od leta 2028 postopno dviguje starost za upokojitev s 65 na 67 let (oz. s 60 na 62 pri 40 letih dobe), za tri mesece na leto do leta 2035.",
+   "src": "https://n1info.si/novice/slovenija/pokojnine-in-dodatki-kaj-vse-se-spreminja-ze-prihodnje-leto/"
+  },
+  "evtanazija": {
+   "topic": "Konec življenja",
+   "ctx": "Zakon o pomoči pri prostovoljnem končanju življenja je bil na referendumu 23. 11. 2025 zavrnjen (370.802 proti, 323.047 za), zato pomoč pri končanju življenja ni dovoljena.",
+   "src": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-3505/zapisnik-o-ugotovitvi-izida-glasovanja-na-zakonodajnem-referendumu-o-zakonu-o-pomoci-pri-prostovoljnem-koncanju-zivljenja-zppkz-in-o-izidu-referenduma-ki-je-bil-23--11--2025"
+  }
+ },
+ "unverified": [
+  "Uradni zapisnik DVK za DZ 2026 je bil pregledan v prepisu na Tax-Fin-Lex (Uradni list RS, št. 197/2026), ne neposredno na uradni-list.si/volitve.dvk-rs.si.",
+  "Imen poslancev narodnih skupnosti 2026 in ločenega zapisnika o njihovi izvolitvi nismo preverili.",
+  "Podpora poslancev narodnih skupnosti in 51. glas pri izvolitvi Janše (tajno glasovanje) temeljita na medijskih ocenah; podpisanega sporazuma o sodelovanju z narodnima skupnostma ali Resni.co nismo našli. Wikipedija navaja »confidence and supply« Resni.ce in obeh poslancev.",
+  "Nekateri mediji (Tax-Fin-Lex/STA, N1) navajajo 48 sedežev koalicije, a to vključuje Resni.co; formalna koalicija SDS+NSi-SLS-Fokus+Demokrati ima po zapisniku DVK 43 sedežev.",
+  "Natančnih dni predčasnega glasovanja v posameznih občinah ni na enem mestu; DVK daje le priporočilo (10.–12. 11.). Rokovnika DVK (PDF) nismo mogli strojno prebrati.",
+  "Seznama občin z enim samim kandidatom za župana iz zanesljivega vira nismo našli, zato ga ne navajamo.",
+  "Zasebne šole: preverjena je novela ZOFVI iz 2021; morebitnih poznejših sprememb financiranja nismo potrdili.",
+  "Najemnine: ni vira, ki bi izrecno navajal odsotnost zakonske omejitve tržnih najemnin; trditev temelji na odsotnosti takšne ureditve v najdenih virih.",
+  "Davek na nepremičnine: opustitev predloga v 2025 je potrjena le v medijih (Žurnal24, Forbes), ne v uradnem sporočilu MF.",
+  "Rezultati posvetovalnih referendumov 11. 10. 2026 so neuradni (DVK, stanje 23. 10. 2026).",
+  "Obramba: dejanskega deleža BDP za obrambo v letu 2026 po rebalansu nismo našli.",
+  "JEK2: stališča in časovnice Janševe vlade v letu 2026 nismo našli; zadnji podatki so iz začetka 2026.",
+  "Glasovanje izven občine: trditev, da OMNIA na lokalnih volitvah ni na voljo, izhaja iz pravila, da se voli samo v občini stalnega prebivališča (gov.si), ne iz izrecne navedbe.",
+  "Konoplja: da gojenje in posest za osebno rabo ostajata prepovedana, sklepamo iz odsotnosti zakonske spremembe; posebnega vira za veljavno ureditev (ZPPPD) nismo odprli.",
+  "Dvojna praksa: navedba, da do nove ureditve velja soglasje delodajalca, izhaja iz medijskega povzetka odločbe US (N1, dec. 2025); usode novega predloga ZZDej po volitvah nismo preverili.",
+  "JEK2: preklic posvetovalnega referenduma iz 2024 izhaja iz medijskih povzetkov (RTV SLO), datuma nismo potrdili."
+ ]
+}

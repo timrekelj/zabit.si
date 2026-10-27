@@ -14,7 +14,7 @@ const n = kompas.statements.length;
           <li>Traja približno 4 minute.</li>
           <li>Odgovori ostanejo v tvojem brskalniku. Ničesar ne shranjujemo.</li>
           <li>Stališča strank so vzeta iz njihovih uradnih programov, s citatom in stranjo. Če program o temi ne govori, to tudi napišemo.</li>
-          <li>Podlaga: {kompas.basis.toLowerCase()}. Programe za volitve 2026 dodajamo.</li>
+          <li>Podlaga: {kompas.basis.toLowerCase()}. Vključene so vse stranke, ki so na teh volitvah prišle v Državni zbor.</li>
         </ul>
         <button class="btn arrow" id="go">Začni</button>
       </div>
@@ -58,7 +58,7 @@ const n = kompas.statements.length;
 <script>
   type Pos = { v: number; q: string; p: number | null; u?: string } | null;
   type Party = { id: string; short: string; name: string; source: string; url: string; pos: Record<string, Pos> };
-  const K = (window as any).__K as { statements: { id: string; t: string; topic: string; ctx: string }[]; parties: Party[] };
+  const K = (window as any).__K as { statements: { id: string; t: string; topic: string; ctx: string; src?: string }[]; parties: Party[] };
   const S = K.statements;
   const LBL: Record<string, string> = { '2': 'Se strinjam', '1': 'Delno se strinjam', '0': 'Nevtralno', '-1': 'Delno se ne strinjam', '-2': 'Se ne strinjam' };
   const answers: (number | null)[] = Array(S.length).fill(undefined);
@@ -79,7 +79,12 @@ const n = kompas.statements.length;
     ($('prog') as HTMLElement).style.width = `${(i / S.length) * 100}%`;
     $('topic').textContent = s.topic;
     $('stmt').textContent = s.t;
-    $('ctx').textContent = s.ctx;
+    $('ctx').textContent = s.ctx + ' ';
+    if (s.src) {
+      const a = document.createElement('a');
+      a.href = s.src; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Vir';
+      $('ctx').append(a);
+    }
     ($('imp') as HTMLInputElement).checked = weight[i];
     document.querySelectorAll<HTMLButtonElement>('#answers button').forEach((b) =>
       b.setAttribute('aria-pressed', String(answers[i] !== undefined && answers[i] !== null && Number(b.dataset.v) === answers[i])));

@@ -10,7 +10,7 @@ import { elections } from '../data/content';
       <p class="dek narrow">Nobena stranka v samostojni Sloveniji ni sama dobila večine. Za izvolitev predsednika vlade je potrebnih 46 od 90 glasov. Izberi volitve, sestavi večino in primerjaj z resničnim izidom.</p>
 
       <div class="tabs" role="tablist">
-        {Object.keys(elections).map((y) => <button role="tab" data-year={y} aria-selected={y === '2022' ? 'true' : 'false'}>Volitve {y}</button>)}
+        {Object.keys(elections).map((y) => <button role="tab" data-year={y} aria-selected={y === '2026' ? 'true' : 'false'}>Volitve {y}</button>)}
       </div>
 
       <div class="coal">
@@ -36,7 +36,7 @@ import { elections } from '../data/content';
 
 <script>
   const E = (window as any).__ELECTIONS as Record<string, { parties: [string, string, number][]; truth: string }>;
-  let year = '2022';
+  let year = '2026';
   const sel = new Set<string>();
 
   // 90 seat positions in 6 arcs, ordered left to right
