@@ -1,5 +1,5 @@
 {
- "researched_at": "2026-10-27",
+ "researched_at": "2026-11-08",
  "latest": [
   {
    "slug": "parlamentarna-preiskava-2026",
@@ -163,13 +163,13 @@
     "eligible": 1697377,
     "voted": 930137,
     "invalid": 5209,
-    "status": "neuradni izid DVK (99,98 % preštetih glasovnic, zadnja posodobitev 23. 10. 2026 ob 14.10); akt DVK o izidu v Uradnem listu RS do 27. 10. 2026 ni bil objavljen (pregledane objave do št. 1784/2026 z dne 27. 10. 2026; rok po rokovniku DVK: 30. 10. 2026)",
+    "status": "uradni izid DVK (zapisnik z dne 29. 10. 2026, Uradni list RS, št. 1810/2026 z dne 30. 10. 2026)",
     "src": "https://volitve.dvk-rs.si/referendum-preiskava/",
     "quorum_met": true,
-    "quorum_note": "PROTI 474.950 glasov = 27,98 % vseh 1.697.377 volivcev; prag ene petine (23. člen ZRLI) = 339.476 glasov.",
+    "quorum_note": "PROTI 474.950 glasov. Po podatkih MNZ je bilo na dan glasovanja v evidenci 1.696.250 volivcev, zato je prag ene petine (23. člen ZRLI) 339.250 glasov; PROTI je dobil 28,00 % vseh volivcev.",
     "outcome": "Zakon zavrnjen (večina PROTI in več kot petina vseh volivcev PROTI)."
    },
-   "aftermath": "Novela ZPPre-B ne bo uveljavljena; velja ureditev iz leta 2024. Po 25. členu ZRLI DZ eno leto po razglasitvi odločitve ne sme sprejeti zakona, ki bi bil z njo vsebinsko v nasprotju. DZ je oktobra 2026 odredil preiskavi o energetski neodvisnosti in financiranju nevladnih organizacij ter o aferi Black Cube. Premier Janez Janša: izid je »v glavnem narejen test zdrave pameti«. Robert Golob (Svoboda): volivci so »zavrnili idejo vladajoče koalicije za uvedbo politične policije«.",
+   "aftermath": "Novela ZPPre-B ne bo uveljavljena; velja ureditev iz leta 2024. Po 25. členu ZRLI DZ eno leto po razglasitvi odločitve ne sme sprejeti zakona, ki bi bil z njo vsebinsko v nasprotju. DZ je oktobra 2026 odredil preiskavi o energetski neodvisnosti in financiranju nevladnih organizacij ter o aferi Black Cube. Premier Janez Janša: izid je »v glavnem narejen test zdrave pameti«. Robert Golob (Svoboda): volivci so »zavrnili idejo vladajoče koalicije za uvedbo politične policije«. DVK je pri ugotavljanju končnega izida popravila napake pri štetju in vpisu glasov na posameznih voliščih; po navedbah DVK spremembe (0,023 do 0,036 odstotne točke) niso vplivale na noben izid. Pet primerov suma dvojnega glasovanja je DVK odstopila tožilstvu. Edini ugovor volivca je DVK zavrnila kot neutemeljen. Pri tem referendumu je DVK popravila 7 napak (ZA −216 glasov, PROTI +216 glasov).",
    "sources": [
     "https://pisrs.si/api/uradni-list/objava/u20261278.pdf",
     "https://www.rtvslo.si/slovenija/zakon-o-parlamentarni-preiskavi-korak-k-vecji-ucinkovitosti-ali-zlorabi-instituta/783308",
@@ -191,13 +191,14 @@
     "https://www.rtvslo.si/slovenija/dz-odredil-preiskavo-o-ogrozanju-energetske-neodvisnosti-in-financiranju-nevladnih-organizacij/797709",
     "https://tax-fin-lex.si/Dokument/Podrobnosti/aE_d6740e98-4af0-4261-9e90-2fd339790e82",
     "https://tax-fin-lex.si/Home/Novica/37140",
-    "https://dvk-rs.si/volitve-in-referendumi/referendumi/volitve-referenduma/zakonodajni-referendum-o-zppre-b-in-posvetovalni-referendumi-lokalne-voliltve-socialni-prejemki-in-rtv/"
+    "https://dvk-rs.si/volitve-in-referendumi/referendumi/volitve-referenduma/zakonodajni-referendum-o-zppre-b-in-posvetovalni-referendumi-lokalne-voliltve-socialni-prejemki-in-rtv/",
+    "https://pisrs.si/api/uradni-list/objava/u20261810.pdf",
+    "https://www.dvk-rs.si/novica/ugotovitev-koncnega-izida-referendumov-ki-so-bili-11-oktobra-2026/",
+    "https://www.delo.si/novice/slovenija/po-popravkih-dvk-nova-opozorila-se-17-volisc-z-moznimi-napakami"
    ],
    "unverified": [
     "Število podpisov, ki jih je DZ formalno ugotovil kot veljavne (navedenih je le 44.619 vloženih; ZPS je zahtevo ocenila kot pravočasno in skladno z zakonom).",
-    "Končni (uradni) izid: DVK akta o izidu do 27. 10. 2026 ni objavila v Uradnem listu RS, zato so številke neuradne.",
     "Poziv Resni.ce k glasovanju »4x ZA« je naveden le na Wikipediji (vir: video na Facebooku), zato ga ne navajamo.",
-    "Delo je poročalo o popravkih vnosov DVK in statistični analizi 17 volišč z možnimi napakami; članek ni bil dostopen, uradne potrditve DVK za ta referendum nismo našli.",
     "Število glasov v DZ pri odreditvi preiskav oktobra 2026 (RTV ga ne navaja)."
    ],
    "full_title": "Zakonodajni referendum o noveli Zakona o parlamentarni preiskavi (ZPPre-B)"
@@ -353,13 +354,13 @@
     "eligible": 1697377,
     "voted": 930192,
     "invalid": 2921,
-    "status": "neuradni izid DVK (99,98 % preštetih glasovnic, zadnja posodobitev 26. 10. 2026 ob 10.30); akt DVK o izidu v Uradnem listu RS do 27. 10. 2026 ni bil objavljen (pregledane objave do št. 1784/2026 z dne 27. 10. 2026; rok po rokovniku DVK: 30. 10. 2026)",
+    "status": "uradni izid DVK (zapisnik z dne 29. 10. 2026, Uradni list RS, št. 1810/2026 z dne 30. 10. 2026)",
     "src": "https://volitve.dvk-rs.si/referendum-rtv-prispevek/",
     "quorum_met": null,
     "quorum_note": "Pri posvetovalnem referendumu zavrnitveni kvorum (20 %) ne velja; izid ni pravno zavezujoč.",
     "outcome": "Tesna večina PROTI ukinitvi obveznega RTV-prispevka (razlika okoli 2.900 glasov); posvetovalni izid ni zavezujoč."
    },
-   "aftermath": "Izid pravno ne zavezuje; prispevek ostaja, dokler se zakon ne spremeni. Resni.ca je napovedala, da bo vztrajala pri svoji noveli zakona o RTV Slovenija, ki prispevek odpravlja; SDS o podpori do 13. 10. ni odločila. Konkretnega vladnega predloga do 27. 10. 2026 ni. Premier Janez Janša: »bodo RTV-prispevek pač plačevali tisti, ki to želijo«. Asta Vrečko (Levica): vlada »nima nobene legitimnosti uničevati našega medijskega javnega zavoda«.",
+   "aftermath": "Izid pravno ne zavezuje; prispevek ostaja, dokler se zakon ne spremeni. Resni.ca je napovedala, da bo vztrajala pri svoji noveli zakona o RTV Slovenija, ki prispevek odpravlja; SDS o podpori do 13. 10. ni odločila. Premier Janez Janša: »bodo RTV-prispevek pač plačevali tisti, ki to želijo«. Asta Vrečko (Levica): vlada »nima nobene legitimnosti uničevati našega medijskega javnega zavoda«. DVK je pri ugotavljanju končnega izida popravila napake pri štetju in vpisu glasov na posameznih voliščih; po navedbah DVK spremembe (0,023 do 0,036 odstotne točke) niso vplivale na noben izid. Pet primerov suma dvojnega glasovanja je DVK odstopila tožilstvu. Edini ugovor volivca je DVK zavrnila kot neutemeljen. Pri tem referendumu je DVK popravila 6 napak (ZA −331 glasov, PROTI +331 glasov). 30. 10. 2026 so Društvo novinarjev Slovenije, Sindikat novinarjev Slovenije, Koordinacija novinarskih sindikatov RTV Slovenija, Danes je nov dan in Amnesty International Slovenije pozvali vlado, naj opusti načrte za ukinitev prispevka, ker po njihovem mnenju izid (PROTI 464.999, ZA 462.099) za to ne daje mandata. SDS in Resni.ca vztrajata pri ukinitvi. Do 8. 11. 2026 DZ ali vlada nista vložila konkretnega predloga.",
    "sources": [
     "https://pisrs.si/api/uradni-list/objava/u20261382.pdf",
     "https://www.rtvslo.si/slovenija/poslanci-potrdili-razpis-treh-posvetovalnih-referendumov/792112",
@@ -378,7 +379,11 @@
     "https://tax-fin-lex.si/home/Novica/37131",
     "https://www.rtvslo.si/slovenija/referendumi-2026/iz-tabora-nasprotnikov-referendumski-izid-je-velik-dan-za-demokracijo-vlada-nima-zaupanja/796582",
     "https://www.dvk-rs.si/fileadmin/user_upload/Organizatorji_referendumske_kampanje_RTV_REF2026.docx",
-    "https://volitve.dvk-rs.si/referendum-rtv-prispevek/"
+    "https://volitve.dvk-rs.si/referendum-rtv-prispevek/",
+    "https://pisrs.si/api/uradni-list/objava/u20261810.pdf",
+    "https://www.dvk-rs.si/novica/ugotovitev-koncnega-izida-referendumov-ki-so-bili-11-oktobra-2026/",
+    "https://www.rtvslo.si/slovenija/referendumi-2026/poziv-vladi-referendum-o-rtv-prispevku-ne-zagotavlja-legitimnosti-za-njegovo-ukinitev/798530",
+    "https://www.rtvslo.si/slovenija/referendumi-2026/sds-in-resni-ca-vztrajata-pri-ukinitvi-rtv-prispevka-golob-zmaga-upanja-nad-strahom/796640"
    ],
    "unverified": [
     "Ali so koalicija ali Resni.ca po 13. 10. 2026 dosegle uvrstitev novele Resni.ce na sejo odbora DZ za kulturo, ni preverjeno.",
@@ -533,13 +538,13 @@
     "eligible": 1697377,
     "voted": 930111,
     "invalid": 3679,
-    "status": "neuradni izid DVK (99,98 % preštetih glasovnic, zadnja posodobitev 22. 10. 2026 ob 15.05); akt DVK o izidu v Uradnem listu RS do 27. 10. 2026 ni bil objavljen (pregledane objave do št. 1784/2026 z dne 27. 10. 2026; rok po rokovniku DVK: 30. 10. 2026)",
+    "status": "uradni izid DVK (zapisnik z dne 29. 10. 2026, Uradni list RS, št. 1810/2026 z dne 30. 10. 2026)",
     "src": "https://volitve.dvk-rs.si/referendum-volilna-pravica-tujcev/",
     "quorum_met": null,
     "quorum_note": "Pri posvetovalnem referendumu zavrnitveni kvorum (20 %) ne velja; izid ni pravno zavezujoč.",
     "outcome": "Večina ZA omejitvi volilne pravice na lokalnih volitvah na državljane RS in EU; posvetovalni izid ni zavezujoč."
    },
-   "aftermath": "Izid pravno ne zavezuje. Novela zakona o lokalnih volitvah velja od 2. 9. 2026, zato državljani tretjih držav na lokalnih volitvah 15. 11. 2026 ne bodo volili. Ustavno sodišče je predlog za zadržanje novele, ki so ga vložili poslanci Svobode, SD in Levice, zavrnilo 10. 9. 2026 (6 : 2), predlog Christiana Moeja in Pravne mreže za varstvo demokracije pa 13. 10. 2026 (5 : 2). O ustavnosti novele še ni odločilo. Jernej Vrtovec (NSi): volja volivcev je »kristalno jasna«.",
+   "aftermath": "Izid pravno ne zavezuje. Novela zakona o lokalnih volitvah velja od 2. 9. 2026, zato državljani tretjih držav na lokalnih volitvah 15. 11. 2026 ne bodo volili. Ustavno sodišče je predlog za zadržanje novele, ki so ga vložili poslanci Svobode, SD in Levice, zavrnilo 10. 9. 2026 (6 : 2), predlog Christiana Moeja in Pravne mreže za varstvo demokracije pa 13. 10. 2026 (5 : 2). O ustavnosti novele do 8. 11. 2026 še ni vsebinsko odločilo. Jernej Vrtovec (NSi): volja volivcev je »kristalno jasna«. DVK je pri ugotavljanju končnega izida popravila napake pri štetju in vpisu glasov na posameznih voliščih; po navedbah DVK spremembe (0,023 do 0,036 odstotne točke) niso vplivale na noben izid. Pet primerov suma dvojnega glasovanja je DVK odstopila tožilstvu. Edini ugovor volivca je DVK zavrnila kot neutemeljen. Pri tem referendumu je DVK popravila 8 napak (ZA +250 glasov, PROTI −251 glasov).",
    "sources": [
     "https://pisrs.si/api/uradni-list/objava/u20261384.pdf",
     "https://www.rtvslo.si/slovenija/poslanci-potrdili-razpis-treh-posvetovalnih-referendumov/792112",
@@ -558,12 +563,15 @@
     "https://tax-fin-lex.si/home/Novica/37131",
     "https://www.rtvslo.si/slovenija/referendumi-2026/koalicija-izide-referendumov-vidi-kot-dobro-popotnico/796583",
     "https://www.dvk-rs.si/fileadmin/user_upload/Organizatorji_referendumske_kampanje_TUJCI_LOKALNE_REF2026.docx",
-    "https://volitve.dvk-rs.si/referendum-volilna-pravica-tujcev/"
+    "https://volitve.dvk-rs.si/referendum-volilna-pravica-tujcev/",
+    "https://pisrs.si/api/uradni-list/objava/u20261810.pdf",
+    "https://www.dvk-rs.si/novica/ugotovitev-koncnega-izida-referendumov-ki-so-bili-11-oktobra-2026/",
+    "https://svet24.si/novice/politika/opozicija-zahteva-ustavno-presojo-odvzema-volilne-pravice-tujcem-1924096",
+    "https://www.us-rs.si/sl/zadeve-in-odlocitve/odlocitve/u-i-14526"
    ],
    "unverified": [
     "Število prizadetih: Christian Moe govori o »sto tisoč« ljudeh, iskalni povzetek STA navaja približno 100.000. Uradnega podatka nismo preverili.",
     "Umik pobude kulturnih društev je N1 30. 8. 2026 napovedal na podlagi neuradnih informacij; uradne potrditve DZ nismo našli (novela je bila objavljena in velja od 2. 9. 2026).",
-    "Število poslancev in datum vložitve zahteve za ustavno presojo (40 podpisov, 4. 9. 2026) nista preverjena v primarnem viru.",
     "Stališča Varuha človekovih pravic nismo našli."
    ],
    "full_title": "Posvetovalni referendum o volilni pravici državljanov tretjih držav na lokalnih volitvah"
@@ -719,13 +727,13 @@
     "eligible": 1697377,
     "voted": 930117,
     "invalid": 3425,
-    "status": "neuradni izid DVK (99,98 % preštetih glasovnic, zadnja posodobitev 22. 10. 2026 ob 15.05); akt DVK o izidu v Uradnem listu RS do 27. 10. 2026 ni bil objavljen (pregledane objave do št. 1784/2026 z dne 27. 10. 2026; rok po rokovniku DVK: 30. 10. 2026)",
+    "status": "uradni izid DVK (zapisnik z dne 29. 10. 2026, Uradni list RS, št. 1810/2026 z dne 30. 10. 2026)",
     "src": "https://volitve.dvk-rs.si/referendum-socialna-pomoc/",
     "quorum_met": null,
     "quorum_note": "Pri posvetovalnem referendumu zavrnitveni kvorum (20 %) ne velja; izid ni pravno zavezujoč.",
     "outcome": "Večina ZA pogojevanju denarne socialne pomoči z družbeno koristnim delom; posvetovalni izid ni zavezujoč."
    },
-   "aftermath": "Izid pravno ne zavezuje in sam ne spreminja zakona o socialnovarstvenih prejemkih. Ministrica Mateja Ribič je 12. 10. 2026 napovedala celovito reformo socialnih transferjev: »Voljo ljudstva bomo spoštovali in jo upoštevali pri celoviti reformi socialnih transferjev. Z delom bomo začeli nemudoma.« Osnutka zakona ali časovnice ministrstvo do 27. 10. 2026 ni objavilo.",
+   "aftermath": "Izid pravno ne zavezuje in sam ne spreminja zakona o socialnovarstvenih prejemkih. Ministrica Mateja Ribič je 12. 10. 2026 napovedala celovito reformo socialnih transferjev: »Voljo ljudstva bomo spoštovali in jo upoštevali pri celoviti reformi socialnih transferjev. Z delom bomo začeli nemudoma.« Osnutka zakona ali časovnice ministrstvo do 8. 11. 2026 ni objavilo. DVK je pri ugotavljanju končnega izida popravila napake pri štetju in vpisu glasov na posameznih voliščih; po navedbah DVK spremembe (0,023 do 0,036 odstotne točke) niso vplivale na noben izid. Pet primerov suma dvojnega glasovanja je DVK odstopila tožilstvu. Edini ugovor volivca je DVK zavrnila kot neutemeljen. Pri tem referendumu je DVK popravila 11 napak (ZA +287 glasov, PROTI −289 glasov).",
    "sources": [
     "https://pisrs.si/api/uradni-list/objava/u20261383.pdf",
     "https://www.rtvslo.si/slovenija/poslanci-potrdili-razpis-treh-posvetovalnih-referendumov/792112",
@@ -739,7 +747,9 @@
     "https://www.gov.si/novice/2026-09-07-odloki-o-razpisu-zakonodajnega-in-posvetovalnih-referendumov/",
     "https://tax-fin-lex.si/home/Novica/37131",
     "https://www.dvk-rs.si/fileadmin/user_upload/Organizatorji_referendumske_kampanje_SOCIALNA_POMOC_REF2026.docx",
-    "https://volitve.dvk-rs.si/referendum-socialna-pomoc/"
+    "https://volitve.dvk-rs.si/referendum-socialna-pomoc/",
+    "https://pisrs.si/api/uradni-list/objava/u20261810.pdf",
+    "https://www.dvk-rs.si/novica/ugotovitev-koncnega-izida-referendumov-ki-so-bili-11-oktobra-2026/"
    ],
    "unverified": [
     "Stališča Varuha človekovih pravic do tega referenduma nismo našli.",
@@ -758,15 +768,15 @@
    "question_src": "https://pisrs.si/api/uradni-list/objava/u20261692.pdf",
    "initiator": "Sindikalne centrale: Konfederacija sindikatov javnega sektorja Slovenije (KSJS, Branimir Štrukelj), Zveza svobodnih sindikatov Slovenije (ZSSS, Andrej Zorko), Konfederacija sindikatov Slovenije Pergam (KSS, Jakob Počivavšek) in Konfederacija sindikatov 90 Slovenije (Damjan Volf). Pobudo z več kot 47.000 podpisi je KSJS (prvopodpisani Štrukelj) vložila 18. 5. 2026. DZ je 27. 5. 2026 (48 za, 35 proti) sprejel sklep o nedopustnosti referenduma (Uradni list RS, št. 771/2026), češ da zakon v pretežni meri ureja davke in obvezne dajatve. Ustavno sodišče je z odločbo U-I-106/26 (seja 24. 7. 2026, objava v Uradnem listu RS, št. 1315/2026 z dne 4. 8. 2026; 7 glasov proti 1, ločeno mnenje sodnika Marka Starmana) sklep razveljavilo. Podpise so zbirali od 1. 9. do 5. 10. 2026; ministrstvo je naštelo 42.694 overjenih podpisov (potrebnih 40.000). Zahtevo so vložili 9. 10. 2026, DZ je odlok o razpisu sprejel na 29. izredni seji 16. 10. 2026 (69 ZA, 0 PROTI; za so glasovale tudi opozicijske stranke).",
    "what": [
-    "Trajno nižji DDV (5 %) na osnovna živila (15 živil in brezglutenski izdelki) ter možnost začasno nižje stopnje DDV (9,5 %) za elektriko, zemeljski plin, daljinsko ogrevanje in drva.",
-    "Uvaja zgornjo mejo (kapico) za plačilo socialnih prispevkov pri bruto plači okoli 7.500 evrov ter ugodnejšo obravnavo malih podjetnikov in normirancev (nižji prispevki za manjše dohodke).",
+    "DDV se s 9,5 % trajno zniža na 5 % za osnovna živila (pšenična moka, kruh, testenine, goveje, svinjsko in piščančje meso, mleko, jogurt, poltrdi polmasti siri, maslo, jajca, sveže sadje in zelenjava, sončnično olje, beli sladkor, živila za posebne zdravstvene potrebe) ter za semena, sadike in gnojila; za elektriko, zemeljski plin, daljinsko ogrevanje in drva lahko vlada z uredbo začasno, največ za 9 mesecev, uvede stopnjo 9,5 %.",
+    "Uvaja zgornjo mejo (kapico) za plačilo socialnih prispevkov pri bruto plači 7.500 evrov na mesec (novi 6.a člen ZPSV) ter ugodnejšo obravnavo malih podjetnikov in normirancev (nižji prispevki za manjše dohodke).",
     "Zaposlenim upokojencem omogoča polno plačo in polno pokojnino, uvaja samodejno upokojitev ter odpravlja prispevek za dolgotrajno oskrbo za upokojence in popoldanske s.p.",
     "Odpravlja prepoved, da bi zdravniki iz javne mreže delali tudi pri zasebnikih.",
-    "Znižuje obdavčitev oddajanja nepremičnin in začasno zamika napovedane omejitve kratkoročnega oddajanja; skupaj spreminja okoli deset zakonov.",
-    "Ocene izpada javnih prihodkov se razlikujejo: predlagatelji in ministrstvo za finance okoli 550 milijonov evrov letno, prejšnja vlada okoli 1 milijarde evrov letno (1,4 % BDP), Fiskalni svet kratkoročno do 1,2 milijarde evrov večji primanjkljaj (1,5 % BDP) in trajno okoli 0,7 % BDP."
+    "Znižuje davek na dohodek iz oddajanja nepremičnin s 25 % na 15 % (v posebnih primerih 5 %), do 31. 12. 2026 zamrzne uporabo zakona o gostinstvu (ZGos-1) in zviša pragove za normirance; skupaj spreminja okoli deset zakonov.",
+    "Ocene izpada javnih prihodkov se razlikujejo: predlagatelji in ministrstvo za finance okoli 550 milijonov evrov letno, prejšnja vlada okoli 1 milijarde evrov letno (1,4 % BDP), Fiskalni svet kratkoročno do 1,2 milijarde evrov večji primanjkljaj (1,5 % BDP) in trajno okoli 0,7 % BDP. Ministrstvo za finance je 2. 11. 2026 objavilo novo oceno: statični učinek 848 milijonov evrov, dinamični 647 milijonov evrov letno."
    ],
    "if_yes": "Če zakona na referendumu ne zavrne zahtevana večina, ga predsednica republike razglasi, objavi se v Uradnem listu in začne veljati po svojih določbah. Zakon do zdaj ni bil razglašen, ker je postopek zaradi referenduma zadržan.",
-   "if_no": "Zakon je zavrnjen, če proti glasuje večina volivcev, ki so veljavno glasovali, in hkrati vsaj petina vseh volilnih upravičencev. V tem primeru zakon ne začne veljati, DZ pa v enem letu ne sme sprejeti zakona z enako vsebino.",
+   "if_no": "Zakon je zavrnjen, če proti glasuje večina volivcev, ki so veljavno glasovali, in hkrati vsaj petina vseh volilnih upravičencev. V tem primeru zakon ne začne veljati, DZ pa v enem letu ne sme sprejeti zakona z enako vsebino. Za 6. 12. 2026 je DVK naštela 1.698.752 volilnih upravičencev, zato mora biti PROTI najmanj 339.751 glasov.",
    "for": [
     {
      "arg": "Zakon razbremenjuje vse in nikomur nič ne jemlje; pomeni prvi korak k razbremenitvi dela in gospodarstva.",
@@ -797,6 +807,16 @@
      "arg": "Ljudem mora po plačilu položnic in nakupu hrane ostati dovolj za dostojno življenje; država ne bi smela ljudem najprej vzeti čim več in nato vračati prek ukrepov.",
      "by": "Dejan Zakrajšek (Demokrati), Nedeljko Todorović (Resni.ca)",
      "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html"
+    },
+    {
+     "arg": "Po dinamični oceni bi zakon letno stal 647 milijonov evrov, ne 848 milijonov. Izpad pokojninske blagajne naj bi pokril proračun, zato po njegovih besedah ni bojazni za razpad socialne države.",
+     "by": "Andrej Šircelj, minister za finance",
+     "src": "https://www.rtvslo.si/slovenija/staticni-ucinek-intervencijskega-zakona-je-848-milijonov-evrov-dinamicni-pa-647-milijonov-evrov/798789"
+    },
+    {
+     "arg": "Nižji DDV na osnovna živila bodo najbolj občutili upokojenci, mlade družine in ljudje z nizkimi plačami; trgovci naj bi znižanje zaradi konkurence prenesli v cene.",
+     "by": "Mariča Lah, predsednica TZS",
+     "src": "https://www.rtvslo.si/n/799103"
     }
    ],
    "against": [
@@ -829,6 +849,16 @@
      "arg": "Ukrepi so delni in fiskalno tvegani, ne krepijo produktivnosti in lahko ogrozijo izplačila iz načrta za okrevanje in odpornost.",
      "by": "prejšnja vlada (mnenje z dne 7. 5. 2026)",
      "src": "https://www.gov.si/novice/2026-05-07-vlada-o-zakonu-o-interventnih-ukrepih-za-razvoj-slovenije/"
+    },
+    {
+     "arg": "Kapica nad 7.500 evrov bruto pomaga le okoli 13.750 zaposlenim, dobremu odstotku in pol vseh. Ljudje s povprečno plačo višje neto plače ne bi občutili.",
+     "by": "Asta Vrečko (Levica); število po podatkih ZSSS",
+     "src": "https://www.rtvslo.si/n/799221"
+    },
+    {
+     "arg": "Zakon uvaja samodejno upokojevanje in koncesionarjem dovoljuje izplačilo dobička, omejitev regresnih zahtevkov ZZZS pa bistveno zmanjšuje odgovornost delodajalcev za nesreče pri delu.",
+     "by": "Jakob Počivavšek (Pergam) in Damjan Volf (KS 90)",
+     "src": "https://www.rtvslo.si/n/799118"
     }
    ],
    "parties": [
@@ -836,7 +866,7 @@
      "party": "GS",
      "stance": "PROTI",
      "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
-     "note": "PROTI zakonu (podpira referendum). Alenka Bratušek: »6. decembra boste dobili drugi rdeči karton«; Svoboda je sindikatom ponudila infrastrukturo za kampanjo."
+     "note": "PROTI zakonu (podpira referendum). Alenka Bratušek: »6. decembra boste dobili drugi rdeči karton«; Svoboda je sindikatom ponudila infrastrukturo za kampanjo. 6. 11. 2026 skupna novinarska konferenca Goloba, Hana in Vrečko s pozivom k glasu PROTI."
     },
     {
      "party": "SDS",
@@ -854,7 +884,7 @@
      "party": "SD",
      "stance": "PROTI",
      "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
-     "note": "PROTI zakonu (podpira referendum). Darko Ratajc; Andreja Katič je napovedala sodelovanje v kampanji."
+     "note": "PROTI zakonu (podpira referendum). Darko Ratajc; Andreja Katič je napovedala sodelovanje v kampanji. 6. 11. 2026 skupna novinarska konferenca Goloba, Hana in Vrečko s pozivom k glasu PROTI."
     },
     {
      "party": "Demokrati",
@@ -866,7 +896,7 @@
      "party": "Levica-Vesna",
      "stance": "PROTI",
      "src": "https://www.24ur.com/novice/slovenija/dz-bo-odlocal-o-datumu-novega-referenduma.html",
-     "note": "PROTI zakonu (podpira referendum). Vladimir Šega: »To ni popravek, to je poseg v družbeni dogovor.«"
+     "note": "PROTI zakonu (podpira referendum). Vladimir Šega: »To ni popravek, to je poseg v družbeni dogovor.« 6. 11. 2026 skupna novinarska konferenca Goloba, Hana in Vrečko s pozivom k glasu PROTI."
     },
     {
      "party": "Resni.ca",
@@ -878,19 +908,24 @@
    "orgs": [
     {
      "org": "GZS",
-     "stance": "ZA zakon (aktivno v kampanji)",
+     "stance": "ZA zakon (aktivno v kampanji; 5. 11. 2026 skupni poziv k glasu ZA z TZS in ZDOPS)",
      "src": "https://www.24ur.com/novice/slovenija/interventni-zakon-pred-referendumom-dobil-podporo-gzs.html"
     },
     {
      "org": "ZDS",
-     "stance": "ZA zakon (napovedal sodelovanje v kampanji)",
+     "stance": "ZA zakon (napovedal sodelovanje v kampanji; 5. 11. 2026 skupni poziv k glasu ZA z TZS in ZDOPS)",
      "src": "https://www.rtvslo.si/slovenija/strukelj-intervencijski-zakon-je-zakon-za-razkroj-solidarnosti-v-nasi-drzavi-in-socialne-drzave/796336",
      "note": "aprila 2026 je predlog ocenil kot korak v pravo smer, a premalo (https://www.rtvslo.si/n/779637)"
     },
     {
      "org": "OZS",
-     "stance": "ZA zakon (aktivno v kampanji)",
+     "stance": "ZA zakon (aktivno v kampanji; 5. 11. 2026 skupni poziv k glasu ZA z TZS in ZDOPS)",
      "src": "https://www.ozs.si/novice/apoliticni-a-odlocno-za-obrt-in-gospodarstvo-podpora-interventnemu-zakonu-na-referendumu-6abcf73708e8decdc9ab2b8b"
+    },
+    {
+     "org": "TZS, ZDOPS",
+     "stance": "ZA zakon (skupni poziv 5. 11. 2026)",
+     "src": "https://www.rtvslo.si/n/799103"
     },
     {
      "org": "ZSSS",
@@ -906,6 +941,11 @@
      "org": "KSS Pergam, Konfederacija sindikatov 90",
      "stance": "PROTI zakonu (pobudnika)",
      "src": "https://www.rtvslo.si/slovenija/sindikati-zbrali-43-tisoc-podpisov-za-referendum-o-intervencijskem-zakonu/795989"
+    },
+    {
+     "org": "Sindikat Alternativa, KNSS Neodvisnost",
+     "stance": "PROTI zakonu (skupna konferenca šestih sindikalnih central 5. 11. 2026)",
+     "src": "https://www.rtvslo.si/n/799118"
     },
     {
      "org": "Fiskalni svet",
@@ -924,8 +964,8 @@
     },
     {
      "org": "Banka Slovenije",
-     "stance": "ni podatka",
-     "src": ""
+     "stance": "ni podatka (objave na bsi.si preverjene do 3. 11. 2026, izjave o ZIURS ni)",
+     "src": "https://www.bsi.si/sl/mediji/objave"
     }
    ],
    "timeline": [
@@ -936,9 +976,14 @@
     "1. 9.–5. 10. 2026 – zbiranje podpisov; 42.694 overjenih podpisov.",
     "9. 10. 2026 – sindikati vložijo zahtevo za razpis.",
     "16. 10. 2026 – DZ sprejme odlok o razpisu (69 za, 0 proti; Uradni list RS, št. 1692/2026).",
+    "29. 10. 2026 – DVK sprejme rokovnik referendumskih opravil.",
     "30. 10. 2026 – dan razpisa, začnejo teči roki.",
-    "6. 11. 2026 – najzgodnejši začetek referendumske kampanje (30 dni pred glasovanjem, 2. člen ZVRK).",
-    "6. 12. 2026 – glasovanje."
+    "6. 11. 2026 – začetek uradne referendumske kampanje, ki traja do 4. 12. opolnoči.",
+    "20. 11. 2026 – rok za prijavo glasovanja po pošti iz tujine.",
+    "25. 11. 2026 – rok za prijavo glasovanja po pošti v Sloveniji.",
+    "1.–3. 12. 2026 – predčasno glasovanje.",
+    "6. 12. 2026 – glasovanje.",
+    "17.–25. 12. 2026 – DVK ugotovi končni izid in ga objavi v Uradnem listu."
    ],
    "official_act": "Odlok o razpisu zakonodajnega referenduma o Zakonu o interventnih ukrepih za razvoj Slovenije (OdZIURS), sprejet na seji DZ 16. 10. 2026, objavljen v Uradnem listu RS, št. 1692/2026 z dne 16. 10. 2026 (št. 005-02/26-1/23, EPA 341-X; podpisal podpredsednik DZ Danijel Krivec). Dan razpisa (začetek rokov): 30. 10. 2026. Glasovanje: nedelja, 6. 12. 2026.",
    "result": null,
@@ -975,15 +1020,29 @@
     "https://www.ozs.si/novice/apoliticni-a-odlocno-za-obrt-in-gospodarstvo-podpora-interventnemu-zakonu-na-referendumu-6abcf73708e8decdc9ab2b8b",
     "https://n1info.si/novice/slovenija/koalicija-napovedala-referendume-nato-pa-se-zavila-v-molk/",
     "https://tax-fin-lex.si/home/Novica/37642",
-    "https://tax-fin-lex.si/Dokument/Podrobnosti/aE_bc519cb3-2857-467b-95a2-bed67d5601cf"
+    "https://tax-fin-lex.si/Dokument/Podrobnosti/aE_bc519cb3-2857-467b-95a2-bed67d5601cf",
+    "https://www.dvk-rs.si/volitve-in-referendumi/referendumi/volitve-referenduma/zakonodajni-referendum-o-ziurs",
+    "https://www.dvk-rs.si/fileadmin/user_upload/Rokovnik_referendumskih_opravil_REF_ZIURS.odt",
+    "https://www.dvk-rs.si/novica/znano-je-stevilo-volilnih-upravicencev-za-zakonodajni-referendum-o-ziurs",
+    "https://www.24ur.com/novice/slovenija/dvk-dolocila-rokovnik-za-izvedbo-referenduma-o-interventnem-zakonu.html",
+    "https://www.gov.si/novice/2026-11-02-zakonodajni-referendum-o-zakonu-o-interventnih-ukrepih-za-razvoj-slovenije-ziurs",
+    "https://www.rtvslo.si/slovenija/staticni-ucinek-intervencijskega-zakona-je-848-milijonov-evrov-dinamicni-pa-647-milijonov-evrov/798789",
+    "https://www.rtvslo.si/n/799103",
+    "https://www.rtvslo.si/n/799118",
+    "https://www.rtvslo.si/n/799221",
+    "https://www.rtvslo.si/n/799123",
+    "https://www.rtvslo.si/n/799193",
+    "https://www.rtvslo.si/n/781609",
+    "https://pisrs.si/pregledPredpisa?id=ODLO3248",
+    "https://pisrs.si/pregledPredpisa?id=ZAKO9444",
+    "https://www.iusinfo.si/medijsko-sredisce/v-srediscu/zakon-o-interventnih-ukrepih-za-razvoj-slovenije-ziurs-323083",
+    "https://www.zsss.si/kamp-referendum-ziurs-zacetek-611"
    ],
    "unverified": [
-    "DVK do 27. 10. 2026 še ni objavila rokovnika referendumskih opravil ali seznama organizatorjev kampanje za 6. 12. 2026 (roki začnejo teči 30. 10.). Začetek kampanje 6. 11. 2026 je izračunan po 2. členu ZVRK.",
-    "Nobena organizacija do 27. 10. 2026 po dostopnih virih še ni formalno prijavljena kot organizatorka kampanje; GZS, OZS, ZDS in sindikati so napovedali sodelovanje.",
-    "Natančna vsebina ukrepov (stopnje DDV, kapica 7.500 evrov, mikro s.p.) je povzeta po medijskih opisih predloga in sprejetega zakona, ne po prečiščenem besedilu ZIURS.",
+    "Seznam prijavljenih organizatorjev kampanje (rok 10. 11. 2026) do 8. 11. 2026 še ni bil objavljen; GZS, OZS, TZS, ZDS, ZDOPS in sindikati so napovedali sodelovanje.",
     "Stališče Banke Slovenije: ni podatka.",
-    "Finančni minister Andrej Šircelj je bil po povzetku STA (tax-fin-lex 37128) kritičen do znižanja DDV na osnovna živila; njegovega stališča glede referenduma nismo našli.",
-    "Trije posvetovalni referendumi, ki jih je koalicija predlagala 9. 10. 2026 (nižji DDV na hrano in energijo, racionalizacija javne uprave, prepoved zakrivanja obraza), po stanju 19. 10. 2026 (N1/STA) niso bili uvrščeni na sejo ne umaknjeni; novejšega podatka nismo našli."
+    "Trije posvetovalni referendumi, ki jih je koalicija predlagala 9. 10. 2026: vlada je 5. 11. podprla referenduma o zakrivanju obraza in o javni upravi (o DDV ne). Rok za izvedbo skupaj s 6. 12. je potekel 6. 11.; DZ jih do 8. 11. 2026 ni razpisal ne umaknil.",
+    "Veliko televizijsko soočenje do 8. 11. 2026 še ni bilo napovedano."
    ],
    "full_title": "Zakonodajni referendum o Zakonu o interventnih ukrepih za razvoj Slovenije (ZIURS)"
   }
@@ -1083,35 +1142,35 @@
   {
    "date": "2026-10-11",
    "topic": "Zakonodajni referendum o noveli Zakona o parlamentarni preiskavi (ZPPre-B)",
-   "outcome": "Zavrnjen (ZA 48,64 %, PROTI 51,36 %); neuradni izid DVK",
+   "outcome": "Zavrnjen (ZA 48,64 %, PROTI 51,36 %)",
    "turnout": 54.8,
    "src": "https://volitve.dvk-rs.si/referendum-preiskava/"
   },
   {
    "date": "2026-10-11",
    "topic": "Posvetovalni referendum o ukinitvi obveznega RTV-prispevka",
-   "outcome": "Večina PROTI (ZA 49,84 %, PROTI 50,16 %); neuradni izid DVK",
+   "outcome": "Večina PROTI (ZA 49,84 %, PROTI 50,16 %)",
    "turnout": 54.8,
    "src": "https://volitve.dvk-rs.si/referendum-rtv-prispevek/"
   },
   {
    "date": "2026-10-11",
    "topic": "Posvetovalni referendum o volilni pravici državljanov tretjih držav na lokalnih volitvah",
-   "outcome": "Večina ZA (ZA 55,23 %, PROTI 44,77 %); neuradni izid DVK",
+   "outcome": "Večina ZA (ZA 55,23 %, PROTI 44,77 %)",
    "turnout": 54.8,
    "src": "https://volitve.dvk-rs.si/referendum-volilna-pravica-tujcev/"
   },
   {
    "date": "2026-10-11",
    "topic": "Posvetovalni referendum o pogojevanju denarne socialne pomoči z družbeno koristnim delom",
-   "outcome": "Večina ZA (ZA 60,48 %, PROTI 39,52 %); neuradni izid DVK",
+   "outcome": "Večina ZA (ZA 60,48 %, PROTI 39,52 %)",
    "turnout": 54.8,
    "src": "https://volitve.dvk-rs.si/referendum-socialna-pomoc/"
   }
  ],
  "notes": [
-  "Izidi referendumov 11. 10. 2026 so neuradni (DVK, zadnje posodobitve 22.–26. 10. 2026). DVK mora končni izid ugotoviti in objaviti v Uradnem listu RS (rok po rokovniku: 30. 10. 2026); do 27. 10. 2026 objave ni bilo.",
+  "Izidi referendumov 11. 10. 2026 so uradni: DVK je zapisnik o končnem izidu sprejela 29. 10. 2026, objavljen je v Uradnem listu RS, št. 1810/2026 z dne 30. 10. 2026.",
   "Posvetovalni referendum o obrambnih izdatkih/članstvu v Natu (2025) je DZ 18. 7. 2025 preklical; ni bil izveden, zato ni v arhivu.",
-  "Koalicija je 9. 10. 2026 predlagala še tri posvetovalne referendume (nižji DDV na hrano in energijo, krčenje javne uprave, prepoved zakrivanja obraza); do 19. 10. 2026 niso bili uvrščeni na sejo ne umaknjeni, novejšega stanja nismo našli."
+  "Koalicija je 9. 10. 2026 predlagala še tri posvetovalne referendume (nižji DDV na hrano in energijo, krčenje javne uprave, prepoved zakrivanja obraza). Vlada je 5. 11. 2026 podprla referenduma o zakrivanju obraza in o javni upravi; DZ jih do 8. 11. 2026 ni razpisal."
  ]
 }

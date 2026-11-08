@@ -2,7 +2,7 @@
 export const site = {
   name: 'zabit.si',
   tagline: 'Slovenska politika, razložena brez navijanja.',
-  updated: '2026-10-27',
+  updated: '2026-11-08',
 };
 
 export const nav = [
